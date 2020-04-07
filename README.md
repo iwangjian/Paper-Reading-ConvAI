@@ -125,13 +125,14 @@ Matching Network". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1103) 
 * **ECM**: "Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16455/15753) [[code]](https://github.com/tuxchow/ecm) :star::star::star::star:
 
 ### Miscellaneous
+* **CrossWOZ**: "CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset". TACL(2020) [[PDF]](https://arxiv.org/pdf/2002.11893.pdf) [[code]](https://github.com/thu-coai/CrossWOZ) :star::star::star:
 * **MultiWOZ**: "MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1547) [[code]](https://github.com/budzianowski/multiwoz) :star::star:
 * **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf) :star:
 * **Survey of Dialogue Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems: The Journal Version". Dialogue & Discourse(2018) [[PDF]](http://dad.uni-bielefeld.de/index.php/dad/article/view/3690/3616) :star:
 * **Table-to-Text Generation (R,C,T)**: "Table-to-Text Generation with Effective Hierarchical Encoder on Three Dimensions (Row, Column and Time)". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1310.pdf) [[code]](https://github.com/ErnestGong/data2text-three-dimensions) :star::star::star:
 * **LU-DST**: "Multi-task Learning for Joint Language Understanding and Dialogue State Tracking". SIGDIAL(2018) [[PDF]](https://www.aclweb.org/anthology/W18-5045)  :star::star:
 * **MTask-M**: "Multi-Task Learning for Speaker-Role Adaptation in Neural Conversation Models". IJCNLP(2018) [[PDF]](https://www.aclweb.org/anthology/I17-1061) :star:
-* **ADVMT**: "One “Ruler” for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0616.pdf) :star::star:
+* **ADVMT**: "One “Ruler” for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0616.pdf) :star:
 
 
 ## Knowledge Representation and Reasoning
