@@ -21,6 +21,7 @@ Paper reading list in natural language processing.
 ***
 
 ## Deep Learning in NLP
+* **PTMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". ICML(2020)(under review) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
 * **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 * **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert)
@@ -45,7 +46,7 @@ Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](http://pape
 * **Graph2Seq**: "Graph2Seq: Graph to Sequence Learning with Attention-based Neural Networks". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1804.00823.pdf)
 * **Pretrained Seq2Seq**: "Unsupervised Pretraining for Sequence to Sequence Learning". EMNLP(2017) [[PDF]](https://www.aclweb.org/anthology/D17-1039)
 * **Multi-task Learning**: "An Overview of Multi-Task Learning in Deep Neural Networks". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1706.05098.pdf)
-* **Latent Multi-task**: "Latent Multi-task Architecture Learning". AAAI(2019) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/4410) [[code]](https://github.com/sebastianruder/sluice-networks)
+* **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1609.04747.pdf)
 
 
 ## Dialogue System
