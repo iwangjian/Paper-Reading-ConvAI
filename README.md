@@ -4,8 +4,10 @@ Paper reading list in natural language processing.
 
 - [Paper-Reading](#paper-reading)
   - [Deep Learning in NLP](#deep-learning-in-nlp)
+  - [Pre-trained Language Models](#pre-trained-language-models)
   - [Dialogue System](#dialogue-system)
-    - [Conversational Recommendation](#conversational-recommendation)
+    - [PTMs for Dialogue](#ptms-for-dialogue)
+    - [Knowledge-driven Conversation](#knowledge-driven-conversation)
     - [Task-oriented Dialogue](#task-oriented-dialogue)
     - [Open-domain Dialogue](#open-domain-dialogue)
     - [Personalized Dialogue](#personalized-dialogue)
@@ -21,14 +23,12 @@ Paper reading list in natural language processing.
 ***
 
 ## Deep Learning in NLP
-* **PTMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". ICML(2020)(under review) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
 * **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
-* **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert)
 * **CNM**: "CNM: An Interpretable Complex-valued Network for Matching". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1420) [[code]](https://github.com/wabyking/qnn)
 * **word2vec**: "word2vec Parameter Learning Explained". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1411.2738.pdf)
 * **Glove**: "GloVe: Global Vectors for Word Representation". EMNLP(2014) [[PDF]](https://www.aclweb.org/anthology/D14-1162.pdf) [[code]](https://github.com/stanfordnlp/GloVe)
-* **ELMo**: "Deep contextualized word representations". NAACL(2018) [[PDF]](https://www.aclweb.org/anthology/N18-1202)
+* **ELMo**: "Deep contextualized word representations". NAACL(2018) [[PDF]](https://www.aclweb.org/anthology/N18-1202) [[code]](https://github.com/allenai/bilm-tf)
 * **VAE**: "An Introduction to Variational Autoencoders". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.02691.pdf)
 * **Transformer**: "Attention is All you Need". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
@@ -50,10 +50,30 @@ Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](http://pape
 * **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1609.04747.pdf)
 
 
+## Pre-trained Language Models
+* **PTMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
+* **Poly-encoder**: "Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scorings". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=SkxgnnNFvH)
+* **ALBERT**: "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=H1eA7AEtvS)
+* **TinyBERT**: "TinyBERT: Distilling BERT for Natural Language Understanding". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1909.10351.pdf) [[code]](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT)
+* **Chinese BERT**: "Pre-Training with Whole Word Masking for Chinese BERT". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.08101.pdf) [[code]](https://github.com/ymcui/Chinese-BERT-wwm)
+* **SpanBERT**: "SpanBERT: Improving Pre-training by Representing and Predicting Spans". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
+* **RoBERTa**: "RoBERTa: A Robustly Optimized BERT Pretraining Approach". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1907.11692.pdf) [[code]](https://github.com/pytorch/fairseq)
+* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE)
+* **ERNIE(Baidu)**: "ERNIE: Enhanced Representation through Knowledge Integration". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE)
+* **XLNet**: "XLNet: Generalized Autoregressive Pretraining for Language Understanding". NeurIPS(2019) [[PDF]](http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding.pdf) [[code]](https://github.com/zihangdai/xlnet)
+* **XLM**: "Cross-lingual Language Model Pretraining". NeurIPS(2019) [[PDF]](http://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf) [[code]](https://github.com/facebookresearch/XLM)
+* **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert)
+
 ## Dialogue System
 
-### Conversational Recommendation
-* **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/models/tree/develop/PaddleNLP/Research/ACL2019-DuConv) :star::star::star::star:
+### PTMs for Dialogue
+* **PLATO**: "PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable". ACL(2020) [[PDF]](https://arxiv.org/pdf/1910.07931.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/Dialogue-PLATO) :star::star::star::star:
+
+
+### Knowledge-driven Conversation
+* **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[PDF]](https://arxiv.org/pdf/2005.03954.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star:
+* **KdConv**: "KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation". ACL(2020) [[PDF]](https://arxiv.org/pdf/2004.04100.pdf) [[data]](https://github.com/thu-coai/KdConv) :star::star::star:
+* **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv) :star::star::star:
 * **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1189.pdf) [[code]](https://github.com/THUDM/KBRD) :star::star::star::star:
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](http://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website) :star::star:
 * **Dual Fusion**: "Smarter Response with Proactive Suggestion: A New Generative Neural Conversation Paradigm". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0629.pdf) :star::star::star:
