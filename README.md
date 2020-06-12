@@ -166,14 +166,14 @@ Matching Network". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1103) 
 
 
 ## Text Generation
-* **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
-* **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
-* **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
+* **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation) :star::star::star::star:
+* **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen) :star::star::star::star:
+* **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax) :star::star::star:
 
 
 ## Knowledge Representation and Reasoning
-* **GNTP**: "Differentiable Reasoning on Large Knowledge Bases and Natural Language". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1912.10824.pdf) [[code]](https://github.com/uclnlp/gntp) :star::star::star::star:
-* **NTP**: "End-to-End Differentiable Proving". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6969-end-to-end-differentiable-proving.pdf) [[code]](https://github.com/uclnlp/ntp) :star::star::star::star:
+* **GNTP**: "Differentiable Reasoning on Large Knowledge Bases and Natural Language". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1912.10824.pdf) [[code]](https://github.com/uclnlp/gntp) :star::star::star:
+* **NTP**: "End-to-End Differentiable Proving". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6969-end-to-end-differentiable-proving.pdf) [[code]](https://github.com/uclnlp/ntp) :star::star::star:
 
 
 ## Text Summarization
