@@ -12,6 +12,7 @@ Paper reading list in natural language processing.
     - [Open-domain Dialogue](#open-domain-dialogue)
     - [Personalized Dialogue](#personalized-dialogue)
     - [Miscellaneous](#miscellaneous)
+  - [Text Generation](#text-generation)
   - [Knowledge Representation & Reasoning](#knowledge-representation-and-reasoning)
   - [Text Summarization](#text-summarization)
   - [Topic Modeling](#topic-modeling)
@@ -23,8 +24,6 @@ Paper reading list in natural language processing.
 ***
 
 ## Deep Learning in NLP
-* **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". ICML(2020)(under review) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
-* **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 * **CNM**: "CNM: An Interpretable Complex-valued Network for Matching". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1420) [[code]](https://github.com/wabyking/qnn)
 * **word2vec**: "word2vec Parameter Learning Explained". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1411.2738.pdf)
 * **Glove**: "GloVe: Global Vectors for Word Representation". EMNLP(2014) [[PDF]](https://www.aclweb.org/anthology/D14-1162.pdf) [[code]](https://github.com/stanfordnlp/GloVe)
@@ -52,6 +51,7 @@ Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](http://pape
 
 ## Pre-trained Language Models
 * **PTMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
+* **Optimus**: "OPTIMUS: Organizing Sentences via Pre-trained Modeling of a Latent Space". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2004.04092.pdf) [[code]](https://github.com/ChunyuanLI/Optimus)
 * **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen)
 * **UniLM**: "Unified Language Model Pre-training for
 Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://papers.nips.cc/paper/9464-unified-language-model-pre-training-for-natural-language-understanding-and-generation.pdf) [[code]](https://github.com/microsoft/unilm)
@@ -67,11 +67,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 * **XLM**: "Cross-lingual Language Model Pretraining". NeurIPS(2019) [[PDF]](http://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf) [[code]](https://github.com/facebookresearch/XLM)
 * **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert)
 
+
 ## Dialogue System
 
 ### PTMs for Dialogue
 * **ToD-BERT**: "ToD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogues". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2004.06871.pdf) [[code]](https://github.com/jasonwu0731/ToD-BERT) :star::star::star::star:
-* **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star::star:
+* **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star:
 * **PLATO**: "PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable". ACL(2020) [[PDF]](https://arxiv.org/pdf/1910.07931.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/Dialogue-PLATO) :star::star::star::star:
 * **Guyu**: "An Empirical Investigation of Pre-Trained Transformer Language Models for Open-Domain Dialogue Generation". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.04195.pdf) [[code]](https://github.com/lipiji/Guyu) :star::star::star:
 
@@ -162,6 +163,12 @@ Matching Network". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1103) 
 * **LU-DST**: "Multi-task Learning for Joint Language Understanding and Dialogue State Tracking". SIGDIAL(2018) [[PDF]](https://www.aclweb.org/anthology/W18-5045)  :star::star:
 * **MTask-M**: "Multi-Task Learning for Speaker-Role Adaptation in Neural Conversation Models". IJCNLP(2018) [[PDF]](https://www.aclweb.org/anthology/I17-1061) :star:
 * **ADVMT**: "One “Ruler” for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0616.pdf) :star:
+
+
+## Text Generation
+* **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
+* **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
+* **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 
 
 ## Knowledge Representation and Reasoning
