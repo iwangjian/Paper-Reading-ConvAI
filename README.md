@@ -69,6 +69,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 ## Dialogue System
 
 ### PTMs for Dialogue
+* **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
 * **ToD-BERT**: "ToD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogues". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2004.06871.pdf) [[code]](https://github.com/jasonwu0731/ToD-BERT) 
 * **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) 
 * **PLATO**: "PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable". ACL(2020) [[PDF]](https://arxiv.org/pdf/1910.07931.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/Dialogue-PLATO) 
@@ -169,6 +170,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ## Text Generation
+* **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen)
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
 * **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
 * **Sparse-Seq2Seq**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
