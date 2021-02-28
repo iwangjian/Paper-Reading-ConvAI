@@ -7,7 +7,7 @@ Paper reading list in natural language processing, with special emphasis on dial
   - [Pre-trained Language Models](#pre-trained-language-models)
   - [Dialogue System](#dialogue-system)
     - [PLMs for Dialogue](#plms-for-dialogue)
-    - [Rec-oriented Dialogue (CRS)](#rec-oriented-dialogue-(crs))
+    - [Rec-oriented Dialogue (CRS)](#rec-oriented-dialogue-crs)
     - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
     - [Task-oriented Dialogue](#task-oriented-dialogue)
     - [Open-domain Dialogue](#open-domain-dialogue)
