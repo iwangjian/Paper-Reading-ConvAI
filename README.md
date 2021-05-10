@@ -48,9 +48,10 @@ Paper reading list in natural language processing, with special emphasis on dial
 
 
 ## Pre-trained Language Models
+* **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code]](https://github.com/google-research/google-research/tree/master/bertseq2seq)
 * **BART**: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.703.pdf) [[code]](https://github.com/huggingface/transformers)
 * **PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
-* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen)
+* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star::star:
 * **ALBERT**: "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=H1eA7AEtvS)
 * **TinyBERT**: "TinyBERT: Distilling BERT for Natural Language Understanding". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1909.10351.pdf) [[code]](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT)
 * **Chinese BERT**: "Pre-Training with Whole Word Masking for Chinese BERT". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.08101.pdf) [[code]](https://github.com/ymcui/Chinese-BERT-wwm)
@@ -69,6 +70,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 
 ### PLMs for Dialogue
 * **DialogBERT**: "DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.01775.pdf)
+* **KnowledGPT**: "Knowledge-Grounded Dialogue Generation with Pre-trained Language Models". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.272)
 * **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
 * **ToD-BERT**: "ToD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogues". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2004.06871.pdf) [[code]](https://github.com/jasonwu0731/ToD-BERT) 
 * **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) 
@@ -182,7 +184,6 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ## Text Generation
 * **Repetition-Problem-NLG**: "A Theoretical Analysis of the Repetition Problem in Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.14660.pdf) [[code]](https://github.com/fuzihaofzh/repetition-problem-nlg)
-* **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code]](https://github.com/google-research/google-research/tree/master/bertseq2seq) :star::star::star:
 * **CoMMA**: "A Study of Non-autoregressive Model for Sequence Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.15.pdf)
 * **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
