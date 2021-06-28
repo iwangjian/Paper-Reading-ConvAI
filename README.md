@@ -46,7 +46,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 
 
 ## Pre-trained Language Models
-* **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[code]](http://arxiv.org/abs/2106.07139)
+* **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[PDF]](http://arxiv.org/abs/2106.07139)
 * **GLM**: "All NLP Tasks Are Generation Tasks: A General Pretraining Framework". arXiv(2021) [[PDF]](http://arxiv.org/abs/2103.10360) [[code]](https://github.com/THUDM/GLM)
 * **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers)
 * **PALM**: "PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.700.pdf) [[code]](https://github.com/alibaba/AliceMind)
