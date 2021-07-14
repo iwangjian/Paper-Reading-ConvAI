@@ -5,11 +5,12 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Pre-trained Language Models](#pre-trained-language-models)
 - [Natural Language Generation](#natural-language-generation)
 - [Dialogue System](#dialogue-system)
-  - [Rec-oriented Dialogue (CRS)](#rec-oriented-dialogue-crs)
+  - [Target-Guided Dialogue](#target-guided-dialogue)
+  - [Conversational Recommendation](#conversational-recommendation)
   - [Knowledge-Grounded Dialogue](#knowledge-grounded-dialogue)
   - [Task-Oriented Dialogue](#task-oriented-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
-  - [Personalized Dialogue](#personalized-dialogue)
+  - [Emotional Dialogue](#emotional-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
   - [Misc](#misc)
 - [Text Summarization](#text-summarization)
@@ -26,6 +27,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **Data Augmentation**: "A Survey of Data Augmentation Approaches for NLP". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2105.03075)
 * **Survey of Transformers**: "A Survey of Transformers". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.04554) :star::star::star:
 * **VAE**: "An Introduction to Variational Autoencoders". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.02691.pdf)
+* **GAT**: "Graph Attention Networks". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1710.10903.pdf) [[code-tf]](https://github.com/PetarV-/GAT) [[code-py]](https://github.com/Diego999/pyGAT)
 * **Transformer**: "Attention is All you Need". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
 * **ConvS2S**: "Convolutional Sequence to Sequence Learning". ICML(2017) [[PDF]](http://proceedings.mlr.press/v70/gehring17a/gehring17a.pdf)
@@ -79,36 +81,51 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 
 ## Dialogue System
 
-### Rec-oriented Dialogue (CRS)
+### Target-Guided Dialogue
+* **DialoGraph**: "DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues". ICLR(2021) [[PDF]](http://arxiv.org/abs/2106.00920) [[code]](https://github.com/rishabhjoshi/DialoGraph_ICLR21)
+* **GOKC**: "Learning to Copy Coherent Knowledge for Response Generation". AAAI(2021) [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/17486) [[code]](https://github.com/jq2276/Learning2Copy)
+* **CKC**: "Keyword-Guided Neural Conversational Model". AAAI(2021) [[PDF]](http://arxiv.org/abs/2012.08383)
+* **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.365.pdf) [[code]](https://github.com/RUCAIBox/TG-ReDial)
+* **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[PDF]](https://arxiv.org/pdf/2005.03954.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star::star:
+* **KnowHRL**: "Knowledge Graph Grounded Goal Planning for Open-Domain Conversation Generation". AAAI(2020) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/6474)
+* **DKRN**: "Dynamic Knowledge Routing Network For Target-Guided Open-Domain Conversation". AAAI(2020) [[PDF]](http://arxiv.org/abs/2002.01196)
+* **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv)
+* **TGConv**: "Target-Guided Open-Domain Conversation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1565/) [[code]](https://github.com/squareRoot3/Target-Guided-Conversation)
+
+
+### Conversational Recommendation
+* **CRS-Survey**: "A Survey on Conversational Recommender Systems". ACM Computing Surveys(2021) [[PDF]](http://arxiv.org/abs/2004.00646)
 * **CRS-Survey**: "Advances and Challenges in Conversational Recommender Systems: A Survey
-". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.09459.pdf)
-* **CRS-Lab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.00939.pdf) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
+". arXiv(2021) [[PDF]](http://arxiv.org/abs/2101.09459)
+* **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.00939.pdf) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
+* **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
+* **KECRS**: "KECRS: Towards Knowledge-Enriched Conversational Recommendation System". arXiv(2021) [[PDF]](http://arxiv.org/abs/2105.08261)
+* **UNICORN**: "Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning". SIGIR(2021) [[PDF]](http://arxiv.org/abs/2105.09710) [[code]](https://github.com/dengyang17/unicorn)
 * **CR-Walker**: "Bridging the Gap between Conversational Reasoning and Interactive Recommendation". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2010.10333.pdf) [[code]](https://github.com/truthless11/CR-Walker)
 * **INSPIRED**: "INSPIRED: Toward Sociable Recommendation Dialog Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.654.pdf) [[data]](https://github.com/sweetpeach/Inspired)
-* **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.365.pdf) [[code]](https://github.com/RUCAIBox/TG-ReDial)
-* **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[PDF]](https://arxiv.org/pdf/2005.03954.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star:
 * **KGSF**: "Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion". KDD(2020) [[PDF]](https://arxiv.org/pdf/2007.04032.pdf) [[code]](https://github.com/RUCAIBox/KGSF)
+* **SCPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[PDF]](http://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
 * **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1189.pdf) [[code]](https://github.com/THUDM/KBRD)
 * **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1203.pdf) [[code]](https://github.com/facebookresearch/ParlAI)
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](http://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
-
 ### Knowledge-Grounded Dialogue
+* **SECE**: "Space Efficient Context Encoding for Non-Task-Oriented Dialogue Generation with Graph Attention Transformer". ACL(2021) [[PDF]](https://clp.ling.uni-potsdam.de/publications/Galetzka-2021.pdf) [[code]](https://github.com/fabiangal/space-efficient-context-encoding-acl21) :star::star::star:
 * **KnowledGPT**: "Knowledge-Grounded Dialogue Generation with Pre-trained Language Models". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.272)
 * **DiffKS**: "Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generation". EMNLP-Findings(2020) [[PDF]](https://www.aclweb.org/anthology/2020.findings-emnlp.11) [[code]](https://github.com/chujiezheng/DiffKS)
 * **DukeNet**: "DukeNet: A Dual Knowledge Interaction Network for Knowledge-Grounded Conversation". SIGIR(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3397271.3401097) [[code]](https://github.com/ChuanMeng/DukeNet)
 * **CCN**: "Cross Copy Network for Dialogue Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.149) [[code]](https://github.com/jichangzhen/CCN)
 * **PIPM**: "Bridging the Gap between Prior and Posterior Knowledge Selection for Knowledge-Grounded Dialogue Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.275)
-* **ConKADI**: "Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.515) [[code]](https://github.com/pku-orangecat/ACL2020-ConKADI) :star::star::star::star::star:
+* **ConceptFlow**: "Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.184/) [[code]](https://github.com/thunlp/ConceptFlow) :star::star::star::star:
+* **ConKADI**: "Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.515) [[code]](https://github.com/pku-orangecat/ACL2020-ConKADI) :star::star::star::star:
 * **KIC**: "Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.6)
-* **SKT**: "Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=Hke0K1HKwr) [[code]](https://github.com/bckim92/sequential-knowledge-transformer) :star::star::star::star:
+* **SKT**: "Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=Hke0K1HKwr) [[code]](https://github.com/bckim92/sequential-knowledge-transformer) :star::star::star:
 * **KdConv**: "KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation". ACL(2020) [[PDF]](https://arxiv.org/pdf/2004.04100.pdf) [[data]](https://github.com/thu-coai/KdConv)
 * **RefNet**: "RefNet: A Reference-aware Network for Background Based Conversation". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1908.06449.pdf) [[code]](https://github.com/ChuanMeng/RefNet)
 * **GLKS**: "Thinking Globally, Acting Locally: Distantly Supervised Global-to-Local Knowledge Selection for Background Based Conversation". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1908.09528.pdf) [[code]](https://github.com/PengjieRen/GLKS)
-* **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv)
 * **OpenDialKG**: "OpenDialKG: Explainable Conversational Reasoning with Attention-based Walks over Knowledge Graphs". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1081) [[data]](https://github.com/facebookresearch/opendialkg)
+* **WoW**: "Wizard of Wikipedia: Knowledge-Powered Conversational agents". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1811.01241.pdf)
 * **PostKS**: "Learning to Select Knowledge for Response Generation in Dialog Systems". IJCAI(2019) [[PDF]](https://www.ijcai.org/proceedings/2019/0706.pdf)
-* **Two-Stage-Transformer**: "Wizard of Wikipedia: Knowledge-Powered Conversational agents". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1811.01241.pdf) 
 * **NKD**: "Knowledge Diffusion for Neural Dialogue Generation". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1138) [[data]](https://github.com/liushuman/neural-knowledge-diffusion) 
 * **Dual Fusion**: "Smarter Response with Proactive Suggestion: A New Generative Neural Conversation Paradigm". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0629.pdf)
 * **CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0643.pdf) [[code]](https://github.com/tuxchow/ccm) :star::star::star::star::star:
@@ -144,9 +161,10 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Open-domain Dialogue
+* **DialoFlow**: "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.02227) [[code]](https://github.com/ictnlp/DialoFlow) :star::star::star:
 * **DialogBERT**: "DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.01775.pdf)
 * **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
-* **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) 
+* **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star:
 * **PLATO**: "PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable". ACL(2020) [[PDF]](https://arxiv.org/pdf/1910.07931.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/Dialogue-PLATO) 
 * **Guyu**: "An Empirical Investigation of Pre-Trained Transformer Language Models for Open-Domain Dialogue Generation". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.04195.pdf) [[code]](https://github.com/lipiji/Guyu)
 * **CL4Dialogue**: "Group-wise Contrastive Learning for Neural Dialogue Generation". EMNLP-Findings(2020) [[PDF]](https://www.aclweb.org/anthology/2020.findings-emnlp.70) [[code]](https://github.com/hengyicai/ContrastiveLearning4Dialogue) :star::star::star:
@@ -179,7 +197,11 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **MMI**: "A Diversity-Promoting Objective Function for Neural Conversation Models". NAACL-HLT(2016)  [[PDF]](https://www.aclweb.org/anthology/N16-1014) [[code]](https://github.com/jiweil/Neural-Dialogue-Generation)
 
 
-### Personalized Dialogue
+### Emotional Dialogue
+* **DAG-ERC**: "Directed Acyclic Graph Network for Conversational Emotion Recognition". ACL(2021) [[PDF]](http://arxiv.org/abs/2105.12907) [[code]](https://github.com/shenwzh3/DAG-ERC)
+* **DialogueCRN**: "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.01978) [[code]](https://github.com/zerohd4869/DialogueCRN)
+* **TodKAT**: "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.01071) [[code]](https://github.com/something678/TodKat)
+* **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.01144) [[code]](https://github.com/thu-coai/Emotional-Support-Conversation)
 * **PABST**: "Unsupervised Enrichment of Persona-grounded Dialog with Background Stories". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.08364) [[code]](https://github.com/majumderb/pabst)
 * **PAML**: "Personalizing Dialogue Agents via Meta-Learning". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1542) [[code]](https://github.com/HLTCHKUST/PAML)
 * **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0595.pdf) [[code]](https://github.com/qianqiao/AssignPersonality)
@@ -200,13 +222,15 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ## Knowledge Representation Learning
+* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA)
+* **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
 * **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](http://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
 * **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
 * **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
 * **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](http://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
 * **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](http://arxiv.org/abs/2010.11967)
-* **LM-as-KB**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](http://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA)
-* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE) :star::star::star:
+* **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](http://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
+* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE)
 * **ERNIE(Baidu)**: "ERNIE: Enhanced Representation through Knowledge Integration". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE)
 
 
@@ -228,6 +252,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ## Machine Translation
+* **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2019) [[PDF]](http://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
 * **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
 * **Deliberation Networks**: "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf) :star::star::star:
 * **KVMem-Attention**: "Neural Machine Translation with Key-Value Memory-Augmented Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0357.pdf) :star::star::star:
