@@ -123,12 +123,14 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 * **KdConv**: "KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation". ACL(2020) [[PDF]](https://arxiv.org/pdf/2004.04100.pdf) [[data]](https://github.com/thu-coai/KdConv)
 * **RefNet**: "RefNet: A Reference-aware Network for Background Based Conversation". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1908.06449.pdf) [[code]](https://github.com/ChuanMeng/RefNet)
 * **GLKS**: "Thinking Globally, Acting Locally: Distantly Supervised Global-to-Local Knowledge Selection for Background Based Conversation". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1908.09528.pdf) [[code]](https://github.com/PengjieRen/GLKS)
+* **AKGCM**: "Knowledge Aware Conversation Generation with Explainable Reasoning over Augmented Graphs". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1187.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/EMNLP2019-AKGCM)
+* **DyKgChat**: "DyKgChat: Benchmarking Dialogue Generation Grounding on Dynamic Knowledge Graphs". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1194.pdf) [[code]](https://github.com/Pascalson/DyKGChat)
 * **OpenDialKG**: "OpenDialKG: Explainable Conversational Reasoning with Attention-based Walks over Knowledge Graphs". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1081) [[data]](https://github.com/facebookresearch/opendialkg)
 * **WoW**: "Wizard of Wikipedia: Knowledge-Powered Conversational agents". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1811.01241.pdf)
 * **PostKS**: "Learning to Select Knowledge for Response Generation in Dialog Systems". IJCAI(2019) [[PDF]](https://www.ijcai.org/proceedings/2019/0706.pdf)
 * **NKD**: "Knowledge Diffusion for Neural Dialogue Generation". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1138) [[data]](https://github.com/liushuman/neural-knowledge-diffusion) 
 * **Dual Fusion**: "Smarter Response with Proactive Suggestion: A New Generative Neural Conversation Paradigm". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0629.pdf)
-* **CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0643.pdf) [[code]](https://github.com/tuxchow/ccm) :star::star::star::star::star:
+* **CCM**: "Commonsense Knowledge Aware Conversation Generation with Graph Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0643.pdf) [[code-tf]](https://github.com/tuxchow/ccm) [[code-py]](https://github.com/Lyusungwon/CCM-pytorch)  :star::star::star::star::star:
 * **MTask**: "A Knowledge-Grounded Neural Conversation Model". AAAI(2018)  [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16710/16057)
 * **GenDS**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1709.04264.pdf)
 
