@@ -83,12 +83,16 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 
 ### Target-Guided Dialogue
 * **DialoGraph**: "DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues". ICLR(2021) [[PDF]](http://arxiv.org/abs/2106.00920) [[code]](https://github.com/rishabhjoshi/DialoGraph_ICLR21)
+* **DiSCoL**: "DiSCoL: Toward Engaging Dialogue Systems through Conversational Line Guided Response Generation". NAACL(2021) [[PDF]](https://www.aclweb.org/anthology/2021.naacl-demos.4) [[code]](https://github.com/PlusLabNLP/Dialogue_System_Hackathon)
 * **GOKC**: "Learning to Copy Coherent Knowledge for Response Generation". AAAI(2021) [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/17486) [[code]](https://github.com/jq2276/Learning2Copy)
 * **CKC**: "Keyword-Guided Neural Conversational Model". AAAI(2021) [[PDF]](http://arxiv.org/abs/2012.08383)
+* **FeHED**: "Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History". ICLR(2020) [[PDF]](https://openreview.net/forum?id=ryxQuANKPB)
 * **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.365.pdf) [[code]](https://github.com/RUCAIBox/TG-ReDial)
+* **CG-Policy**: "Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.166)
 * **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[PDF]](https://arxiv.org/pdf/2005.03954.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star::star:
 * **KnowHRL**: "Knowledge Graph Grounded Goal Planning for Open-Domain Conversation Generation". AAAI(2020) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/6474)
 * **DKRN**: "Dynamic Knowledge Routing Network For Target-Guided Open-Domain Conversation". AAAI(2020) [[PDF]](http://arxiv.org/abs/2002.01196)
+* **PersuasionForGood**: "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good". ACL(2019) [[PDF]](https://aclanthology.org/P19-1566) [[data]](https://gitlab.com/ucdavisnlp/persuasionforgood)
 * **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv)
 * **TGConv**: "Target-Guided Open-Domain Conversation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1565/) [[code]](https://github.com/squareRoot3/Target-Guided-Conversation)
 
@@ -100,11 +104,15 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 * **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.00939.pdf) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
 * **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
 * **KECRS**: "KECRS: Towards Knowledge-Enriched Conversational Recommendation System". arXiv(2021) [[PDF]](http://arxiv.org/abs/2105.08261)
+* **FPAN**: "Adapting User Preference to Online Feedback in Multi-round Conversational Recommendation". WSDM(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3437963.3441791) [[code]](https://github.com/xxkkrr/FPAN)
+* **ConTS**: "Seamlessly Unifying Attributes and Items: Conversational Recommendation for Cold-Start Users". TOIS(2021) [[PDF]](http://arxiv.org/abs/2005.12979) [[code]](https://github.com/xiwenchao/conTS-TOIS-2021)
 * **UNICORN**: "Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning". SIGIR(2021) [[PDF]](http://arxiv.org/abs/2105.09710) [[code]](https://github.com/dengyang17/unicorn)
-* **CR-Walker**: "Bridging the Gap between Conversational Reasoning and Interactive Recommendation". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2010.10333.pdf) [[code]](https://github.com/truthless11/CR-Walker)
+* **CR-Walker**: "Bridging the Gap between Conversational Reasoning and Interactive Recommendation". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2010.10333.pdf) [[code]](https://github.com/truthless11/CR-Walker) :star::star::star::star:
+* **CRSAL**: "CRSAL: Conversational Recommender Systems with Adversarial Learning". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3394592)
 * **INSPIRED**: "INSPIRED: Toward Sociable Recommendation Dialog Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.654.pdf) [[data]](https://github.com/sweetpeach/Inspired)
 * **KGSF**: "Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion". KDD(2020) [[PDF]](https://arxiv.org/pdf/2007.04032.pdf) [[code]](https://github.com/RUCAIBox/KGSF)
-* **SCPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[PDF]](http://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
+* **CPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[PDF]](http://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
+* **EAR**: "Estimation-Action-Reflection: Towards Deep Interaction Between Conversational and Recommender Systems". WSDM(2020) [[PDF]](http://arxiv.org/abs/2002.09102) [[code]](https://ear-conv-rec.github.io/)
 * **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1189.pdf) [[code]](https://github.com/THUDM/KBRD)
 * **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1203.pdf) [[code]](https://github.com/facebookresearch/ParlAI)
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](http://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
@@ -225,10 +233,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ## Knowledge Representation Learning
 * **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA)
+* **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT) :star::star::star:
 * **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
 * **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](http://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
 * **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
 * **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
+* **GLM**: "Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.722) [[code]](https://github.com/taoshen58/glm-codes)
 * **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](http://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
 * **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](http://arxiv.org/abs/2010.11967)
 * **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](http://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
