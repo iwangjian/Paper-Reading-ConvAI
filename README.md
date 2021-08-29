@@ -264,7 +264,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ## Machine Translation
-* **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2019) [[PDF]](http://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
+* **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
 * **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
 * **Deliberation Networks**: "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf) :star::star::star:
 * **KVMem-Attention**: "Neural Machine Translation with Key-Value Memory-Augmented Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0357.pdf) :star::star::star:
