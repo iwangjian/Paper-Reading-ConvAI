@@ -144,8 +144,9 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 
 
 ### Task-Oriented Dialogue
-* **ToD-BERT**: "ToD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogues". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2004.06871.pdf) [[code]](https://github.com/jasonwu0731/ToD-BERT) 
+* **HyKnow**: "HyKnow: End-to-End Task-Oriented Dialog Modeling with Hybrid Knowledge Management". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2105.06041) [[code]](https://github.com/truthless11/HyKnow)
 * **DDMN**: "Dual Dynamic Memory Network for End-to-End Multi-turn Task-oriented Dialog Systems". COLING(2020) [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.362/) [[code]](https://github.com/siat-nlp/DDMN) :star::star::star:
+* **ToD-BERT**: "ToD-BERT: Pre-trained Natural Language Understanding for Task-Oriented Dialogues". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.66) [[code]](https://github.com/jasonwu0731/ToD-BERT)
 * **GraphDialog**: "GraphDialog: Integrating Graph Knowledge into End-to-End Task-Oriented Dialogue Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.147) [[code]](https://github.com/shiquanyang/GraphDialog)
 * **DF-Net**: "Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog". ACL(2020) [[PDF]](https://arxiv.org/pdf/2004.11019.pdf) [[code]](https://github.com/LooperXX/DF-Net)
 * **MALA**: "MALA: Cross-Domain Dialogue Generation with Action Learning". AAAI(2020) [[PDF]](https://arxiv.org/pdf/1912.08442.pdf)
@@ -172,6 +173,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ### Open-domain Dialogue
 * **DialoFlow**: "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.02227) [[code]](https://github.com/ictnlp/DialoFlow) :star::star::star:
+* **PLATO-2**: "PLATO-2: Towards Building an Open-Domain Chatbot via Curriculum Learning". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2006.16779) [[code]](https://github.com/PaddlePaddle/Knover/tree/develop/projects/PLATO-2) :star::star::star:
 * **DialogBERT**: "DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.01775.pdf)
 * **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
 * **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star:
@@ -208,6 +210,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Emotional Dialogue
+* **BoB**: "BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.14) [[code]](https://github.com/songhaoyu/BoB)
 * **DAG-ERC**: "Directed Acyclic Graph Network for Conversational Emotion Recognition". ACL(2021) [[PDF]](http://arxiv.org/abs/2105.12907) [[code]](https://github.com/shenwzh3/DAG-ERC)
 * **DialogueCRN**: "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.01978) [[code]](https://github.com/zerohd4869/DialogueCRN)
 * **TodKAT**: "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection". ACL(2021) [[PDF]](http://arxiv.org/abs/2106.01071) [[code]](https://github.com/something678/TodKat)
