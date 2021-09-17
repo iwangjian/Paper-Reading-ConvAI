@@ -232,7 +232,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 ### Misc
 * **Survey of Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](http://arxiv.org/abs/2105.04387) :star::star::star:
 * **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
-* **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems: The Journal Version". Dialogue & Discourse(2018) [[PDF]](http://dad.uni-bielefeld.de/index.php/dad/article/view/3690/3616)
+* **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
 
 ## Knowledge Representation Learning
