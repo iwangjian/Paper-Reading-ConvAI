@@ -26,16 +26,18 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 ## Deep Learning in NLP
 * **Data Augmentation**: "A Survey of Data Augmentation Approaches for NLP". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2105.03075)
 * **Survey of Transformers**: "A Survey of Transformers". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.04554) :star::star::star:
-* **VAE**: "An Introduction to Variational Autoencoders". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.02691.pdf)
+* **Graphormer**: "Do Transformers Really Perform Bad for Graph Representation?". NeurIPS(2021) [[PDF]](http://arxiv.org/abs/2106.05234) [[code]](https://github.com/Microsoft/Graphormer)
+* **HGT**: "Heterogeneous Graph Transformer". WWW(2020) [[PDF]](http://arxiv.org/abs/2003.01332) [[code]](https://github.com/acbull/pyHGT)
 * **GAT**: "Graph Attention Networks". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1710.10903.pdf) [[code-tf]](https://github.com/PetarV-/GAT) [[code-py]](https://github.com/Diego999/pyGAT)
-* **Transformer**: "Attention is All you Need". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
+* **Transformer**: "Attention is All you Need". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
+* **VAE**: "An Introduction to Variational Autoencoders". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.02691.pdf)
 * **ConvS2S**: "Convolutional Sequence to Sequence Learning". ICML(2017) [[PDF]](http://proceedings.mlr.press/v70/gehring17a/gehring17a.pdf)
 * **Survey of Attention**: "An Introductory Survey on Attention Mechanisms in NLP Problems". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1811.05544.pdf) :star::star::star::star::star:
 * **Additive Attention**: "Neural Machine Translation by Jointly Learning to Align and Translate". ICLR(2015) [[PDF]](https://arxiv.org/pdf/1409.0473.pdf) 
 * **Multiplicative Attention**: "Effective Approaches to Attention-based Neural Machine Translation". EMNLP(2015) [[PDF]](https://www.aclweb.org/anthology/D15-1166)
 * **Memory Net**: "End-To-End Memory Networks". NeurIPS(2015) [[PDF]](http://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)
-* **Pointer Net**: "Pointer Networks". NeurIPS(2015) [[PDF]](http://papers.nips.cc/paper/5866-pointer-networks.pdf) 
+* **Copying Mechanism (PGN)**: "Get To The Point: Summarization with Pointer-Generator Networks". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1099) [[code]](https://github.com/abisee/pointer-generator) :star::star::star::star::star:
 * **Copying Mechanism**: "Incorporating Copying Mechanism in Sequence-to-Sequence Learning". ACL(2016) [[PDF]](https://www.aclweb.org/anthology/P16-1154)
 * **Coverage Mechanism**: "Modeling Coverage for Neural Machine Translation". ACL(2016) [[PDF]](https://www.aclweb.org/anthology/P16-1008)
 * **GAN**: "Generative Adversarial Nets". NeurIPS(2014) [[PDF]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
