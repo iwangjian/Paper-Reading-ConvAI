@@ -52,6 +52,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 
 ## Pre-trained Language Models
 * **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[PDF]](http://arxiv.org/abs/2106.07139)
+* **CPM**: "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation". arXiv(2021) [[PDF]](http://arxiv.org/abs/2109.05729) [[code]](https://github.com/fastnlp/CPT) :star::star::star:
 * **GLM**: "All NLP Tasks Are Generation Tasks: A General Pretraining Framework". arXiv(2021) [[PDF]](http://arxiv.org/abs/2103.10360) [[code]](https://github.com/THUDM/GLM)
 * **PALM**: "PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.700.pdf) [[code]](https://github.com/alibaba/AliceMind)
 * **BART**: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.703.pdf) [[code]](https://github.com/huggingface/transformers) :star::star::star:
