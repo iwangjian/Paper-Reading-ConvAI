@@ -18,7 +18,6 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Text Summarization](#text-summarization)
 - [Machine Translation](#machine-translation)
 - [Question Answering](#question-answering)
-- [Reading Comprehension](#reading-comprehension)
 - [Text Matching](#text-matching)
 
 ***
@@ -37,28 +36,27 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **Additive Attention**: "Neural Machine Translation by Jointly Learning to Align and Translate". ICLR(2015) [[PDF]](https://arxiv.org/pdf/1409.0473.pdf) 
 * **Multiplicative Attention**: "Effective Approaches to Attention-based Neural Machine Translation". EMNLP(2015) [[PDF]](https://www.aclweb.org/anthology/D15-1166)
 * **Memory Net**: "End-To-End Memory Networks". NeurIPS(2015) [[PDF]](http://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)
-* **Copying Mechanism (PGN)**: "Get To The Point: Summarization with Pointer-Generator Networks". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1099) [[code]](https://github.com/abisee/pointer-generator) :star::star::star::star::star:
-* **Copying Mechanism**: "Incorporating Copying Mechanism in Sequence-to-Sequence Learning". ACL(2016) [[PDF]](https://www.aclweb.org/anthology/P16-1154)
+* **Copy Mechanism (PGN)**: "Get To The Point: Summarization with Pointer-Generator Networks". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1099) [[code]](https://github.com/abisee/pointer-generator) :star::star::star::star::star:
+* **Copy Mechanism**: "Incorporating Copying Mechanism in Sequence-to-Sequence Learning". ACL(2016) [[PDF]](https://www.aclweb.org/anthology/P16-1154)
 * **Coverage Mechanism**: "Modeling Coverage for Neural Machine Translation". ACL(2016) [[PDF]](https://www.aclweb.org/anthology/P16-1008)
-* **GAN**: "Generative Adversarial Nets". NeurIPS(2014) [[PDF]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
-* **SeqGAN**: "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient". AAAI(2017) [[PDF]](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14344/14489) [[code]](https://github.com/LantaoYu/SeqGAN)
-* **word2vec**: "word2vec Parameter Learning Explained". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1411.2738.pdf) :star::star::star::star::star:
-* **Glove**: "GloVe: Global Vectors for Word Representation". EMNLP(2014) [[PDF]](https://www.aclweb.org/anthology/D14-1162.pdf) [[code]](https://github.com/stanfordnlp/GloVe)
 * **ELMo**: "Deep contextualized word representations". NAACL(2018) [[PDF]](https://www.aclweb.org/anthology/N18-1202) [[code]](https://github.com/allenai/bilm-tf)
+* **Glove**: "GloVe: Global Vectors for Word Representation". EMNLP(2014) [[PDF]](https://www.aclweb.org/anthology/D14-1162.pdf) [[code]](https://github.com/stanfordnlp/GloVe)
+* **word2vec**: "word2vec Parameter Learning Explained". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1411.2738.pdf) :star::star::star::star::star:
+* **SeqGAN**: "SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient". AAAI(2017) [[PDF]](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14344/14489) [[code]](https://github.com/LantaoYu/SeqGAN)
+* **GAN**: "Generative Adversarial Nets". NeurIPS(2014) [[PDF]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 * **Multi-task Learning**: "An Overview of Multi-Task Learning in Deep Neural Networks". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1706.05098.pdf)
 * **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1609.04747.pdf) :star::star::star::star::star:
 
 
 ## Pre-trained Language Models
 * **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[PDF]](http://arxiv.org/abs/2106.07139)
+* **Survey of PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **CPT**: "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation". arXiv(2021) [[PDF]](http://arxiv.org/abs/2109.05729) [[code]](https://github.com/fastnlp/CPT) :star::star::star:
 * **GLM**: "All NLP Tasks Are Generation Tasks: A General Pretraining Framework". arXiv(2021) [[PDF]](http://arxiv.org/abs/2103.10360) [[code]](https://github.com/THUDM/GLM)
 * **PALM**: "PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.700.pdf) [[code]](https://github.com/alibaba/AliceMind)
 * **BART**: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.703.pdf) [[code]](https://github.com/huggingface/transformers) :star::star::star:
-* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
 * **T5**: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR(2020) [[PDF]](http://arxiv.org/abs/1910.10683) [[code-tf]](https://github.com/google-research/text-to-text-transfer-transformer) [[code-py]](https://github.com/huggingface/transformers)
 * **MASS**: "MASS: Masked Sequence to Sequence Pre-training for Language Generation". ICML(2019) [[PDF]](http://arxiv.org/abs/1905.02450) [[code]](https://github.com/microsoft/MASS)
-* **PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **ALBERT**: "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=H1eA7AEtvS)
 * **TinyBERT**: "TinyBERT: Distilling BERT for Natural Language Understanding". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1909.10351.pdf) [[code]](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT)
 * **Chinese BERT**: "Pre-Training with Whole Word Masking for Chinese BERT". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1906.08101.pdf) [[code]](https://github.com/ymcui/Chinese-BERT-wwm)
@@ -83,12 +81,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 * **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](http://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
 * **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](http://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
 * **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
+* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
 * **Distill-BERT-Textgen**: "Distilling Knowledge Learned in BERT for Text Generation". ACL(2020) [[PDF]](http://arxiv.org/abs/1911.03829) [[code]](https://github.com/ChenRocks/Distill-BERT-Textgen)
 * **Repetition-Problem-NLG**: "A Theoretical Analysis of the Repetition Problem in Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.14660.pdf) [[code]](https://github.com/fuzihaofzh/repetition-problem-nlg)
 * **CoMMA**: "A Study of Non-autoregressive Model for Sequence Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.15.pdf)
 * **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
-* **Sequence Generation**: "A Generalized Framework of Sequence Generation with Application to Undirected Sequence Models". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1905.12790.pdf) [[code]](https://github.com/nyu-dl/dl4mt-seqgen)
 * **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 
 
@@ -312,24 +310,20 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **OR-NMT**: "Bridging the Gap between Training and Inference for Neural Machine Translation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1426) [[code]](https://github.com/ictnlp/OR-NMT) :star::star::star:
 * **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
 * **KVMem-Attention**: "Neural Machine Translation with Key-Value Memory-Augmented Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0357.pdf) :star::star::star:
-* **Deliberation Networks**: "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf) :star::star::star:
+* **Deliberation Networks**: "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding". NeurIPS(2017) [[PDF]](http://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf)
 * **Interactive-Attention**: "Interactive Attention for Neural Machine Translation". COLING(2016) [[PDF]](https://www.aclweb.org/anthology/C16-1205)
 
 
 ## Question Answering
+* **FlowQA**: "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1810.06683.pdf) [[code]](https://github.com/momohuang/FlowQA) :star::star::star::star:
+*  **SDNet**: "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1812.03593.pdf) [[code]](https://github.com/microsoft/SDNet)
 * **CFC**: "Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.00603.pdf)
 * **MTQA**: "Multi-Task Learning with Multi-View Attention for Answer Selection and Knowledge Base Question Answering". AAAI(2019) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/4593) [[code]](https://github.com/dengyang17/MTQA)
-* **CQG-KBQA**: "Knowledge Base Question Answering via Encoding of Complex Query Graphs". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1242) [[code]](http://202.120.38.146/CompQA/) :star::star::star::star::star:
+* **MacNet**: "MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](http://papers.nips.cc/paper/7848-macnet-transferring-knowledge-from-machine-comprehension-to-sequence-to-sequence-models.pdf)
+* **CQG-KBQA**: "Knowledge Base Question Answering via Encoding of Complex Query Graphs". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1242) [[code]](http://202.120.38.146/CompQA/) :star::star::star::star:
 * **HR-BiLSTM**: "Improved Neural Relation Detection for Knowledge Base Question Answering". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1053)
 * **KBQA-CGK**: "An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1021)
 * **KVMem**: "Key-Value Memory Networks for Directly Reading Documents". EMNLP(2016) [[PDF]](https://www.aclweb.org/anthology/D16-1147)
-
-
-## Reading Comprehension
-* **DecompRC**: "Multi-hop Reading Comprehension through Question Decomposition and Rescoring". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1613) [[code]](https://github.com/shmsw25/DecompRC)
-* **FlowQA**: "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1810.06683.pdf) [[code]](https://github.com/momohuang/FlowQA) :star::star::star:
-*  **SDNet**: "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1812.03593.pdf) [[code]](https://github.com/microsoft/SDNet)
-* **MacNet**: "MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](http://papers.nips.cc/paper/7848-macnet-transferring-knowledge-from-machine-comprehension-to-sequence-to-sequence-models.pdf)
 
 
 ## Text Matching
