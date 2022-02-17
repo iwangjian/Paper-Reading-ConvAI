@@ -1,9 +1,10 @@
 ﻿# Paper-Reading
-Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems**, **text generation** and relevant topics. This repo will keep updating 🤗 ...
+Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems**, **natural language generation** and relevant topics. This repo will keep updating 🤗 ...
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Pre-trained Language Models](#pre-trained-language-models)
 - [Natural Language Generation](#natural-language-generation)
+- [Knowledge Representation Learning](#knowledge-representation-learning)
 - [Dialogue System](#dialogue-system)
   - [Prompting for Dialogue](#prompting-for-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
@@ -13,12 +14,12 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Emotional Dialogue](#emotional-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
-  - [Misc](#misc)
-- [Knowledge Representation Learning](#knowledge-representation-learning)
-- [Text Summarization](#text-summarization)
-- [Machine Translation](#machine-translation)
-- [Question Answering](#question-answering)
-- [Text Matching](#text-matching)
+  - [Survey](#survey)
+- [Others](#others)
+  - [Text Summarization](#text-summarization)
+  - [Machine Translation](#machine-translation)
+  - [Question Answering](#question-answering)
+  - [Text Matching](#text-matching)
 
 ***
 
@@ -88,6 +89,23 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 * **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
 * **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
+
+
+## Knowledge Representation Learning
+* **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](http://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE) :star::star::star:
+* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA)
+* **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT)
+* **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
+* **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](http://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
+* **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
+* **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
+* **GLM**: "Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.722) [[code]](https://github.com/taoshen58/glm-codes)
+* **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](http://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
+* **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](http://arxiv.org/abs/2010.11967)
+* **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](http://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
+* **COMET**: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction". ACL(2019) [[PDF]](http://arxiv.org/abs/1906.05317) [[code]](https://github.com/atcbosselut/comet-commonsense) :star::star::star:
+* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE)
+* **ERNIE(Baidu)**: "ERNIE: Enhanced Representation through Knowledge Integration". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE)
 
 
 ## Dialogue System
@@ -265,30 +283,16 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **USR**: "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.64) [[code]](https://github.com/Shikib/usr)
 * **ADVMT**: "One `Ruler` for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0616.pdf)
 
-### Misc
+### Survey
 * **Survey of Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](http://arxiv.org/abs/2105.04387) :star::star::star:
 * **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
 * **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
 
-## Knowledge Representation Learning
-* **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](http://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE) :star::star::star:
-* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA)
-* **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT)
-* **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
-* **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](http://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
-* **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
-* **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
-* **GLM**: "Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.722) [[code]](https://github.com/taoshen58/glm-codes)
-* **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](http://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
-* **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](http://arxiv.org/abs/2010.11967)
-* **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](http://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
-* **COMET**: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction". ACL(2019) [[PDF]](http://arxiv.org/abs/1906.05317) [[code]](https://github.com/atcbosselut/comet-commonsense) :star::star::star:
-* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE)
-* **ERNIE(Baidu)**: "ERNIE: Enhanced Representation through Knowledge Integration". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE)
 
+## Others
 
-## Text Summarization
+### Text Summarization
 * **BERTSum**: "Fine-tune BERT for Extractive Summarization". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1903.10318.pdf) [[code]](https://github.com/nlpyang/BertSum)
 * **QASumm**: "Guiding Extractive Summarization with Question-Answering Rewards". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1264) [[code]](https://github.com/ucfnlp/summ_qa_rewards)
 * **Re^3Sum**: "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1015) [[code]](http://www4.comp.polyu.edu.hk/~cszqcao/data/IRSum_Resource.zip)
@@ -305,7 +309,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **RAS-Elman/RAS-LSTM**: "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks". NAACL(2016) [[PDF]](https://www.aclweb.org/anthology/N16-1012) [[code]](https://github.com/facebookarchive/NAMAS)
 
 
-## Machine Translation
+### Machine Translation
 * **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2021) [[PDF]](http://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
 * **OR-NMT**: "Bridging the Gap between Training and Inference for Neural Machine Translation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1426) [[code]](https://github.com/ictnlp/OR-NMT) :star::star::star:
 * **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
@@ -314,7 +318,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **Interactive-Attention**: "Interactive Attention for Neural Machine Translation". COLING(2016) [[PDF]](https://www.aclweb.org/anthology/C16-1205)
 
 
-## Question Answering
+### Question Answering
 * **FlowQA**: "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1810.06683.pdf) [[code]](https://github.com/momohuang/FlowQA) :star::star::star::star:
 *  **SDNet**: "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1812.03593.pdf) [[code]](https://github.com/microsoft/SDNet)
 * **CFC**: "Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.00603.pdf)
@@ -326,7 +330,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **KVMem**: "Key-Value Memory Networks for Directly Reading Documents". EMNLP(2016) [[PDF]](https://www.aclweb.org/anthology/D16-1147)
 
 
-## Text Matching
+### Text Matching
 * **Poly-encoder**: "Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scorings". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=SkxgnnNFvH) [[code]](https://github.com/sfzhou5678/PolyEncoder)
 * **AugSBERT**: "Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2010.08240.pdf) [[code]](https://github.com/UKPLab/sentence-transformers)
 * **SBERT**: "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks". EMNLP(2019) [[PDF]](https://arxiv.org/pdf/1908.10084.pdf) [[code]](https://github.com/UKPLab/sentence-transformers)
