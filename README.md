@@ -192,6 +192,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](http://pap
 
 
 ### Task-Oriented Dialogue
+* **GALAXY**: "GALAXY: A Generative Pre-trained Model for Task-Oriented Dialog with Semi-Supervised Learning and Explicit Policy Injection". AAAI(2022) [[PDF]](http://arxiv.org/abs/2111.14592) [[code]](https://github.com/siat-nlp/GALAXY)
+* **PPTOD**: "Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System". arXiv(2021) [[PDF]](http://arxiv.org/abs/2109.14739) [[code]](https://github.com/awslabs/pptod)
 * **ToDCL**: "Continual Learning in Task-Oriented Dialogue Systems". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.590) [[code]](https://github.com/andreamad8/ToDCL)
 * **IR-Net**: "Intention Reasoning Network for Multi-Domain End-to-end Task-Oriented Dialogue". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.174)
 * **HyKnow**: "HyKnow: End-to-End Task-Oriented Dialog Modeling with Hybrid Knowledge Management". ACL-Findings(2021) [[PDF]](http://arxiv.org/abs/2105.06041) [[code]](https://github.com/truthless11/HyKnow)
