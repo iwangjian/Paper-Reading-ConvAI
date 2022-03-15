@@ -232,22 +232,22 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **DAG-ERC**: "Directed Acyclic Graph Network for Conversational Emotion Recognition". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.12907) [[code]](https://github.com/shenwzh3/DAG-ERC)
 * **DialogueCRN**: "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01978) [[code]](https://github.com/zerohd4869/DialogueCRN)
 * **TodKAT**: "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01071) [[code]](https://github.com/something678/TodKat)
-* **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[code]](https://github.com/thu-coai/Emotional-Support-Conversation)
+* **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[data]](https://github.com/thu-coai/Emotional-Support-Conversation) :star::star::star:
 * **PEC**: "Towards Persona-Based Empathetic Conversational Models". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.531) [[code]](https://github.com/zhongpeixiang/PEC)
 * **MoEL**: "MoEL: Mixture of Empathetic Listeners". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1012) [[code]](https://github.com/HLTCHKUST/MoEL)
-* **EmpatheticDialogues**: "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset". ACL(2019) [[PDF]](https://aclanthology.org/P19-1534) [[data]](https://github.com/facebookresearch/EmpatheticDialogues)
+* **EmpatheticDialogues**: "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset". ACL(2019) [[PDF]](https://aclanthology.org/P19-1534) [[data]](https://github.com/facebookresearch/EmpatheticDialogues) :star::star::star:
 * **ECM**: "Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16455/15753) [[code]](https://github.com/tuxchow/ecm)
 
 
 ### Persona-Grounded Dialogue
-* **DuLeMon**: "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.05797) [[data]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon)
+* **DuLeMon**: "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.05797) [[data]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) :star::star::star:
 * **GME**: "Transferable Persona-Grounded Dialogues via Grounded Minimal Edits". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.07713) [[code]](https://github.com/thu-coai/grounded-minimal-edit)
 * **BoB**: "BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.14) [[code]](https://github.com/songhaoyu/BoB)
 * **PABST**: "Unsupervised Enrichment of Persona-grounded Dialog with Background Stories". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.08364) [[code]](https://github.com/majumderb/pabst)
 * **XPersona**: "XPersona: Evaluating Multilingual Personalized Chatbot". arXiv(2020) [[PDF]](https://arxiv.org/abs/2003.07568) [[data]](https://github.com/HLTCHKUST/Xpersona)
 * **PAML**: "Personalizing Dialogue Agents via Meta-Learning". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1542) [[code]](https://github.com/HLTCHKUST/PAML)
 * **PersonalDilaog**: "Personalized Dialogue Generation with Diversified Traits". arXiv(2019) [[PDF]](https://arxiv.org/abs/1901.09672) [[data]](https://github.com/silverriver/PersonalDilaog)
-* **PersonaChat**: "Personalizing Dialogue Agents: I have a dog, do you have pets too?" ACL(2018) [[PDF]](https://aclanthology.org/P18-1205) [[data]](https://github.com/facebookresearch/ParlAI/tree/main/projects/personachat)
+* **PersonaChat**: "Personalizing Dialogue Agents: I have a dog, do you have pets too?" ACL(2018) [[PDF]](https://aclanthology.org/P18-1205) [[data]](https://github.com/facebookresearch/ParlAI/tree/main/projects/personachat) :star::star::star::star:
 * **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0595.pdf)
 
 
