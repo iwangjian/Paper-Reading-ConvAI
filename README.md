@@ -8,11 +8,11 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Dialogue System](#dialogue-system)
   - [Prompting for Dialogue](#prompting-for-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
-  - [Target-Guided Dialogue](#target-guided-dialogue)
-  - [Knowledge-Grounded Dialogue](#knowledge-grounded-dialogue)
-  - [Task-Oriented Dialogue](#task-oriented-dialogue)
-  - [Emotional Dialogue](#emotional-dialogue)
-  - [Persona-Grounded Dialogue](#persona-grounded-dialogue)
+  - [Target-guided Dialogue](#target-guided-dialogue)
+  - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
+  - [Task-oriented Dialogue](#task-oriented-dialogue)
+  - [Emotion-aware Dialogue](#emotion-aware-dialogue)
+  - [Persona-grounded Dialogue](#persona-grounded-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
   - [Survey](#survey)
@@ -112,11 +112,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ## Dialogue System
 
 ### Prompting for Dialogue
+* **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
 * **FSB**: "Few-Shot Bot: Prompt-Based Learning for Dialogue Systems". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.08118) [[code]](https://github.com/andreamad8/FSB) :star::star::star:
 * **P-GDG**: "Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.06513)
 
 
-### Target-Guided Dialogue
+### Target-guided Dialogue
 * **CG-nAR**: "Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04084) [[code]](https://github.com/RowitZou/CG-nAR) :star::star::star:
 * **DiSCoL**: "DiSCoL: Toward Engaging Dialogue Systems through Conversational Line Guided Response Generation". NAACL(2021) [[PDF]](https://www.aclweb.org/anthology/2021.naacl-demos.4) [[code]](https://github.com/PlusLabNLP/Dialogue_System_Hackathon)
 * **OTTers**: "OTTers: One-turn Topic Transitions for Open-Domain Dialogue". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.13710) [[data]](https://github.com/karinseve/OTTers)
@@ -160,7 +161,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1203.pdf) [[code]](https://github.com/facebookresearch/ParlAI)
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
-### Knowledge-Grounded Dialogue
+### Knowledge-grounded Dialogue
 * **KAT-TSLF**: "A Three-Stage Learning Framework for Low-Resource Knowledge-Grounded Dialogue Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04096) [[code]](https://github.com/neukg/KAT-TSLF)
 * **DIALKI**: "DIALKI: Knowledge Identification in Conversational Systems through Dialogue-Document Contextualization". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.140) [[code]](https://github.com/ellenmellon/DIALKI)
 * **EARL**: "EARL: Informative Knowledge-Grounded Conversation Generation with Entity-Agnostic Representation Learning". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.184) [[code]](https://github.com/thu-coai/earl)
@@ -192,7 +193,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **GenDS**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1709.04264.pdf)
 
 
-### Task-Oriented Dialogue
+### Task-oriented Dialogue
 * **NS-Dial**: "An Interpretable Neuro-Symbolic Reasoning Framework for Task-Oriented Dialogue Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.05843) [[code]](https://github.com/shiquanyang/NS-Dial)
 * **GALAXY**: "GALAXY: A Generative Pre-trained Model for Task-Oriented Dialog with Semi-Supervised Learning and Explicit Policy Injection". AAAI(2022) [[PDF]](https://arxiv.org/abs/2111.14592) [[code]](https://github.com/siat-nlp/GALAXY)
 * **PPTOD**: "Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.14739) [[code]](https://github.com/awslabs/pptod)
@@ -228,18 +229,25 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[PDF]](https://www.aclweb.org/anthology/W17-5506) [[data]](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)
 
 
-### Emotional Dialogue
+### Emotion-aware Dialogue
+* **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
+* **RecEC**: "Improving Empathetic Response Generation by Recognizing Emotion Cause in Conversations". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.70) [[code]](https://github.com/A-Rain/EmpDialogue_RecEC)
+* **CoMAE**: "CoMAE: A Multi-factor Hierarchical Framework for Empathetic Response Generation". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.72) [[code]](https://github.com/chujiezheng/CoMAE)
 * **DAG-ERC**: "Directed Acyclic Graph Network for Conversational Emotion Recognition". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.12907) [[code]](https://github.com/shenwzh3/DAG-ERC)
 * **DialogueCRN**: "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01978) [[code]](https://github.com/zerohd4869/DialogueCRN)
 * **TodKAT**: "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01071) [[code]](https://github.com/something678/TodKat)
 * **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[data]](https://github.com/thu-coai/Emotional-Support-Conversation) :star::star::star:
+* **EmpDG**: "EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation". COLING(2020) [[PDF]](https://aclanthology.org/2020.coling-main.394) [[code]](https://github.com/qtli/EmpDG)
+* **MIME**: "MIME: MIMicking Emotions for Empathetic Response Generation". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2010.01454) [[code]](https://github.com/declare-lab/MIME)
 * **PEC**: "Towards Persona-Based Empathetic Conversational Models". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.531) [[code]](https://github.com/zhongpeixiang/PEC)
 * **MoEL**: "MoEL: Mixture of Empathetic Listeners". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1012) [[code]](https://github.com/HLTCHKUST/MoEL)
 * **EmpatheticDialogues**: "Towards Empathetic Open-domain Conversation Models: A New Benchmark and Dataset". ACL(2019) [[PDF]](https://aclanthology.org/P19-1534) [[data]](https://github.com/facebookresearch/EmpatheticDialogues) :star::star::star:
+* **EmoDS**: "Generating Responses with a Specific Emotion in Dialog". ACL(2019) [[PDF]](https://aclanthology.org/P19-1359)
+* **MojiTalk**: "MojiTalk: Generating Emotional Responses at Scale". ACL(2018) [[PDF]](https://aclanthology.org/P18-1104)
 * **ECM**: "Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16455/15753) [[code]](https://github.com/tuxchow/ecm)
 
 
-### Persona-Grounded Dialogue
+### Persona-grounded Dialogue
 * **DuLeMon**: "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.05797) [[data]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) :star::star::star:
 * **GME**: "Transferable Persona-Grounded Dialogues via Grounded Minimal Edits". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.07713) [[code]](https://github.com/thu-coai/grounded-minimal-edit)
 * **BoB**: "BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.14) [[code]](https://github.com/songhaoyu/BoB)
