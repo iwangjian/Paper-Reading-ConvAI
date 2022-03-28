@@ -102,6 +102,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
 * **GLM**: "Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.722) [[code]](https://github.com/taoshen58/glm-codes)
 * **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
+* **K-BERT**: "K-BERT: Enabling Language Representation with Knowledge Graph". AAAI(2020) [[PDF]](https://mx.aaai.org/ojs/index.php/AAAI/article/view/5681) [[code]](https://github.com/autoliuweijie/K-BERT) :star::star::star:
 * **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](https://arxiv.org/abs/2010.11967)
 * **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](https://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
 * **COMET**: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction". ACL(2019) [[PDF]](https://arxiv.org/abs/1906.05317) [[code]](https://github.com/atcbosselut/comet-commonsense) :star::star::star:
