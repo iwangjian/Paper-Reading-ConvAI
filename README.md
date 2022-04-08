@@ -3,7 +3,6 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Pre-trained Language Models](#pre-trained-language-models)
-- [Natural Language Generation](#natural-language-generation)
 - [Knowledge Representation Learning](#knowledge-representation-learning)
 - [Dialogue System](#dialogue-system)
   - [Prompting for Dialogue](#prompting-for-dialogue)
@@ -16,6 +15,9 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
   - [Survey](#survey)
+- [Natural Language Generation](#natural-language-generation)
+  - [Text Planning](#text-planning)
+  - [Language Generation](#language-generation)
 - [Others](#others)
   - [Text Summarization](#text-summarization)
   - [Machine Translation](#machine-translation)
@@ -28,7 +30,6 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **Data Augmentation**: "A Survey of Data Augmentation Approaches for NLP". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2105.03075)
 * **Survey of Transformers**: "A Survey of Transformers". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.04554) :star::star::star:
 * **Graphormer**: "Do Transformers Really Perform Bad for Graph Representation?". NeurIPS(2021) [[PDF]](https://arxiv.org/abs/2106.05234) [[code]](https://github.com/Microsoft/Graphormer)
-* **HGT**: "Heterogeneous Graph Transformer". WWW(2020) [[PDF]](https://arxiv.org/abs/2003.01332) [[code]](https://github.com/acbull/pyHGT)
 * **GAT**: "Graph Attention Networks". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1710.10903.pdf) [[code-tf]](https://github.com/PetarV-/GAT) [[code-py]](https://github.com/Diego999/pyGAT)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
 * **Transformer**: "Attention is All you Need". NeurIPS(2017) [[PDF]](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
@@ -69,27 +70,6 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **XLNet**: "XLNet: Generalized Autoregressive Pretraining for Language Understanding". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding.pdf) [[code]](https://github.com/zihangdai/xlnet)
 * **XLM**: "Cross-lingual Language Model Pretraining". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf) [[code]](https://github.com/facebookresearch/XLM)
 * **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert) :star::star::star::star::star:
-
-
-## Natural Language Generation
-* **Lattice Generation**: "Massive-scale Decoding for Text Generation using Lattices". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
-* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
-* **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339)
-* **s2s-ft**: "s2s-ft: Fine-Tuning Pretrained Transformer Encoders for Sequence-to-Sequence Learning". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.13640) [[code]](https://github.com/microsoft/unilm/tree/master/s2s-ft) :star::star::star:
-* **EBM**: "Exposure Bias versus Self-Recovery: Are Distortions Really Incremental for Autoregressive Text Generation?". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.415)
-* **DiscoDVT**: "DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational Transformer". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2110.05999) [[code]](https://github.com/cdjhz/DiscoDVT)
-* **DYPLOC**: "DYPLOC: Dynamic Planning of Content Using Mixed Language Models for Text Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00791) [[code]](https://github.com/XinyuHua/dyploc-acl2021)
-* **Embedding-Transfer**: "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.06125) [[code]](https://github.com/DeepLearnXMU/embedding-transfer)
-* **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](https://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
-* **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
-* **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
-* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
-* **Distill-BERT-Textgen**: "Distilling Knowledge Learned in BERT for Text Generation". ACL(2020) [[PDF]](https://arxiv.org/abs/1911.03829) [[code]](https://github.com/ChenRocks/Distill-BERT-Textgen)
-* **Repetition-Problem-NLG**: "A Theoretical Analysis of the Repetition Problem in Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.14660.pdf) [[code]](https://github.com/fuzihaofzh/repetition-problem-nlg)
-* **CoMMA**: "A Study of Non-autoregressive Model for Sequence Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.15.pdf)
-* **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
-* **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
-* **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 
 
 ## Knowledge Representation Learning
@@ -139,10 +119,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **DuRecDial2.0**: "DuRecDial 2.0: A Bilingual Parallel Corpus for Conversational Recommendation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08877) [[code]](https://github.com/liuzeming01/DuRecDial)
 * **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[PDF]](https://arxiv.org/pdf/2005.03954.pdf) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star::star:
 * **INSPIRED**: "INSPIRED: Toward Sociable Recommendation Dialog Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.654.pdf) [[data]](https://github.com/sweetpeach/Inspired)
+* **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1203.pdf) [[code]](https://github.com/facebookresearch/ParlAI)
 * **CRS-Survey**: "A Survey on Conversational Recommender Systems". ACM Computing Surveys(2021) [[PDF]](https://arxiv.org/abs/2004.00646)
 * **CRS-Survey**: "Advances and Challenges in Conversational Recommender Systems: A Survey
 ". arXiv(2021) [[PDF]](https://arxiv.org/abs/2101.09459)
 * **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.00939.pdf) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
+* **C2-CRS**: "C2-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System". WSDM(2022) [[PDF]](https://arxiv.org/abs/2201.02732) [[code]](https://github.com/RUCAIBox/WSDM2022-C2CRS)
 * **MESE**: "Improving Conversational Recommendation Systems' Quality with Context-Aware Item Meta Information". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08140) [[code]](https://github.com/by2299/MESE)
 * **BotPlay**: "Self-Supervised Bot Play for Conversational Recommendation with Justifications". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.05197)
 * **RID**: "Finetuning Large-Scale Pre-trained Language Models for Conversational Recommendation with Knowledge Graph". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.07477) [[code]](https://github.com/Lingzhi-WANG/PLM-BasedCRS)
@@ -152,17 +134,15 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
 * **KECRS**: "KECRS: Towards Knowledge-Enriched Conversational Recommendation System". arXiv(2021) [[PDF]](https://arxiv.org/abs/2105.08261)
 * **FPAN**: "Adapting User Preference to Online Feedback in Multi-round Conversational Recommendation". WSDM(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3437963.3441791) [[code]](https://github.com/xxkkrr/FPAN)
-* **ConTS**: "Seamlessly Unifying Attributes and Items: Conversational Recommendation for Cold-Start Users". TOIS(2021) [[PDF]](https://arxiv.org/abs/2005.12979) [[code]](https://github.com/xiwenchao/conTS-TOIS-2021)
 * **UNICORN**: "Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning". SIGIR(2021) [[PDF]](https://arxiv.org/abs/2105.09710) [[code]](https://github.com/dengyang17/unicorn)
-* **CRSAL**: "CRSAL: Conversational Recommender Systems with Adversarial Learning". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3394592)
 * **KGSF**: "Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion". KDD(2020) [[PDF]](https://arxiv.org/pdf/2007.04032.pdf) [[code]](https://github.com/RUCAIBox/KGSF)
 * **CPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[PDF]](https://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
 * **EAR**: "Estimation-Action-Reflection: Towards Deep Interaction Between Conversational and Recommender Systems". WSDM(2020) [[PDF]](https://arxiv.org/abs/2002.09102) [[code]](https://ear-conv-rec.github.io/)
 * **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1189.pdf) [[code]](https://github.com/THUDM/KBRD)
-* **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1203.pdf) [[code]](https://github.com/facebookresearch/ParlAI)
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
+* **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
 * **KAT-TSLF**: "A Three-Stage Learning Framework for Low-Resource Knowledge-Grounded Dialogue Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04096) [[code]](https://github.com/neukg/KAT-TSLF)
 * **DIALKI**: "DIALKI: Knowledge Identification in Conversational Systems through Dialogue-Document Contextualization". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.140) [[code]](https://github.com/ellenmellon/DIALKI)
@@ -316,6 +296,41 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **Survey of Open-domain Dialogue**: "Challenges in Building Intelligent Open-domain Dialog Systems". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3383123) :star::star::star::star:
 * **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
 * **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
+
+
+
+## Natural Language Generation
+
+### Text Planning
+* **Time Control**: "Language Modeling via Stochastic Processes". ICLR(2022) [[PDF]](https://arxiv.org/abs/2203.11370) [[code]](https://github.com/rosewang2008/language_modeling_via_stochastic_processes) :star::star::star::star::star:
+* **PLANET**: "PLANET: Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2203.09100)
+* **CETP**: "Knowledge-based Review Generation by Coherence Enhanced Text Planning". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462865) :star::star::star::star:
+* **PlanGen**: "Plan-then-Generate: Controlled Data-to-Text Generation via Planning". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.76) [[code]](https://github.com/yxuansu/PlanGen)
+* **DYPLOC**: "DYPLOC: Dynamic Planning of Content Using Mixed Language Models for Text Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00791) [[code]](https://github.com/XinyuHua/dyploc-acl2021)
+* **PAIR**: "PAIR: Planning and Iterative Refinement in Pre-trained Transformers for Long Text Generation". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.57) [[code]](https://github.com/XinyuHua/pair-emnlp2020)
+* **SentPlan**: "Sentence-Level Content Planning and Style Specification for Neural Text Generation". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1055) [[code]](https://github.com/XinyuHua/textgen-emnlp19)
+* **PHVM**: "Long and Diverse Text Generation with Planning-based Hierarchical Variational Model". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1321) [[code]](https://github.com/ZhihongShao/Planning-based-Hierarchical-Variational-Model)
+
+
+### Language Generation
+* **Latent-GLAT**: "*latent*-GLAT: Glancing at Latent Variables for Parallel Text Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02030) [[code]](https://github.com/baoy-nlp/Latent-GLAT)
+* **Lattice Generation**: "Massive-scale Decoding for Text Generation using Lattices". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
+* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
+* **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339)
+* **s2s-ft**: "s2s-ft: Fine-Tuning Pretrained Transformer Encoders for Sequence-to-Sequence Learning". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.13640) [[code]](https://github.com/microsoft/unilm/tree/master/s2s-ft) :star::star::star:
+* **EBM**: "Exposure Bias versus Self-Recovery: Are Distortions Really Incremental for Autoregressive Text Generation?". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.415)
+* **DiscoDVT**: "DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational Transformer". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2110.05999) [[code]](https://github.com/cdjhz/DiscoDVT)
+* **Embedding-Transfer**: "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.06125) [[code]](https://github.com/DeepLearnXMU/embedding-transfer)
+* **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](https://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
+* **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
+* **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
+* **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
+* **Distill-BERT-Textgen**: "Distilling Knowledge Learned in BERT for Text Generation". ACL(2020) [[PDF]](https://arxiv.org/abs/1911.03829) [[code]](https://github.com/ChenRocks/Distill-BERT-Textgen)
+* **Repetition-Problem-NLG**: "A Theoretical Analysis of the Repetition Problem in Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.14660.pdf) [[code]](https://github.com/fuzihaofzh/repetition-problem-nlg)
+* **CoMMA**: "A Study of Non-autoregressive Model for Sequence Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.15.pdf)
+* **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
+* **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
+* **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 
 
 
