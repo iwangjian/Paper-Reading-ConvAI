@@ -5,7 +5,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Pre-trained Language Models](#pre-trained-language-models)
 - [Knowledge Representation Learning](#knowledge-representation-learning)
 - [Dialogue System](#dialogue-system)
-  - [Prompting for Dialogue](#prompting-for-dialogue)
+  - [Survey](#survey)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Target-guided Dialogue](#target-guided-dialogue)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
@@ -14,7 +14,6 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Persona-grounded Dialogue](#persona-grounded-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
-  - [Survey](#survey)
 - [Natural Language Generation](#natural-language-generation)
   - [Text Planning](#text-planning)
   - [Language Generation](#language-generation)
@@ -92,10 +91,11 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 ## Dialogue System
 
-### Prompting for Dialogue
-* **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
-* **FSB**: "Few-Shot Bot: Prompt-Based Learning for Dialogue Systems". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.08118) [[code]](https://github.com/andreamad8/FSB) :star::star::star:
-* **P-GDG**: "Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.06513)
+### Survey
+* **Survey of Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](https://arxiv.org/abs/2105.04387) :star::star::star::star:
+* **Survey of Open-domain Dialogue**: "Challenges in Building Intelligent Open-domain Dialog Systems". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3383123) :star::star::star::star:
+* **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
+* **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
 
 ### Target-guided Dialogue
@@ -142,8 +142,11 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
+* **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
 * **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
+* **FSB**: "Few-Shot Bot: Prompt-Based Learning for Dialogue Systems". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.08118) [[code]](https://github.com/andreamad8/FSB) :star::star::star:
+* **P-GDG**: "Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.06513)
 * **KAT-TSLF**: "A Three-Stage Learning Framework for Low-Resource Knowledge-Grounded Dialogue Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04096) [[code]](https://github.com/neukg/KAT-TSLF)
 * **DIALKI**: "DIALKI: Knowledge Identification in Conversational Systems through Dialogue-Document Contextualization". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.140) [[code]](https://github.com/ellenmellon/DIALKI)
 * **EARL**: "EARL: Informative Knowledge-Grounded Conversation Generation with Entity-Agnostic Representation Learning". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.184) [[code]](https://github.com/thu-coai/earl)
@@ -289,13 +292,6 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **uBLEU**: "uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-srw.27) [[code]](https://github.com/YumaTsuta/upsilon_bleu)
 * **USR**: "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.64) [[code]](https://github.com/Shikib/usr)
 * **ADVMT**: "One `Ruler` for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0616.pdf)
-
-
-### Survey
-* **Survey of Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](https://arxiv.org/abs/2105.04387) :star::star::star::star:
-* **Survey of Open-domain Dialogue**: "Challenges in Building Intelligent Open-domain Dialog Systems". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3383123) :star::star::star::star:
-* **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
-* **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
 
 
