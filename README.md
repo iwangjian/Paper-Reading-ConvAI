@@ -15,6 +15,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
 - [Natural Language Generation](#natural-language-generation)
+  - [Survey for NLG](#survey-for-nlg)
   - [Text Planning](#text-planning)
   - [Language Generation](#language-generation)
 - [Others](#others)
@@ -297,6 +298,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ## Natural Language Generation
 
+### Survey for NLG
+* **CTG**: "A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.05337)
+* **RTG**: "A Survey on Retrieval-Augmented Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.01110)
+* **Evaluation**: "A Survey of Evaluation Metrics Used for NLG Systems". arXiv(2020) [[PDF]](https://arxiv.org/abs/2008.12009)
+
+
 ### Text Planning
 * **Time Control**: "Language Modeling via Stochastic Processes". ICLR(2022) [[PDF]](https://arxiv.org/abs/2203.11370) [[code]](https://github.com/rosewang2008/language_modeling_via_stochastic_processes) :star::star::star::star::star:
 * **PLANET**: "PLANET: Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2203.09100)
@@ -314,6 +321,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
 * **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339)
 * **s2s-ft**: "s2s-ft: Fine-Tuning Pretrained Transformer Encoders for Sequence-to-Sequence Learning". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.13640) [[code]](https://github.com/microsoft/unilm/tree/master/s2s-ft) :star::star::star:
+* **CLAPS**: "Contrastive Learning with Adversarial Perturbations for Conditional Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.07280) [[code]](https://github.com/seanie12/CLAPS) :star::star::star:
 * **EBM**: "Exposure Bias versus Self-Recovery: Are Distortions Really Incremental for Autoregressive Text Generation?". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.415)
 * **DiscoDVT**: "DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational Transformer". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2110.05999) [[code]](https://github.com/cdjhz/DiscoDVT)
 * **Embedding-Transfer**: "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.06125) [[code]](https://github.com/DeepLearnXMU/embedding-transfer)
