@@ -143,14 +143,16 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
-* **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
 * **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
+* **KSAM**: "KSAM: Infusing Multi-Source Knowledge into Dialogue Generation via Knowledge Source Aware Multi-Head Decoding". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.30)
+* **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
 * **FSB**: "Few-Shot Bot: Prompt-Based Learning for Dialogue Systems". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.08118) [[code]](https://github.com/andreamad8/FSB) :star::star::star:
 * **P-GDG**: "Exploring Prompt-based Few-shot Learning for Grounded Dialog Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.06513)
 * **KAT-TSLF**: "A Three-Stage Learning Framework for Low-Resource Knowledge-Grounded Dialogue Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04096) [[code]](https://github.com/neukg/KAT-TSLF)
 * **DIALKI**: "DIALKI: Knowledge Identification in Conversational Systems through Dialogue-Document Contextualization". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.140) [[code]](https://github.com/ellenmellon/DIALKI)
 * **SKT-KG**: "Augmenting Knowledge-grounded Conversations with Sequential Knowledge Transition". NAACL(2021) [[PDF]](https://www.aclweb.org/anthology/2021.naacl-main.446)
+* **MSKE**: "More is Better: Enhancing Open-Domain Dialogue Generation via Multi-Source Heterogeneous Knowledge". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.175) [[code]](https://github.com/pku-sixing/EMNLP2021-MSKE_Dialog)
 * **EARL**: "EARL: Informative Knowledge-Grounded Conversation Generation with Entity-Agnostic Representation Learning". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.184) [[code]](https://github.com/thu-coai/earl)
 * **SECE**: "Space Efficient Context Encoding for Non-Task-Oriented Dialogue Generation with Graph Attention Transformer". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.546) [[code]](https://github.com/fabiangal/space-efficient-context-encoding-acl21) :star::star::star:
 * **MIKe**: "Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462824) [[code]](https://github.com/ChuanMeng/MIKe)
@@ -161,7 +163,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **CCN**: "Cross Copy Network for Dialogue Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.149) [[code]](https://github.com/jichangzhen/CCN)
 * **PIPM**: "Bridging the Gap between Prior and Posterior Knowledge Selection for Knowledge-Grounded Dialogue Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.275)
 * **ConceptFlow**: "Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.184/) [[code]](https://github.com/thunlp/ConceptFlow) :star::star::star::star:
-* **ConKADI**: "Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.515) [[code]](https://github.com/pku-orangecat/ACL2020-ConKADI) :star::star::star::star:
+* **ConKADI**: "Diverse and Informative Dialogue Generation with Context-Specific Commonsense Knowledge Awareness". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.515) [[code]](https://github.com/pku-sixing/ACL2020-ConKADI) :star::star::star:
 * **KIC**: "Generating Informative Conversational Response using Recurrent Knowledge-Interaction and Knowledge-Copy". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.6)
 * **SKT**: "Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=Hke0K1HKwr) [[code]](https://github.com/bckim92/sequential-knowledge-transformer) :star::star::star:
 * **KdConv**: "KdConv: A Chinese Multi-domain Dialogue Dataset Towards Multi-turn Knowledge-driven Conversation". ACL(2020) [[PDF]](https://arxiv.org/pdf/2004.04100.pdf) [[data]](https://github.com/thu-coai/KdConv)
@@ -249,7 +251,9 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Open-domain Dialogue
-* **DialoFlow**: "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.02227) [[code]](https://github.com/ictnlp/DialoFlow) :star::star::star:
+* **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[PDF]](https://aclanthology.org/2022.nlp4convai-1.13)
+* **ProphetChat**: "ProphetChat: Enhancing Dialogue Generation with Simulation of Future Conversation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.68)  :star::star::star:
+* **DialoFlow**: "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.02227) [[code]](https://github.com/ictnlp/DialoFlow)
 * **DialogBERT**: "DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.01775.pdf)
 * **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
 * **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star:
@@ -288,9 +292,13 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
+* **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe) 
 * **CTC-Score**: "Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.06379) [[code]](https://github.com/tanyuqian/ctc-gen-eval)
+* **QuantiDCE**: "Towards Quantifiable Dialogue Coherence Evaluation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00507) [[code]](https://github.com/James-Yip/QuantiDCE)
+* **DynaEval**: "DynaEval: Unifying Turn and Dialogue Level Evaluation". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.441) [[code]](https://github.com/e0397123/DynaEval)
 * **Spot-the-Bot**: "Spot The Bot: A Robust and Efficient Framework for the Evaluation of Conversational Dialogue Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.326) [[code]](https://github.com/jderiu/spot-the-bot-code)
 * **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
+* **Coherence**: "Dialogue Coherence Assessment Without Explicit Dialogue Act Labels". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.133) [[code]](https://github.com/UKPLab/acl2020-dialogue-coherence-assessment)
 * **GRADE**: "GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.742) [[code]](https://github.com/li3cmz/GRADE)
 * **uBLEU**: "uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-srw.27) [[code]](https://github.com/YumaTsuta/upsilon_bleu)
 * **USR**: "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.64) [[code]](https://github.com/Shikib/usr)
@@ -312,6 +320,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **CETP**: "Knowledge-based Review Generation by Coherence Enhanced Text Planning". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462865) :star::star::star::star:
 * **PlanGen**: "Plan-then-Generate: Controlled Data-to-Text Generation via Planning". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.76) [[code]](https://github.com/yxuansu/PlanGen)
 * **DYPLOC**: "DYPLOC: Dynamic Planning of Content Using Mixed Language Models for Text Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00791) [[code]](https://github.com/XinyuHua/dyploc-acl2021)
+* **Tree-PLAN**: "Infobox-to-text Generation with Tree-like Planning based Attention Network". IJCAI(2020) [[PDF]](https://www.ijcai.org/proceedings/2020/522)
 * **PAIR**: "PAIR: Planning and Iterative Refinement in Pre-trained Transformers for Long Text Generation". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.57) [[code]](https://github.com/XinyuHua/pair-emnlp2020)
 * **SentPlan**: "Sentence-Level Content Planning and Style Specification for Neural Text Generation". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1055) [[code]](https://github.com/XinyuHua/textgen-emnlp19)
 * **PHVM**: "Long and Diverse Text Generation with Planning-based Hierarchical Variational Model". EMNLP(2019) [[PDF]](https://www.aclweb.org/anthology/D19-1321) [[code]](https://github.com/ZhihongShao/Planning-based-Hierarchical-Variational-Model)
