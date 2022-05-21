@@ -100,6 +100,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Target-guided Dialogue
+* **CODA**: "Target-Guided Dialogue Response Generation Using Commonsense and Data Augmentation". NAACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2205.09314) [[code]](https://github.com/prakharguptaz/target-guided-dialogue-coda)
 * **CG-nAR**: "Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04084) [[code]](https://github.com/RowitZou/CG-nAR) :star::star::star:
 * **DiSCoL**: "DiSCoL: Toward Engaging Dialogue Systems through Conversational Line Guided Response Generation". NAACL(2021) [[PDF]](https://www.aclweb.org/anthology/2021.naacl-demos.4) [[code]](https://github.com/PlusLabNLP/Dialogue_System_Hackathon)
 * **OTTers**: "OTTers: One-turn Topic Transitions for Open-Domain Dialogue". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.13710) [[data]](https://github.com/karinseve/OTTers)
