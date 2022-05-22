@@ -28,7 +28,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 
 ## Deep Learning in NLP
 * **Data Augmentation**: "A Survey of Data Augmentation Approaches for NLP". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2105.03075)
-* **Survey of Transformers**: "A Survey of Transformers". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.04554) :star::star::star:
+* **Survey of Transformers**: "A Survey of Transformers". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.04554)
 * **Graphormer**: "Do Transformers Really Perform Bad for Graph Representation?". NeurIPS(2021) [[PDF]](https://arxiv.org/abs/2106.05234) [[code]](https://github.com/Microsoft/Graphormer)
 * **GAT**: "Graph Attention Networks". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1710.10903.pdf) [[code-tf]](https://github.com/PetarV-/GAT) [[code-py]](https://github.com/Diego999/pyGAT)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
@@ -73,9 +73,9 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ## Knowledge Representation Learning
-* **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](https://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE) :star::star::star:
-* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA)
-* **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT)
+* **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](https://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE)
+* **FILM**: "Adaptable and Interpretable Neural Memory Over Symbolic Knowledge". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.288)
+* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA) :star::star::star:
 * **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
 * **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](https://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
 * **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
@@ -318,6 +318,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Text Planning
+* **LaMemo**: "LaMemo: Language Modeling with Look-Ahead Memory". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.07341) [[code]](https://github.com/thu-coai/LaMemo)
 * **Time Control**: "Language Modeling via Stochastic Processes". ICLR(2022) [[PDF]](https://arxiv.org/abs/2203.11370) [[code]](https://github.com/rosewang2008/language_modeling_via_stochastic_processes) :star::star::star::star::star:
 * **PLANET**: "PLANET: Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2203.09100)
 * **CETP**: "Knowledge-based Review Generation by Coherence Enhanced Text Planning". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462865) :star::star::star::star:
@@ -340,6 +341,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **CLAPS**: "Contrastive Learning with Adversarial Perturbations for Conditional Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.07280) [[code]](https://github.com/seanie12/CLAPS) :star::star::star::star:
 * **EBM**: "Exposure Bias versus Self-Recovery: Are Distortions Really Incremental for Autoregressive Text Generation?". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.415)
 * **DiscoDVT**: "DiscoDVT: Generating Long Text with Discourse-Aware Discrete Variational Transformer". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2110.05999) [[code]](https://github.com/cdjhz/DiscoDVT)
+* **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT)
 * **Embedding-Transfer**: "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.06125) [[code]](https://github.com/DeepLearnXMU/embedding-transfer)
 * **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](https://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
 * **RAG**: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks". NeurIPS(2020) [[PDF]](https://arxiv.org/abs/2005.11401) [[code]](https://github.com/huggingface/transformers/blob/main/examples/research_projects/rag/README.md) :star::star::star::star:
@@ -361,20 +363,18 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **BERTSum**: "Fine-tune BERT for Extractive Summarization". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1903.10318.pdf) [[code]](https://github.com/nlpyang/BertSum)
 * **QASumm**: "Guiding Extractive Summarization with Question-Answering Rewards". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1264) [[code]](https://github.com/ucfnlp/summ_qa_rewards)
 * **Re^3Sum**: "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1015) [[code]](https://www4.comp.polyu.edu.hk/~cszqcao/data/IRSum_Resource.zip)
-* **NeuSum**: "Neural Document Summarization by Jointly Learning to Score and Select Sentences". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1061) 
 * **rnn-ext+abs+RL+rerank**: "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1063) [[Notes]](https://www.aclweb.org/anthology/attachments/P18-1063.Notes.pdf) [[code]](https://github.com/ChenRocks/fast_abs_rl) :star::star::star::star::star:
 * **Seq2Seq+CGU**: "Global Encoding for Abstractive Summarization". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-2027) [[code]](https://github.com/lancopku/Global-Encoding)
 * **ML+RL**: "A Deep Reinforced Model for Abstractive Summarization". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1705.04304.pdf)
 * **T-ConvS2S**: "Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1206) [[code]](https://github.com/shashiongithub/XSum)
-* **RL-Topic-ConvS2S**: "A reinforced topic-aware convolutional sequence-to-sequence model for abstractive text summarization". IJCAI (2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0619.pdf)
-* **GANsum**: "Generative Adversarial Network for Abstractive Text Summarization". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16238/16492)
 * **FTSum**: "Faithful to the Original: Fact Aware Neural Abstractive Summarization". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16121/16007)
 * **PGN**: "Get To The Point: Summarization with Pointer-Generator Networks". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1099) [[code]](https://github.com/abisee/pointer-generator) :star::star::star::star::star:
+* **RAS-LSTM**: "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks". NAACL(2016) [[PDF]](https://www.aclweb.org/anthology/N16-1012) [[code]](https://github.com/facebookarchive/NAMAS)
 * **ABS/ABS+**: "A Neural Attention Model for Abstractive Sentence Summarization". EMNLP(2015) [[PDF]](https://www.aclweb.org/anthology/D15-1044)
-* **RAS-Elman/RAS-LSTM**: "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks". NAACL(2016) [[PDF]](https://www.aclweb.org/anthology/N16-1012) [[code]](https://github.com/facebookarchive/NAMAS)
 
 
 ### Machine Translation
+* **Dual-Path**: "Modeling Dual Read/Write Paths for Simultaneous Machine Translation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09163) [[code]](https://github.com/ictnlp/Dual-Path) :star::star::star:
 * **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
 * **OR-NMT**: "Bridging the Gap between Training and Inference for Neural Machine Translation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1426) [[code]](https://github.com/ictnlp/OR-NMT) :star::star::star:
 * **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
@@ -384,12 +384,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Question Answering
+* **DPR**: "Dense Passage Retrieval for Open-Domain Question Answering". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.550.pdf) [[code]](https://github.com/facebookresearch/DPR) :star::star::star::star:
 * **FlowQA**: "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1810.06683.pdf) [[code]](https://github.com/momohuang/FlowQA) :star::star::star::star:
-*  **SDNet**: "SDNet: Contextualized Attention-based Deep Network for Conversational Question Answering". arXiv(2018) [[PDF]](https://arxiv.org/pdf/1812.03593.pdf) [[code]](https://github.com/microsoft/SDNet)
 * **CFC**: "Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.00603.pdf)
 * **MTQA**: "Multi-Task Learning with Multi-View Attention for Answer Selection and Knowledge Base Question Answering". AAAI(2019) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/4593) [[code]](https://github.com/dengyang17/MTQA)
 * **MacNet**: "MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/7848-macnet-transferring-knowledge-from-machine-comprehension-to-sequence-to-sequence-models.pdf)
-* **CQG-KBQA**: "Knowledge Base Question Answering via Encoding of Complex Query Graphs". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1242) [[code]](https://202.120.38.146/CompQA/) :star::star::star::star:
+* **CQG-KBQA**: "Knowledge Base Question Answering via Encoding of Complex Query Graphs". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1242) [[code]](https://202.120.38.146/CompQA/) :star::star::star:
 * **HR-BiLSTM**: "Improved Neural Relation Detection for Knowledge Base Question Answering". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1053)
 * **KBQA-CGK**: "An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1021)
 * **KVMem**: "Key-Value Memory Networks for Directly Reading Documents". EMNLP(2016) [[PDF]](https://www.aclweb.org/anthology/D16-1147)
