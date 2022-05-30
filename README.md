@@ -332,7 +332,8 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ### Language Generation
 * **CT-Loss**: "A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.02517) [[code]](https://github.com/shaojiejiang/ct-loss)
-* **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) :star::star::star::star:
+* **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) :star::star::star:
+* **Two-level-CL**: "Keywords and Instances: A Hierarchical Contrastive Learning Framework Unifying Hybrid Granularities for Text Generation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.304) :star::star::star:
 * **Latent-GLAT**: "*latent*-GLAT: Glancing at Latent Variables for Parallel Text Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02030) [[code]](https://github.com/baoy-nlp/Latent-GLAT)
 * **Lattice Generation**: "Massive-scale Decoding for Text Generation using Lattices". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
 * **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
