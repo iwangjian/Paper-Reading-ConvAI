@@ -331,9 +331,10 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Language Generation
+* **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
 * **CT-Loss**: "A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.02517) [[code]](https://github.com/shaojiejiang/ct-loss)
-* **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) :star::star::star:
-* **Two-level-CL**: "Keywords and Instances: A Hierarchical Contrastive Learning Framework Unifying Hybrid Granularities for Text Generation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.304) :star::star::star:
+* **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) 
+* **Two-level-CL**: "Keywords and Instances: A Hierarchical Contrastive Learning Framework Unifying Hybrid Granularities for Text Generation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.304)
 * **Latent-GLAT**: "*latent*-GLAT: Glancing at Latent Variables for Parallel Text Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02030) [[code]](https://github.com/baoy-nlp/Latent-GLAT)
 * **Lattice Generation**: "Massive-scale Decoding for Text Generation using Lattices". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
 * **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
@@ -345,9 +346,10 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **JointGT**: "JointGT: Graph-Text Joint Representation Learning for Text Generation from Knowledge Graphs". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.223) [[code]](https://github.com/thu-coai/JointGT)
 * **Embedding-Transfer**: "Bridging Subword Gaps in Pretrain-Finetune Paradigm for Natural Language Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.06125) [[code]](https://github.com/DeepLearnXMU/embedding-transfer)
 * **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](https://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
+* **ENCONTER**: "ENCONTER: Entity Constrained Progressive Sequence Generation via Insertion-based Transformer". EACL(2021) [[PDF]](https://arxiv.org/abs/2103.09548) [[code]](https://github.com/LARC-CMU-SMU/Enconter)
+* **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
 * **RAG**: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks". NeurIPS(2020) [[PDF]](https://arxiv.org/abs/2005.11401) [[code]](https://github.com/huggingface/transformers/blob/main/examples/research_projects/rag/README.md) :star::star::star::star:
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
-* **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
 * **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
 * **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
 * **Distill-BERT-Textgen**: "Distilling Knowledge Learned in BERT for Text Generation". ACL(2020) [[PDF]](https://arxiv.org/abs/1911.03829) [[code]](https://github.com/ChenRocks/Distill-BERT-Textgen)
