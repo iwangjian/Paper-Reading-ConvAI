@@ -296,7 +296,9 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
-* **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe) 
+* **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe)
+* **EAD**: "Rethinking and Refining the Distinct Metric". ACL(2022) [[PDF]](https://arxiv.org/abs/2202.13587) [[code]](https://github.com/lsy641/Expectation-Adjusted-Distinct)
+* **DiscoScore**: "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.11176) [[code]](https://github.com/AIPHES/DiscoScore)
 * **CTC-Score**: "Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.06379) [[code]](https://github.com/tanyuqian/ctc-gen-eval)
 * **QuantiDCE**: "Towards Quantifiable Dialogue Coherence Evaluation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00507) [[code]](https://github.com/James-Yip/QuantiDCE)
 * **DynaEval**: "DynaEval: Unifying Turn and Dialogue Level Evaluation". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.441) [[code]](https://github.com/e0397123/DynaEval)
