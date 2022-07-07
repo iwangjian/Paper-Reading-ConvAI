@@ -145,6 +145,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
+* **DTR**: "Stylized Knowledge-Grounded Dialogue Generation via Disentangled Template Rewriting". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.05610) [[code]](https://github.com/victorsungo/SKDG-DTR)
 * **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
 * **KSAM**: "KSAM: Infusing Multi-Source Knowledge into Dialogue Generation via Knowledge Source Aware Multi-Head Decoding". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.30)
@@ -335,6 +336,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Generation (Models and Techniques)
+* **PTG**: "Learning to Transfer Prompts for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.01543) [[code]](https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation)
 * **EISL**: "Don't Take It Literally: An Edit-Invariant Sequence Loss for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2106.15078) [[code]](https://github.com/guangyliu/EISL)
 * **CT-Loss**: "A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.02517) [[code]](https://github.com/shaojiejiang/ct-loss)
 * **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) 
@@ -366,11 +368,13 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
 * **Lattice**: "Massive-scale Decoding for Text Generation using Lattices". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
 * **KID**: "Knowledge Infused Decoding". ICLR(2022) [[PDF]](https://arxiv.org/abs/2204.03084) [[code]](https://github.com/microsoft/kid)
-* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08726)
+* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.08726)
 * **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339)
 * **DeLorean**: "Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.58) [[code]](https://github.com/qkaren/unsup_gen_for_cms_reasoning)
 * **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **Disjunctive Constraints**: "Guided Generation of Cause and Effect". IJCAI(2020) [[PDF]](https://arxiv.org/abs/2107.09846) [[code-huggingface]](https://huggingface.co/blog/constrained-beam-search)
+* **CGMH**: "CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling". AAAI(2019) [[PDF]](https://arxiv.org/abs/1811.10996) [[code]](https://github.com/NingMiao/CGMH)
+* **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[PDF]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
 * **DBA**: "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation". NAACL(2018) [[PDF]](https://aclanthology.org/N18-1119) [[code-official]](https://github.com/awslabs/sockeye) [[code-fairseq]](https://github.com/facebookresearch/fairseq/blob/main/examples/constrained_decoding/README.md)
 * **GBS**: "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search". ACL(2017) [[PDF]](https://aclanthology.org/P17-1141) [[code]](https://github.com/chrishokamp/constrained_decoding)
 
