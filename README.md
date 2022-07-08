@@ -6,8 +6,8 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Knowledge Representation Learning](#knowledge-representation-learning)
 - [Dialogue System](#dialogue-system)
   - [Survey](#survey)
-  - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Target-guided Dialogue](#target-guided-dialogue)
+  - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
   - [Task-oriented Dialogue](#task-oriented-dialogue)
   - [Emotion-aware Dialogue](#emotion-aware-dialogue)
@@ -128,11 +128,11 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **CRS-Survey**: "Advances and Challenges in Conversational Recommender Systems: A Survey
 ". arXiv(2021) [[PDF]](https://arxiv.org/abs/2101.09459)
 * **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[PDF]](https://arxiv.org/pdf/2101.00939.pdf) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
+* **MESE**: "Improving Conversational Recommendation Systems' Quality with Context-Aware Item Meta Information". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.08140) [[code]](https://github.com/by2299/MESE)
 * **C2-CRS**: "C2-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System". WSDM(2022) [[PDF]](https://arxiv.org/abs/2201.02732) [[code]](https://github.com/RUCAIBox/WSDM2022-C2CRS)
-* **MESE**: "Improving Conversational Recommendation Systems' Quality with Context-Aware Item Meta Information". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.08140) [[code]](https://github.com/by2299/MESE)
 * **BotPlay**: "Self-Supervised Bot Play for Conversational Recommendation with Justifications". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.05197)
 * **RID**: "Finetuning Large-Scale Pre-trained Language Models for Conversational Recommendation with Knowledge Graph". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.07477) [[code]](https://github.com/Lingzhi-WANG/PLM-BasedCRS)
-* **CRFR**: "CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.355) :star::star::star:
+* **CRFR**: "CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.355)
 * **NTRD**: "Learning Neural Templates for Recommender Dialogue System". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.12302) [[code]](https://github.com/jokieleung/NTRD)
 * **CR-Walker**: "CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2010.10333) [[code]](https://github.com/truthless11/CR-Walker) :star::star::star::star:
 * **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
@@ -348,6 +348,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **PPLM**: "Plug and Play Language Models: A Simple Approach to Controlled Text Generation". ICLR(2020) [[PDF]](https://arxiv.org/abs/1912.02164) [[code]](https://github.com/uber-research/PPLM)
 * **RetGen**: "RetGen: A Joint framework for Retrieval and Grounded Text Generation Modeling". AAAI(2022) [[PDF]](https://arxiv.org/abs/2105.06597) [[code]](https://github.com/dreasysnail/RetGen)
 * **RAG**: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks". NeurIPS(2020) [[PDF]](https://arxiv.org/abs/2005.11401) [[code]](https://github.com/huggingface/transformers/blob/main/examples/research_projects/rag/README.md) :star::star::star::star:
+* **TextGAIL**: "TextGAIL: Generative Adversarial Imitation Learning for Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/abs/2004.13796) [[code]](https://github.com/qywu/TextGAIL)
 * **Latent-GLAT**: "*latent*-GLAT: Glancing at Latent Variables for Parallel Text Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02030) [[code]](https://github.com/baoy-nlp/Latent-GLAT)
 * **s2s-ft**: "s2s-ft: Fine-Tuning Pretrained Transformer Encoders for Sequence-to-Sequence Learning". arXiv(2021) [[PDF]](https://arxiv.org/abs/2110.13640) [[code]](https://github.com/microsoft/unilm/tree/master/s2s-ft)
 * **EBM**: "Exposure Bias versus Self-Recovery: Are Distortions Really Incremental for Autoregressive Text Generation?". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.415)
