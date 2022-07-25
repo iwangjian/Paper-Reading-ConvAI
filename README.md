@@ -326,7 +326,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 ### Text Planning
 * **Time Control**: "Language Modeling via Stochastic Processes". ICLR(2022) [[PDF]](https://arxiv.org/abs/2203.11370) [[code]](https://github.com/rosewang2008/language_modeling_via_stochastic_processes) :star::star::star::star::star:
 * **PLANET**: "PLANET: Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2203.09100)
-* **CETP**: "Knowledge-based Review Generation by Coherence Enhanced Text Planning". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462865) :star::star::star::star:
+* **CETP**: "Knowledge-based Review Generation by Coherence Enhanced Text Planning". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462865) :star::star::star:
 * **PlanGen**: "Plan-then-Generate: Controlled Data-to-Text Generation via Planning". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.76) [[code]](https://github.com/yxuansu/PlanGen)
 * **DYPLOC**: "DYPLOC: Dynamic Planning of Content Using Mixed Language Models for Text Generation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00791) [[code]](https://github.com/XinyuHua/dyploc-acl2021)
 * **Tree-PLAN**: "Infobox-to-text Generation with Tree-like Planning based Attention Network". IJCAI(2020) [[PDF]](https://www.ijcai.org/proceedings/2020/522)
@@ -344,6 +344,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **Two-level-CL**: "Keywords and Instances: A Hierarchical Contrastive Learning Framework Unifying Hybrid Granularities for Text Generation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.304)
 * **CLAPS**: "Contrastive Learning with Adversarial Perturbations for Conditional Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.07280) [[code]](https://github.com/seanie12/CLAPS) :star::star::star::star:
 * **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM)
+* **FUDGE**: "FUDGE: Controlled Text Generation With Future Discriminators". NAACL(2021) [[PDF]](https://arxiv.org/abs/2104.05218) [[code]](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
 * **CoCon**: "CoCon: A Self-Supervised Approach for Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2006.03535) [[code]](https://github.com/alvinchangw/COCON_ICLR2021)
 * **PPLM**: "Plug and Play Language Models: A Simple Approach to Controlled Text Generation". ICLR(2020) [[PDF]](https://arxiv.org/abs/1912.02164) [[code]](https://github.com/uber-research/PPLM)
 * **RetGen**: "RetGen: A Joint framework for Retrieval and Grounded Text Generation Modeling". AAAI(2022) [[PDF]](https://arxiv.org/abs/2105.06597) [[code]](https://github.com/dreasysnail/RetGen)
