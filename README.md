@@ -101,6 +101,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Target-guided Dialogue
+* **TGCP**: "Target-Guided Open-Domain Conversation Planning". COLING(2022) [[PDF]](https://arxiv.org/abs/2209.09746) [[code]](https://github.com/y-kishinami/TGCP)
 * **FOP**: "Long-term Control for Dialogue Generation: Methods and Evaluation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.07352) [[code]](https://github.com/asappresearch/constrained-dialogue-generation)
 * **CODA**: "Target-Guided Dialogue Response Generation Using Commonsense and Data Augmentation". NAACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2205.09314) [[code]](https://github.com/prakharguptaz/target-guided-dialogue-coda)
 * **OTTers**: "OTTers: One-turn Topic Transitions for Open-Domain Dialogue". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.13710) [[data]](https://github.com/karinseve/OTTers)
@@ -110,6 +111,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **FeHED**: "Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History". ICLR(2020) [[PDF]](https://openreview.net/forum?id=ryxQuANKPB) [[code]](https://github.com/zhouyiheng11/augmenting-non-collabrative-dialog)
 * **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[PDF]](https://www.aclweb.org/anthology/2020.coling-main.365.pdf) [[code]](https://github.com/RUCAIBox/TG-ReDial)
 * **CG-Policy**: "Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.166)
+* **CTX-PSA**: "Learning to Plan and Realize Separately for Open-Ended Dialogue Systems". EMNLP-Findings(2020) [[PDF]](https://arxiv.org/abs/2009.12506)
 * **PersuasionForGood**: "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good". ACL(2019) [[PDF]](https://aclanthology.org/P19-1566) [[data]](https://gitlab.com/ucdavisnlp/persuasionforgood)
 * **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv)
 * **CKC**: "Keyword-Guided Neural Conversational Model". AAAI(2021) [[PDF]](https://arxiv.org/abs/2012.08383)
