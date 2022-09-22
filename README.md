@@ -114,9 +114,9 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **CTX-PSA**: "Learning to Plan and Realize Separately for Open-Ended Dialogue Systems". EMNLP-Findings(2020) [[PDF]](https://arxiv.org/abs/2009.12506)
 * **PersuasionForGood**: "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good". ACL(2019) [[PDF]](https://aclanthology.org/P19-1566) [[data]](https://gitlab.com/ucdavisnlp/persuasionforgood)
 * **DuConv**: "Proactive Human-Machine Conversation with Explicit Conversation Goals". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1369) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2019-DuConv)
-* **CKC**: "Keyword-Guided Neural Conversational Model". AAAI(2021) [[PDF]](https://arxiv.org/abs/2012.08383)
+* **CKC**: "Keyword-Guided Neural Conversational Model". AAAI(2021) [[PDF]](https://arxiv.org/abs/2012.08383) [[code]](https://github.com/zhongpeixiang/CKC)
 * **KnowHRL**: "Knowledge Graph Grounded Goal Planning for Open-Domain Conversation Generation". AAAI(2020) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/6474)
-* **DKRN**: "Dynamic Knowledge Routing Network For Target-Guided Open-Domain Conversation". AAAI(2020) [[PDF]](https://arxiv.org/abs/2002.01196)
+* **DKRN**: "Dynamic Knowledge Routing Network For Target-Guided Open-Domain Conversation". AAAI(2020) [[PDF]](https://arxiv.org/abs/2002.01196) [[code]](https://github.com/James-Yip/TGODC-DKRN)
 * **TGConv**: "Target-Guided Open-Domain Conversation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1565/) [[code]](https://github.com/squareRoot3/Target-Guided-Conversation)
 
 
@@ -226,6 +226,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Emotion-aware Dialogue
+* **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.08845)
 * **MISC**: "MISC: A MIxed Strategy-Aware Model Integrating COMET for Emotional Support Conversation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.13560) [[code]](https://github.com/morecry/MISC)
 * **C3KG**: "C3KG: A Chinese Commonsense Conversation Knowledge Graph". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2204.02549) [[data]](https://github.com/XiaoMi/C3KG)
 * **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
@@ -235,6 +236,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **DialogueCRN**: "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01978) [[code]](https://github.com/zerohd4869/DialogueCRN)
 * **TodKAT**: "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01071) [[code]](https://github.com/something678/TodKat)
 * **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[data]](https://github.com/thu-coai/Emotional-Support-Conversation) :star::star::star:
+* **CARE**: "CARE: Commonsense-Aware Emotional Response Generation with Latent Concepts". AAAI(2021) [[PDF]](https://arxiv.org/abs/2012.08377) [[code]](https://github.com/zhongpeixiang/CARE)
 * **EmpDG**: "EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation". COLING(2020) [[PDF]](https://aclanthology.org/2020.coling-main.394) [[code]](https://github.com/qtli/EmpDG)
 * **MIME**: "MIME: MIMicking Emotions for Empathetic Response Generation". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2010.01454) [[code]](https://github.com/declare-lab/MIME)
 * **PEC**: "Towards Persona-Based Empathetic Conversational Models". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.531) [[code]](https://github.com/zhongpeixiang/PEC)
