@@ -351,10 +351,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **PTG**: "Learning to Transfer Prompts for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.01543) [[code]](https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation)
 * **EISL**: "Don't Take It Literally: An Edit-Invariant Sequence Loss for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2106.15078) [[code]](https://github.com/guangyliu/EISL)
 * **CT-Loss**: "A Simple Contrastive Learning Objective for Alleviating Neural Text Degeneration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.02517) [[code]](https://github.com/shaojiejiang/ct-loss)
-* **SimCTG**: "A Contrastive Framework for Neural Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg) 
+* **SimCTG**: "A Contrastive Framework for Neural Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2202.06417) [[code]](https://github.com/yxuansu/simctg)
+* **CoNT**: "CoNT: Contrastive Neural Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14690) [[code]](https://github.com/shark-nlp/cont)
 * **Two-level-CL**: "Keywords and Instances: A Hierarchical Contrastive Learning Framework Unifying Hybrid Granularities for Text Generation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.304)
 * **CLAPS**: "Contrastive Learning with Adversarial Perturbations for Conditional Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.07280) [[code]](https://github.com/seanie12/CLAPS) :star::star::star::star:
-* **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
+* **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
+* **NADO**: "Controllable Text Generation with Neurally-Decomposed Oracle". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14219) [[code]](https://github.com/mtsomethree/constrdecoding)
 * **ControlPrefix**: "Controllable Natural Language Generation with Contrastive Prefixes". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.229)
 * **FUDGE**: "FUDGE: Controlled Text Generation With Future Discriminators". NAACL(2021) [[PDF]](https://arxiv.org/abs/2104.05218) [[code]](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
 * **GeDi**: "GeDi: Generative Discriminator Guided Sequence Generation". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.424/) [[code]](https://github.com/salesforce/GeDi)
@@ -384,11 +386,11 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Decoding Algorithm
-* **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
+* **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
 * **Lattice**: "Massive-scale Decoding for Text Generation using Lattices". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
 * **KID**: "Knowledge Infused Decoding". ICLR(2022) [[PDF]](https://arxiv.org/abs/2204.03084) [[code]](https://github.com/microsoft/kid)
-* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.08726)
-* **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339)
+* **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.08726) [[code]](https://github.com/GXimingLu/a_star_neurologic)
+* **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339) [[code]](https://github.com/GXimingLu/neurologic_decoding)
 * **DeLorean**: "Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.58) [[code]](https://github.com/qkaren/unsup_gen_for_cms_reasoning)
 * **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **Disjunctive Constraints**: "Guided Generation of Cause and Effect". IJCAI(2020) [[PDF]](https://arxiv.org/abs/2107.09846) [[code-huggingface]](https://huggingface.co/blog/constrained-beam-search)
