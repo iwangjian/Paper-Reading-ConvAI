@@ -75,6 +75,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ## Knowledge Representation Learning
+* **DRAGON**: "Deep Bidirectional Language-Knowledge Graph Pretraining". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2210.09338) [[code]](https://github.com/michiyasunaga/dragon)
 * **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](https://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE)
 * **FILM**: "Adaptable and Interpretable Neural Memory Over Symbolic Knowledge". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.288)
 * **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA) :star::star::star:
@@ -389,12 +390,14 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 ### Controllable Generation
 * **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
 * **FAST**: "FAST: Improving Controllability for Text Generation with Feedback Aware Self-Training". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.03167)
+* **DisCup**: "DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.09551) [[code]](https://github.com/littlehacker26/discriminator-cooperative-unlikelihood-prompt-tuning)
 * **MultiControl**: "A Distributional Lens for Multi-Aspect Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.02889) [[code]](https://github.com/HappyGu0524/MultiControl)
 * **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
 * **NADO**: "Controllable Text Generation with Neurally-Decomposed Oracle". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14219) [[code]](https://github.com/mtsomethree/constrdecoding)
 * **Mix-Match**: "Mix and Match: Learning-free Controllable Text Generation using Energy Language Models". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.31) [[code]](https://github.com/mireshghallah/mixmatch)
 * **ControlPrefix**: "Controllable Natural Language Generation with Contrastive Prefixes". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.229)
 * **MUCOCO**: "Controlled Text Generation as Continuous Optimization with Multiple Constraints". NeurIPS(2021) [[PDF]](https://proceedings.neurips.cc/paper/2021/file/79ec2a4246feb2126ecf43c4a4418002-Paper.pdf) [[code]](https://github.com/Sachin19/mucoco)
+* **DExperts**: "DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.522) [[code]](https://github.com/alisawuffles/DExperts)
 * **FUDGE**: "FUDGE: Controlled Text Generation With Future Discriminators". NAACL(2021) [[PDF]](https://arxiv.org/abs/2104.05218) [[code]](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
 * **GeDi**: "GeDi: Generative Discriminator Guided Sequence Generation". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.424/) [[code]](https://github.com/salesforce/GeDi)
 * **GDC**: "A Distributional Approach to Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.11635) [[code]](https://github.com/naver/gdc) :star::star::star:
