@@ -156,6 +156,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **CorefDiffs**: "CorefDiffs: Co-referential and Differential Knowledge Flow in Document Grounded Conversations". COLING(2022) [[PDF]](https://arxiv.org/abs/2210.02223) [[code]](https://github.com/cathyxl/coref-diffs)
 * **DTR**: "Stylized Knowledge-Grounded Dialogue Generation via Disentangled Template Rewriting". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.05610) [[code]](https://github.com/victorsungo/SKDG-DTR)
 * **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
+* **KI**: "Lexical Knowledge Internalization for Neural Dialog Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2205.01941) [[code]](https://github.com/lividwo/ki)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
 * **KSAM**: "KSAM: Infusing Multi-Source Knowledge into Dialogue Generation via Knowledge Source Aware Multi-Head Decoding". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.30)
 * **MDSP**: "Multi-Stage Prompting for Knowledgeable Dialogue Generation". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.08745) [[code]](https://github.com/NVIDIA/Megatron-LM)
@@ -411,13 +412,15 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Decoding Algorithm
+* **Crowd Sampling**: "Follow the Wisdom of the Crowd: Effective Text Generation via Minimum Bayes Risk Decoding". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.07634) [[code]](https://github.com/suzgunmirac/crowd-sampling)
+* **Contrastive Decoding**: "Contrastive Decoding: Open-ended Text Generation as Optimization". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.15097) [[code]](https://github.com/xiangli1999/contrastivedecoding)
 * **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
 * **Lattice**: "Massive-scale Decoding for Text Generation using Lattices". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
 * **KID**: "Knowledge Infused Decoding". ICLR(2022) [[PDF]](https://arxiv.org/abs/2204.03084) [[code]](https://github.com/microsoft/kid)
 * **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.08726) [[code]](https://github.com/GXimingLu/a_star_neurologic)
 * **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.339) [[code]](https://github.com/GXimingLu/neurologic_decoding)
 * **DeLorean**: "Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.58) [[code]](https://github.com/qkaren/unsup_gen_for_cms_reasoning)
-* **Nucleus Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
+* **Top-p(Nucleus) Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[PDF]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen)
 * **Disjunctive Constraints**: "Guided Generation of Cause and Effect". IJCAI(2020) [[PDF]](https://arxiv.org/abs/2107.09846) [[code-huggingface]](https://huggingface.co/blog/constrained-beam-search)
 * **CGMH**: "CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling". AAAI(2019) [[PDF]](https://arxiv.org/abs/1811.10996) [[code]](https://github.com/NingMiao/CGMH)
 * **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[PDF]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
