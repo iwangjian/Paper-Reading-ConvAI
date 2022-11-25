@@ -362,6 +362,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Generation (Theories and Techniques)
+* **DiffuSeq**: "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.08933) [[code]](https://github.com/Shark-NLP/DiffuSeq)
 * **LaMemo**: "LaMemo: Language Modeling with Look-Ahead Memory". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.07341) [[code]](https://github.com/thu-coai/LaMemo)
 * **PTG**: "Learning to Transfer Prompts for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.01543) [[code]](https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation)
 * **EISL**: "Don't Take It Literally: An Edit-Invariant Sequence Loss for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2106.15078) [[code]](https://github.com/guangyliu/EISL)
