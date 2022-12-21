@@ -197,6 +197,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Task-oriented Dialogue
+* **KB-Adapter**: "Injecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems". EMNLP(2022) [[PDF]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.820.pdf) [[code]](https://github.com/amazon-science/domain-knowledge-injection)
 * **TacoBot**: "Bootstrapping a User-Centered Task-Oriented Dialogue System". Proceedings of Alexa Prize TaskBot(2021) [[PDF]](https://arxiv.org/abs/2207.05223) :star::star::star:
 * **USDA**: "User Satisfaction Estimation with Sequential Dialogue Act Modeling in Goal-oriented Conversational Systems". WWW(2022) [[PDF]](https://arxiv.org/abs/2202.02912) [[code]](https://github.com/dengyang17/USDA)
 * **USS**: "Simulating User Satisfaction for the Evaluation of Task-oriented Dialogue Systems". SIGIR(2021) [[PDF]](https://arxiv.org/abs/2105.03748) [[data]](https://github.com/sunnweiwei/user-satisfaction-simulation)
@@ -316,7 +317,9 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
-* **FlowEval**: "FlowEval: A Consensus-Based Dialogue Evaluation Framework Using Segment Act Flows". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.06633)
+* **FineD-Eval**: "FineD-Eval: Fine-grained Automatic Dialogue-Level Evaluation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.13832) [[code]](https://github.com/e0397123/FineD-Eval)
+* **FlowEval**: "FlowEval: A Consensus-Based Dialogue Evaluation Framework Using Segment Act Flows". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2202.06633)
+* **IM2**: "IM^2: an Interpretable and Multi-category Integrated Metric Framework for Automatic Dialogue Evaluation". EMNLP(2022) [[PDF]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.762/) [[code]](https://github.com/Jnunlplab/IM2)
 * **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe)
 * **EAD**: "Rethinking and Refining the Distinct Metric". ACL(2022) [[PDF]](https://arxiv.org/abs/2202.13587) [[code]](https://github.com/lsy641/Expectation-Adjusted-Distinct)
 * **DiscoScore**: "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.11176) [[code]](https://github.com/AIPHES/DiscoScore)
@@ -414,6 +417,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ### Decoding Algorithm
 * **Crowd Sampling**: "Follow the Wisdom of the Crowd: Effective Text Generation via Minimum Bayes Risk Decoding". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.07634) [[code]](https://github.com/suzgunmirac/crowd-sampling)
+* **RankGen**: "RankGen: Improving Text Generation with Large Ranking Models". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2205.09726) [[code]](https://github.com/martiansideofthemoon/rankgen)
 * **Contrastive Decoding**: "Contrastive Decoding: Open-ended Text Generation as Optimization". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.15097) [[code]](https://github.com/xiangli1999/contrastivedecoding)
 * **COLD**: "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2202.11705) [[code]](https://github.com/qkaren/COLD_decoding) :star::star::star:
 * **Lattice**: "Massive-scale Decoding for Text Generation using Lattices". NAACL(2022) [[PDF]](https://arxiv.org/abs/2112.07660) [[code]](https://github.com/jiacheng-xu/lattice-generation)
