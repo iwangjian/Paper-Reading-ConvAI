@@ -152,9 +152,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
-* **MultiRefKGC**: "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.12459) [[code]](https://github.com/TingchenFu/MultiRefKGC) :star::star::star::star:
+* **MultiRefKGC**: "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.12459) [[code]](https://github.com/TingchenFu/MultiRefKGC) :star::star::star:
 * **CorefDiffs**: "CorefDiffs: Co-referential and Differential Knowledge Flow in Document Grounded Conversations". COLING(2022) [[PDF]](https://arxiv.org/abs/2210.02223) [[code]](https://github.com/cathyxl/coref-diffs)
 * **DTR**: "Stylized Knowledge-Grounded Dialogue Generation via Disentangled Template Rewriting". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.05610) [[code]](https://github.com/victorsungo/SKDG-DTR)
+* **XDAI**: "XDAI: A Tuning-free Framework for Exploiting Pre-trained Language Models in Knowledge Grounded Dialogue Generation". KDD(2022) [[PDF]](https://dl.acm.org/doi/10.1145/3534678.3539135) [[code]](https://github.com/THUDM/XDAI)
 * **PersonaKGC**: "There Are a Thousand Hamlets in a Thousand People's Eyes: Enhancing Knowledge-grounded Dialogue with Personal Memory". ACL(2022) [[PDF]](https://arxiv.org/abs/2204.02624) [[code]](https://github.com/Lucasftc/PersonaKGC)
 * **KI**: "Lexical Knowledge Internalization for Neural Dialog Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2205.01941) [[code]](https://github.com/lividwo/ki)
 * **DiffKG**: "Towards Large-Scale Interpretable Knowledge Graph Reasoning for Dialogue Systems". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.10610) [[code]](https://github.com/Pascalson/DiffKG-Dialog) :star::star::star:
@@ -397,6 +398,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Controllable Generation
+* **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10938)
 * **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
 * **FAST**: "FAST: Improving Controllability for Text Generation with Feedback Aware Self-Training". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.03167)
 * **DisCup**: "DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.09551) [[code]](https://github.com/littlehacker26/discriminator-cooperative-unlikelihood-prompt-tuning)
