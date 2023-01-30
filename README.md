@@ -1,11 +1,12 @@
 ﻿# Paper-Reading
-Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems**, **natural language generation** and relevant topics. This repo will keep updating 🤗 ...
+Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems** and **natural language generation**. This repo will keep updating 🤗 ...
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Pre-trained Language Models](#pre-trained-language-models)
 - [Knowledge Representation Learning](#knowledge-representation-learning)
 - [Dialogue System](#dialogue-system)
   - [Survey](#survey)
+  - [LLMs for Dialogue](#llms-for-dialogue)
   - [Target-guided Dialogue](#target-guided-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
@@ -20,11 +21,6 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Generation (Theories and Techniques)](#generation-theories-and-techniques)
   - [Controllable Generation](#controllable-generation)
   - [Decoding Algorithm](#decoding-algorithm)
-- [Others](#others)
-  - [Text Summarization](#text-summarization)
-  - [Machine Translation](#machine-translation)
-  - [Question Answering](#question-answering)
-  - [Text Matching](#text-matching)
 
 ***
 
@@ -58,9 +54,9 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **Survey of PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **CPT**: "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.05729) [[code]](https://github.com/fastnlp/CPT) :star::star::star:
 * **GLM**: "All NLP Tasks Are Generation Tasks: A General Pretraining Framework". arXiv(2021) [[PDF]](https://arxiv.org/abs/2103.10360) [[code]](https://github.com/THUDM/GLM)
-* **PALM**: "PALM: Pre-training an Autoencoding&Autoregressive Language Model for Context-conditioned Generation". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.700.pdf) [[code]](https://github.com/alibaba/AliceMind)
+* **GPT-3**: "Language Models are Few-Shot Learners". arXiv(2020) [[PDF]](https://arxiv.org/abs/2005.14165) :star::star::star::star:
 * **BART**: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.703.pdf) [[code]](https://github.com/huggingface/transformers) :star::star::star:
-* **T5**: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR(2020) [[PDF]](https://arxiv.org/abs/1910.10683) [[code-tf]](https://github.com/google-research/text-to-text-transfer-transformer) [[code-py]](https://github.com/huggingface/transformers)
+* **T5**: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR(2020) [[PDF]](https://arxiv.org/abs/1910.10683) [[code-tf]](https://github.com/google-research/text-to-text-transfer-transformer) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
 * **MASS**: "MASS: Masked Sequence to Sequence Pre-training for Language Generation". ICML(2019) [[PDF]](https://arxiv.org/abs/1905.02450) [[code]](https://github.com/microsoft/MASS)
 * **ALBERT**: "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=H1eA7AEtvS)
 * **TinyBERT**: "TinyBERT: Distilling BERT for Natural Language Understanding". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1909.10351.pdf) [[code]](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT)
@@ -71,7 +67,9 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/9464-unified-language-model-pre-training-for-natural-language-understanding-and-generation.pdf) [[code]](https://github.com/microsoft/unilm) :star::star::star::star:
 * **XLNet**: "XLNet: Generalized Autoregressive Pretraining for Language Understanding". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding.pdf) [[code]](https://github.com/zihangdai/xlnet)
 * **XLM**: "Cross-lingual Language Model Pretraining". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf) [[code]](https://github.com/facebookresearch/XLM)
+* **GPT-2**: "Language Models are Unsupervised Multitask Learners". OpenAI(2019) [[PDF]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[code]](https://huggingface.co/gpt2)
 * **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert) :star::star::star::star::star:
+* **GPT**: "Improving Language Understanding by Generative Pre-Training". OpenAI(2018) [[PDF]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) :star::star::star::star::star:
 
 
 ## Knowledge Representation Learning
@@ -102,6 +100,13 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
 * **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
+
+### LLMs for Dialogue
+* **ChatGPT**: "ChatGPT: Optimizing Language Models for Dialogue". OpenAI(2022) [[Blog]](https://openai.com/blog/chatgpt/) :star::star::star::star::star:
+* **Sparrow**: "Improving alignment of dialogue agents via targeted human judgements". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.14375) [[data]](https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow.html)
+* **BlenderBot3**: "BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.03188)
+* **LaMDA**: "LaMDA: Language Models for Dialog Applications". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.08239)
+* **Anthropic Assistant**: "A General Language Assistant as a Laboratory for Alignment". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.00861)
 
 ### Target-guided Dialogue
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
@@ -418,6 +423,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Decoding Algorithm
+* **Momentum Decoding**: "Momentum Decoding: Open-ended Text Generation As Graph Exploration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.02175) [[code]](https://github.com/gmftbyGMFTBY/MomentumDecoding)
 * **Crowd Sampling**: "Follow the Wisdom of the Crowd: Effective Text Generation via Minimum Bayes Risk Decoding". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.07634) [[code]](https://github.com/suzgunmirac/crowd-sampling)
 * **RankGen**: "RankGen: Improving Text Generation with Large Ranking Models". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2205.09726) [[code]](https://github.com/martiansideofthemoon/rankgen)
 * **Contrastive Decoding**: "Contrastive Decoding: Open-ended Text Generation as Optimization". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.15097) [[code]](https://github.com/xiangli1999/contrastivedecoding)
@@ -433,47 +439,3 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[PDF]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
 * **DBA**: "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation". NAACL(2018) [[PDF]](https://aclanthology.org/N18-1119) [[code-official]](https://github.com/awslabs/sockeye) [[code-fairseq]](https://github.com/facebookresearch/fairseq/blob/main/examples/constrained_decoding/README.md)
 * **GBS**: "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search". ACL(2017) [[PDF]](https://aclanthology.org/P17-1141) [[code]](https://github.com/chrishokamp/constrained_decoding)
-
-
-## Others
-
-### Text Summarization
-* **BERTSum**: "Fine-tune BERT for Extractive Summarization". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1903.10318.pdf) [[code]](https://github.com/nlpyang/BertSum)
-* **QASumm**: "Guiding Extractive Summarization with Question-Answering Rewards". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1264) [[code]](https://github.com/ucfnlp/summ_qa_rewards)
-* **Re^3Sum**: "Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1015) [[code]](https://www4.comp.polyu.edu.hk/~cszqcao/data/IRSum_Resource.zip)
-* **rnn-ext+abs+RL+rerank**: "Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-1063) [[Notes]](https://www.aclweb.org/anthology/attachments/P18-1063.Notes.pdf) [[code]](https://github.com/ChenRocks/fast_abs_rl) :star::star::star::star::star:
-* **Seq2Seq+CGU**: "Global Encoding for Abstractive Summarization". ACL(2018) [[PDF]](https://www.aclweb.org/anthology/P18-2027) [[code]](https://github.com/lancopku/Global-Encoding)
-* **ML+RL**: "A Deep Reinforced Model for Abstractive Summarization". ICLR(2018) [[PDF]](https://arxiv.org/pdf/1705.04304.pdf)
-* **T-ConvS2S**: "Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1206) [[code]](https://github.com/shashiongithub/XSum)
-* **FTSum**: "Faithful to the Original: Fact Aware Neural Abstractive Summarization". AAAI(2018) [[PDF]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16121/16007)
-* **PGN**: "Get To The Point: Summarization with Pointer-Generator Networks". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1099) [[code]](https://github.com/abisee/pointer-generator) :star::star::star::star::star:
-* **RAS-LSTM**: "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks". NAACL(2016) [[PDF]](https://www.aclweb.org/anthology/N16-1012) [[code]](https://github.com/facebookarchive/NAMAS)
-* **ABS/ABS+**: "A Neural Attention Model for Abstractive Sentence Summarization". EMNLP(2015) [[PDF]](https://www.aclweb.org/anthology/D15-1044)
-
-
-### Machine Translation
-* **Dual-Path**: "Modeling Dual Read/Write Paths for Simultaneous Machine Translation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.09163) [[code]](https://github.com/ictnlp/Dual-Path) :star::star::star:
-* **VOLT**: "Vocabulary Learning via Optimal Transport for Machine Translation". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15671) [[code]](https://github.com/Jingjing-NLP/VOLT)
-* **OR-NMT**: "Bridging the Gap between Training and Inference for Neural Machine Translation". ACL(2019) [[PDF]](https://aclanthology.org/P19-1426) [[code]](https://github.com/ictnlp/OR-NMT) :star::star::star:
-* **Multi-pass decoder**: "Adaptive Multi-pass Decoder for Neural Machine Translation". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1048) 
-* **KVMem-Attention**: "Neural Machine Translation with Key-Value Memory-Augmented Attention". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0357.pdf) :star::star::star:
-* **Deliberation Networks**: "Deliberation Networks: Sequence Generation Beyond One-Pass Decoding". NeurIPS(2017) [[PDF]](https://papers.nips.cc/paper/6775-deliberation-networks-sequence-generation-beyond-one-pass-decoding.pdf)
-* **Interactive-Attention**: "Interactive Attention for Neural Machine Translation". COLING(2016) [[PDF]](https://www.aclweb.org/anthology/C16-1205)
-
-
-### Question Answering
-* **DPR**: "Dense Passage Retrieval for Open-Domain Question Answering". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.550.pdf) [[code]](https://github.com/facebookresearch/DPR) :star::star::star::star:
-* **FlowQA**: "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1810.06683.pdf) [[code]](https://github.com/momohuang/FlowQA) :star::star::star::star:
-* **CFC**: "Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering". ICLR(2019) [[PDF]](https://arxiv.org/pdf/1901.00603.pdf)
-* **MTQA**: "Multi-Task Learning with Multi-View Attention for Answer Selection and Knowledge Base Question Answering". AAAI(2019) [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/4593) [[code]](https://github.com/dengyang17/MTQA)
-* **MacNet**: "MacNet: Transferring Knowledge from Machine Comprehension to Sequence-to-Sequence Models". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/7848-macnet-transferring-knowledge-from-machine-comprehension-to-sequence-to-sequence-models.pdf)
-* **CQG-KBQA**: "Knowledge Base Question Answering via Encoding of Complex Query Graphs". EMNLP(2018) [[PDF]](https://www.aclweb.org/anthology/D18-1242) [[code]](https://202.120.38.146/CompQA/) :star::star::star:
-* **HR-BiLSTM**: "Improved Neural Relation Detection for Knowledge Base Question Answering". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1053)
-* **KBQA-CGK**: "An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge". ACL(2017) [[PDF]](https://aclweb.org/anthology/P17-1021)
-* **KVMem**: "Key-Value Memory Networks for Directly Reading Documents". EMNLP(2016) [[PDF]](https://www.aclweb.org/anthology/D16-1147)
-
-
-### Text Matching
-* **Poly-encoder**: "Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scorings". ICLR(2020) [[PDF]](https://openreview.net/pdf?id=SkxgnnNFvH) [[code]](https://github.com/sfzhou5678/PolyEncoder)
-* **AugSBERT**: "Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2010.08240.pdf) [[code]](https://github.com/UKPLab/sentence-transformers)
-* **SBERT**: "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks". EMNLP(2019) [[PDF]](https://arxiv.org/pdf/1908.10084.pdf) [[code]](https://github.com/UKPLab/sentence-transformers)
