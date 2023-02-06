@@ -323,6 +323,8 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
+* **ChatEvalPlatform**: "Don't Forget Your ABC's: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09180) [[code]](https://github.com/emora-chat/ChatEvaluationPlatform)
+* **Self-Eval**: "SelF-Eval: Self-supervised Fine-grained Dialogue Evaluation". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.39/) [[code]](https://github.com/royny/self-eval)
 * **FineD-Eval**: "FineD-Eval: Fine-grained Automatic Dialogue-Level Evaluation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.13832) [[code]](https://github.com/e0397123/FineD-Eval)
 * **FlowEval**: "FlowEval: A Consensus-Based Dialogue Evaluation Framework Using Segment Act Flows". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2202.06633)
 * **IM2**: "IM^2: an Interpretable and Multi-category Integrated Metric Framework for Automatic Dialogue Evaluation". EMNLP(2022) [[PDF]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.762/) [[code]](https://github.com/Jnunlplab/IM2)
@@ -332,6 +334,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **CTC-Score**: "Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.06379) [[code]](https://github.com/tanyuqian/ctc-gen-eval)
 * **QuantiDCE**: "Towards Quantifiable Dialogue Coherence Evaluation". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.00507) [[code]](https://github.com/James-Yip/QuantiDCE)
 * **DynaEval**: "DynaEval: Unifying Turn and Dialogue Level Evaluation". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.441) [[code]](https://github.com/e0397123/DynaEval)
+* **Review**: "How to Evaluate Your Dialogue Models: A Review of Approaches". arXiv(2021) [[PDF]](https://arxiv.org/abs/2108.01369)
 * **Spot-the-Bot**: "Spot The Bot: A Robust and Efficient Framework for the Evaluation of Conversational Dialogue Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.326) [[code]](https://github.com/jderiu/spot-the-bot-code)
 * **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
 * **Coherence**: "Dialogue Coherence Assessment Without Explicit Dialogue Act Labels". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.133) [[code]](https://github.com/UKPLab/acl2020-dialogue-coherence-assessment)
@@ -403,6 +406,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Controllable Generation
+* **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
 * **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10938)
 * **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
 * **FAST**: "FAST: Improving Controllability for Text Generation with Feedback Aware Self-Training". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.03167)
