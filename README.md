@@ -8,7 +8,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Survey](#survey)
   - [LLMs for Dialogue](#llms-for-dialogue)
   - [Personalized Dialogue](#personalized-dialogue)
-  - [Target-guided Dialogue](#target-guided-dialogue)
+  - [Target-oriented Dialogue](#target-oriented-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
   - [Emotion-aware Dialogue](#emotion-aware-dialogue)
@@ -113,16 +113,18 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ### Personalized Dialogue
 * **LMEDR**: "Learning to Memorize Entailment and Discourse Relations for Persona-Consistent Dialogues". AAAI(2023) [[PDF]](https://arxiv.org/abs/2301.04871) [[code]](https://github.com/Chenrj233/LMEDR)
 * **Retrieval-to-Prediction**: "Improving Personality Consistency in Conversation by Persona Extending". CIKM(2022) [[PDF]](https://arxiv.org/abs/2208.10816) [[code]](https://github.com/CCIIPLab/Persona_Extend)
+* **Implicit-Persona**: "A Personalized Dialogue Generator with Implicit User Persona Detection". COLING(2022) [[PDF]](https://arxiv.org/abs/2204.07372)
 * **CareCallMemory**: "Keep Me Updated! Memory Management in Long-term Conversations". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2210.08750) [[data]](https://github.com/naver-ai/carecall-memory)
 * **CareCall**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
 * **PersonaDefense**: "You Don't Know My Favorite Color: Preventing Dialogue Representations from Revealing Speakers' Private Personas". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.10228) [[code]](https://github.com/HKUST-KnowComp/Persona_leakage_and_defense_in_GPT-2)
+* **Prompt-Tuning**: "Building a Personalized Dialogue System with Prompt-Tuning". NAACL-SRW(2022) [[PDF]](https://arxiv.org/abs/2206.05399)
 * **DuLeMon**: "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.05797) [[data]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) :star::star::star:
 * **INFO**: "You Truly Understand What I Need: Intellectual and Friendly Dialogue Agents grounding Knowledge and Persona". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2301.02401) [[code]](https://github.com/dlawjddn803/INFO)
 * **FoCus**: "Call for Customized Conversation: Customized Conversation Grounding Persona and Knowledge". AAAI(2022) [[PDF]](https://arxiv.org/abs/2112.08619) [[code]](https://github.com/pkchat-focus/FoCus) :star::star::star:
+* **MSP**: "Less is More: Learning to Refine Dialogue History for Personalized Dialogue Generation". NAACL(2022) [[PDF]](https://aclanthology.org/2022.naacl-main.426/)
 * **GME**: "Transferable Persona-Grounded Dialogues via Grounded Minimal Edits". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.07713) [[code]](https://github.com/thu-coai/grounded-minimal-edit)
 * **BoB**: "BoB: BERT Over BERT for Training Persona-based Dialogue Models from Limited Personalized Data". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.14) [[code]](https://github.com/songhaoyu/BoB)
 * **PABST**: "Unsupervised Enrichment of Persona-grounded Dialog with Background Stories". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.08364) [[code]](https://github.com/majumderb/pabst)
-* **MSP**: "Less is More: Learning to Refine Dialogue History for Personalized Dialogue Generation". NAACL(2021) [[PDF]](https://aclanthology.org/2022.naacl-main.426/)
 * **DHAP**: "One Chatbot Per Person: Creating Personalized Chatbots based on Implicit User Profiles". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462828)
 * **Pchatbot**: "Pchatbot: A Large-Scale Dataset for Personalized Chatbot". SIGIR(2021) [[PDF]](http://arxiv.org/abs/2009.13284) [[data]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) :star::star::star:
 * **pragmatic-consistency**: "Will I Sound Like Me? Improving Persona Consistency in Dialogues through Pragmatic Self-Consciousness". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2004.05816) [[code]](https://github.com/skywalker023/pragmatic-consistency) :star::star::star::star:
@@ -136,7 +138,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0595.pdf)
 
 
-### Target-guided Dialogue
+### Target-oriented Dialogue
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
 * **TGCP**: "Target-Guided Open-Domain Conversation Planning". COLING(2022) [[PDF]](https://arxiv.org/abs/2209.09746) [[code]](https://github.com/y-kishinami/TGCP)
 * **FOP**: "Long-term Control for Dialogue Generation: Methods and Evaluation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.07352) [[code]](https://github.com/asappresearch/constrained-dialogue-generation)
@@ -231,8 +233,6 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 
-
-
 ### Emotion-aware Dialogue
 * **MultiESC**: "Improving Multi-turn Emotional Support Dialogue Generation with Lookahead Strategy Planning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.04242) [[code]](https://github.com/lwgkzl/MultiESC) :star::star::star::star:
 * **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.08845)
@@ -240,6 +240,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **MISC**: "MISC: A MIxed Strategy-Aware Model Integrating COMET for Emotional Support Conversation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.13560) [[code]](https://github.com/morecry/MISC)
 * **C3KG**: "C3KG: A Chinese Commonsense Conversation Knowledge Graph". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2204.02549) [[data]](https://github.com/XiaoMi/C3KG)
 * **GLHG**: "Control Globally, Understand Locally: A Global-to-Local Hierarchical Graph Network for Emotional Support Conversation". IJCAI(2022) [[PDF]](https://arxiv.org/abs/2204.12749)
+* **CEM**: "CEM: Commonsense-aware Empathetic Response Generation". AAAI(2022) [[PDF]](https://arxiv.org/abs/2109.05739) [[code]](https://github.com/Sahandfer/CEM)
 * **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
 * **RecEC**: "Improving Empathetic Response Generation by Recognizing Emotion Cause in Conversations". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.70) [[code]](https://github.com/A-Rain/EmpDialogue_RecEC)
 * **CoMAE**: "CoMAE: A Multi-factor Hierarchical Framework for Empathetic Response Generation". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.72) [[code]](https://github.com/chujiezheng/CoMAE)
