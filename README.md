@@ -111,11 +111,31 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Personalized Dialogue
+
+#### Character-based Dialogue
+* **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[PDF]](https://arxiv.org/abs/2212.10618)
+* **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.06869)
+* **DialStory**: "A Benchmark for Understanding and Generating Dialogue between Characters in Stories". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.08524)
+* **RSODD**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
+* **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.10825)
+* **CharacterChat**: "CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot". ACM C&C(2021）[[PDF]](https://arxiv.org/abs/2106.12314)
+* **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[PDF]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot) :star::star::star:
+
+#### Personality-aware Dialogue
+* **Prompted Personality**: "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based Learning". IWSDS(2023) [[PDF]](https://arxiv.org/abs/2302.03848)
+* **CPED**: "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.14727) [[data]](https://github.com/scutcyr/CPED) :star::star::star:
+* **PELD**: "Automatically Select Emotion for Response via Personality-affected Emotion Transition". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2106.15846) [[data]](https://github.com/preke/PELD)
+* **NegotiationToM**: "Improving Dialog Systems for Negotiation with Personality Modeling". ACL(2021) [[PDF]](https://arxiv.org/abs/2010.09954) [[code]](https://github.com/princeton-nlp/NegotiationToM)
+* **FriendsPersona**: "Automatic Text-based Personality Recognition on Monologues and Multiparty Dialogues Using Attentive Networks and Contextual Embeddings". AAAI-Student Abstract(2020) [[PDF]](https://arxiv.org/abs/1911.09304) [[data]](https://github.com/emorynlp/personality-detection)
+* **APR**: "Identifying Personality Traits Using Overlap Dynamics in Multiparty Dialogue". INTERSPEECH(2019) [[PDF]](https://arxiv.org/abs/1909.00876)
+* **PersonalDilaog**: "Personalized Dialogue Generation with Diversified Traits". arXiv(2019) [[PDF]](https://arxiv.org/abs/1901.09672) [[data]](https://github.com/silverriver/PersonalDilaog)
+* **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[PDF]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
+
+#### Persona-based Dialogue
 * **LMEDR**: "Learning to Memorize Entailment and Discourse Relations for Persona-Consistent Dialogues". AAAI(2023) [[PDF]](https://arxiv.org/abs/2301.04871) [[code]](https://github.com/Chenrj233/LMEDR)
 * **Retrieval-to-Prediction**: "Improving Personality Consistency in Conversation by Persona Extending". CIKM(2022) [[PDF]](https://arxiv.org/abs/2208.10816) [[code]](https://github.com/CCIIPLab/Persona_Extend)
 * **Implicit-Persona**: "A Personalized Dialogue Generator with Implicit User Persona Detection". COLING(2022) [[PDF]](https://arxiv.org/abs/2204.07372)
 * **CareCallMemory**: "Keep Me Updated! Memory Management in Long-term Conversations". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2210.08750) [[data]](https://github.com/naver-ai/carecall-memory)
-* **CareCall**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
 * **PersonaDefense**: "You Don't Know My Favorite Color: Preventing Dialogue Representations from Revealing Speakers' Private Personas". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.10228) [[code]](https://github.com/HKUST-KnowComp/Persona_leakage_and_defense_in_GPT-2)
 * **Prompt-Tuning**: "Building a Personalized Dialogue System with Prompt-Tuning". NAACL-SRW(2022) [[PDF]](https://arxiv.org/abs/2206.05399)
 * **DuLeMon**: "Long Time No See! Open-Domain Conversation with Long-Term Persona Memory". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2203.05797) [[data]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) :star::star::star:
@@ -130,11 +150,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **pragmatic-consistency**: "Will I Sound Like Me? Improving Persona Consistency in Dialogues through Pragmatic Self-Consciousness". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2004.05816) [[code]](https://github.com/skywalker023/pragmatic-consistency) :star::star::star::star:
 * **XPersona**: "XPersona: Evaluating Multilingual Personalized Chatbot". arXiv(2020) [[PDF]](https://arxiv.org/abs/2003.07568) [[data]](https://github.com/HLTCHKUST/Xpersona)
 * **P^2Bot**: "You Impress Me: Dialogue Generation via Mutual Persona Perception". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.131) [[code]](https://github.com/SivilTaram/Persona-Dialogue-Generation)
+* **Persona-sparse**: "A Pre-training Based Personalized Dialogue Generation Model with Persona-sparse Data". AAAI(2020) [[PDF]](https://arxiv.org/abs/1911.04700)
 * **PersonaWAE**: "Modeling Personalization in Continuous Space for Response Generation via Augmented Wasserstein Autoencoders". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1201/)
 * **PAML**: "Personalizing Dialogue Agents via Meta-Learning". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1542) [[code]](https://github.com/HLTCHKUST/PAML)
-* **PersonalDilaog**: "Personalized Dialogue Generation with Diversified Traits". arXiv(2019) [[PDF]](https://arxiv.org/abs/1901.09672) [[data]](https://github.com/silverriver/PersonalDilaog) :star::star::star:
 * **PersonaChat**: "Personalizing Dialogue Agents: I have a dog, do you have pets too?" ACL(2018) [[PDF]](https://aclanthology.org/P18-1205) [[data]](https://github.com/facebookresearch/ParlAI/tree/main/projects/personachat) :star::star::star:
-* **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[PDF]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 * **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[PDF]](https://www.ijcai.org/proceedings/2018/0595.pdf)
 
 
@@ -451,6 +470,8 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Decoding Algorithm
+* **EAD**: "The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis and Algorithm for Robust Natural Language Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.06784) [[code]](https://github.com/kushalarora/transformers/blob/main/src/transformers/generation_utils.py#L1894)
+* **Contrastive Search**: "Contrastive Search Is What You Need For Neural Text Generation". TMLR(2023) [[PDF]](https://arxiv.org/abs/2210.14140) [[code]](https://github.com/yxuansu/Contrastive_Search_Is_What_You_Need) [[blog]](https://huggingface.co/blog/introducing-csearch) :star::star::star:
 * **Momentum Decoding**: "Momentum Decoding: Open-ended Text Generation As Graph Exploration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.02175) [[code]](https://github.com/gmftbyGMFTBY/MomentumDecoding)
 * **Crowd Sampling**: "Follow the Wisdom of the Crowd: Effective Text Generation via Minimum Bayes Risk Decoding". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.07634) [[code]](https://github.com/suzgunmirac/crowd-sampling)
 * **RankGen**: "RankGen: Improving Text Generation with Large Ranking Models". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2205.09726) [[code]](https://github.com/martiansideofthemoon/rankgen)
