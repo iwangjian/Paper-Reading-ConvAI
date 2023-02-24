@@ -117,7 +117,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.06869)
 * **DialStory**: "A Benchmark for Understanding and Generating Dialogue between Characters in Stories". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.08524)
 * **RSODD**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
-* **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.10825)
+* **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.10825) [[code]](https://github.com/hyperconnect/pseudo-dialog-prompting)
 * **CharacterChat**: "CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot". ACM C&C(2021）[[PDF]](https://arxiv.org/abs/2106.12314)
 * **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[PDF]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot) :star::star::star:
 
@@ -147,6 +147,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **PABST**: "Unsupervised Enrichment of Persona-grounded Dialog with Background Stories". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.08364) [[code]](https://github.com/majumderb/pabst)
 * **DHAP**: "One Chatbot Per Person: Creating Personalized Chatbots based on Implicit User Profiles". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462828)
 * **Pchatbot**: "Pchatbot: A Large-Scale Dataset for Personalized Chatbot". SIGIR(2021) [[PDF]](http://arxiv.org/abs/2009.13284) [[data]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) :star::star::star:
+* **COMPAC**: "Like hiking? You probably enjoy nature: Persona-grounded Dialog with Commonsense Expansions". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2010.03205) [[code]](https://github.com/majumderb/compac)
 * **pragmatic-consistency**: "Will I Sound Like Me? Improving Persona Consistency in Dialogues through Pragmatic Self-Consciousness". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2004.05816) [[code]](https://github.com/skywalker023/pragmatic-consistency) :star::star::star::star:
 * **XPersona**: "XPersona: Evaluating Multilingual Personalized Chatbot". arXiv(2020) [[PDF]](https://arxiv.org/abs/2003.07568) [[data]](https://github.com/HLTCHKUST/Xpersona)
 * **P^2Bot**: "You Impress Me: Dialogue Generation via Mutual Persona Perception". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.131) [[code]](https://github.com/SivilTaram/Persona-Dialogue-Generation)
@@ -378,10 +379,11 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **ConvLabEval**: "Is Your Goal-Oriented Dialog Model Performing Really Well? Empirical Analysis of System-wise Evaluation". SIGDIAL(2020) [[PDF]](https://arxiv.org/abs/2005.07362)
 * **FED**: "Unsupervised Evaluation of Interactive Dialog with DialoGPT". SIGDIAL(2020) [[PDF]](https://arxiv.org/abs/2006.12719) [[code]](https://github.com/Shikib/fed) [[data]](http://shikib.com/fed_data.json) :star::star::star:
 * **Spot-the-Bot**: "Spot The Bot: A Robust and Efficient Framework for the Evaluation of Conversational Dialogue Systems". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.326) [[code]](https://github.com/jderiu/spot-the-bot-code)
-* **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
 * **CMADE**: "Beyond User Self-Reported Likert Scale Ratings: A Comparison Model for Automatic Dialog Evaluation". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.126) [[code]](https://github.com/Weixin-Liang/dialog_evaluation_CMADE)
 * **Coherence**: "Dialogue Coherence Assessment Without Explicit Dialogue Act Labels". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.133) [[code]](https://github.com/UKPLab/acl2020-dialogue-coherence-assessment)
+* **MAUDE**: "Learning an Unreferenced Metric for Online Dialogue Evaluation". ACL(2020) [[PDF]](https://arxiv.org/abs/2005.00583) [[code]](https://github.com/facebookresearch/online_dialog_eval)
 * **GRADE**: "GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.742) [[code]](https://github.com/li3cmz/GRADE)
+* **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
 * **uBLEU**: "uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-srw.27) [[code]](https://github.com/YumaTsuta/upsilon_bleu)
 * **USR**: "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation". ACL(2020) [[PDF]](https://www.aclweb.org/anthology/2020.acl-main.64) [[code]](https://github.com/Shikib/usr)
 * **InteractiveEval**: "Approximating Interactive Human Evaluation with Self-Play for Open-Domain Dialog Systems". NeurIPS(2019) [[PDF]](https://proceedings.neurips.cc/paper/2019/file/fc9812127bf09c7bd29ad6723c683fb5-Paper.pdf) [[code]](https://github.com/natashamjaques/neural_chat) :star::star::star:
