@@ -106,6 +106,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **Sparrow**: "Improving alignment of dialogue agents via targeted human judgements". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.14375) [[data]](https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow.html)
 * **BlenderBot3**: "BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.03188)
 * **LaMDA**: "LaMDA: Language Models for Dialog Applications". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.08239)
+* **GODEL**: "GODEL: Large-Scale Pre-Training for Goal-Directed Dialog". arXiv(2022) [[PDF]](https://arxiv.org/abs/2206.11309) [[code]](https://github.com/Microsoft/GODEL)
 * **Anthropic Assistant**: "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback". arXiv(2022) [[PDF]](https://arxiv.org/abs/2204.05862)
 * **Anthropic Assistant**: "A General Language Assistant as a Laboratory for Alignment". arXiv(2021) [[PDF]](https://arxiv.org/abs/2112.00861)
 
@@ -277,7 +278,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Task-oriented Dialogue
-* **KB-Adapter**: "Injecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems". EMNLP(2022) [[PDF]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.820.pdf) [[code]](https://github.com/amazon-science/domain-knowledge-injection)
+* **Dialogic**: "Dialogic: Controllable Dialogue Simulation with In-Context Learning". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2210.04185) [[code]](https://github.com/Leezekun/dialogic) :star::star::star:
+* **KB-Adapter**: "Injecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2212.08120) [[code]](https://github.com/amazon-science/domain-knowledge-injection)
 * **TacoBot**: "Bootstrapping a User-Centered Task-Oriented Dialogue System". Proceedings of Alexa Prize TaskBot(2021) [[PDF]](https://arxiv.org/abs/2207.05223) :star::star::star:
 * **USDA**: "User Satisfaction Estimation with Sequential Dialogue Act Modeling in Goal-oriented Conversational Systems". WWW(2022) [[PDF]](https://arxiv.org/abs/2202.02912) [[code]](https://github.com/dengyang17/USDA)
 * **USS**: "Simulating User Satisfaction for the Evaluation of Task-oriented Dialogue Systems". SIGIR(2021) [[PDF]](https://arxiv.org/abs/2105.03748) [[data]](https://github.com/sunnweiwei/user-satisfaction-simulation)
@@ -319,10 +321,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ### Open-domain Dialogue
 * **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[PDF]](https://aclanthology.org/2022.nlp4convai-1.13)
+* **Chirpy Cardinal**: "Neural Generation Meets Real People: Building a Social, Informative Open-Domain Dialogue Agent". SIGDIAL(2022) [[PDF]](https://arxiv.org/abs/2207.12021) [[code]](https://github.com/stanfordnlp/chirpycardinal) [[project]](https://stanfordnlp.github.io/chirpycardinal/) :star::star::star:
 * **TIL**: "Towards Efficient Dialogue Pre-training with Transferable and Interpretable Latent Structure". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.12461)
 * **ProphetChat**: "ProphetChat: Enhancing Dialogue Generation with Simulation of Future Conversation". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.68)
 * **DialoFlow**: "Conversations Are Not Flat: Modeling the Dynamic Information Flow across Dialogue Utterances". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.02227) [[code]](https://github.com/ictnlp/DialoFlow) :star::star::star:
 * **DialogBERT**: "DialogBERT: Discourse-Aware Response Generation via Learning to Recover and Rank Utterances". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.01775.pdf)
+* **BlenderBot**: "Recipes for Building an Open-Domain Chatbot". EACL(2021) [[PDF]](https://arxiv.org/abs/2004.13637) [[code]](https://huggingface.co/docs/transformers/model_doc/blenderbot)
 * **CDial-GPT**: "A Large-Scale Chinese Short-Text Conversation Dataset". NLPCC(2020) [[PDF]](https://arxiv.org/pdf/2008.03946.pdf) [[code]](https://github.com/thu-coai/CDial-GPT)
 * **DialoGPT**: "DialoGPT : Large-Scale Generative Pre-training for Conversational Response Generation". ACL(2020) [[PDF]](https://arxiv.org/pdf/1911.00536.pdf) [[code]](https://github.com/microsoft/DialoGPT) :star::star::star:
 * **PLATO-XL**: "PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.09519) [[code]](https://github.com/PaddlePaddle/Knover/tree/develop/projects)
@@ -364,6 +368,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **LLMEval**: "Understanding the Effectiveness of Very Large Language Models on Dialog Evaluation". IWSDS(2023) [[PDF]](https://arxiv.org/abs/2301.12004)
 * **ChatEvalPlatform**: "Don't Forget Your ABC's: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09180) [[code]](https://github.com/emora-chat/ChatEvaluationPlatform)
 * **MoralDial**: "MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Constructing Moral Discussions". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10720)
+* **MDD-Eval**: "MDD-Eval: Self-Training on Augmented Data for Multi-Domain Dialogue Evaluation". AAAI(2022) [[PDF]](https://arxiv.org/abs/2112.07194) [[code]](https://github.com/e0397123/MDD-Eval)
 * **Self-Eval**: "SelF-Eval: Self-supervised Fine-grained Dialogue Evaluation". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.39/) [[code]](https://github.com/royny/self-eval)
 * **FineD-Eval**: "FineD-Eval: Fine-grained Automatic Dialogue-Level Evaluation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.13832) [[code]](https://github.com/e0397123/FineD-Eval)
 * **FlowEval**: "FlowEval: A Consensus-Based Dialogue Evaluation Framework Using Segment Act Flows". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2202.06633)
@@ -490,3 +495,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[PDF]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
 * **DBA**: "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation". NAACL(2018) [[PDF]](https://aclanthology.org/N18-1119) [[code-official]](https://github.com/awslabs/sockeye) [[code-fairseq]](https://github.com/facebookresearch/fairseq/blob/main/examples/constrained_decoding/README.md)
 * **GBS**: "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search". ACL(2017) [[PDF]](https://aclanthology.org/P17-1141) [[code]](https://github.com/chrishokamp/constrained_decoding)
+
+
+
+[Back to Top](#paper-reading)
