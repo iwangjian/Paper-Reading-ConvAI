@@ -18,8 +18,9 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 - [Natural Language Generation](#natural-language-generation)
   - [Survey of NLG](#survey-of-nlg)
   - [Text Planning](#text-planning)
-  - [Generation (Theories and Techniques)](#generation-theories-and-techniques)
   - [Controllable Generation](#controllable-generation)
+  - [Diffusion Models for Generation](#diffusion-models-for-generation)
+  - [Generation (Theories and Techniques)](#generation-theories-and-techniques)
   - [Decoding Algorithm](#decoding-algorithm)
 
 ***
@@ -151,7 +152,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **COMPAC**: "Like hiking? You probably enjoy nature: Persona-grounded Dialog with Commonsense Expansions". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2010.03205) [[code]](https://github.com/majumderb/compac)
 * **pragmatic-consistency**: "Will I Sound Like Me? Improving Persona Consistency in Dialogues through Pragmatic Self-Consciousness". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2004.05816) [[code]](https://github.com/skywalker023/pragmatic-consistency) :star::star::star::star:
 * **XPersona**: "XPersona: Evaluating Multilingual Personalized Chatbot". arXiv(2020) [[PDF]](https://arxiv.org/abs/2003.07568) [[data]](https://github.com/HLTCHKUST/Xpersona)
+* **KvPI**: "Profile Consistency Identification for Open-domain Dialogue Agents". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.539/) [[code]](https://github.com/songhaoyu/KvPI)
+* **GDR**: "Generate, Delete and Rewrite: A Three-Stage Framework for Improving Persona Consistency of Dialogue Generation". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.516/)
 * **P^2Bot**: "You Impress Me: Dialogue Generation via Mutual Persona Perception". ACL(2020) [[PDF]](https://aclanthology.org/2020.acl-main.131) [[code]](https://github.com/SivilTaram/Persona-Dialogue-Generation)
+* **RCDG**: "Generating Persona Consistent Dialogues by Exploiting Natural Language Inference". AAAI(2020) [[PDF]](https://arxiv.org/abs/1911.05889) [[code]](https://github.com/songhaoyu/RCDG)
 * **Persona-sparse**: "A Pre-training Based Personalized Dialogue Generation Model with Persona-sparse Data". AAAI(2020) [[PDF]](https://arxiv.org/abs/1911.04700)
 * **PersonaWAE**: "Modeling Personalization in Continuous Space for Response Generation via Augmented Wasserstein Autoencoders". EMNLP(2019) [[PDF]](https://aclanthology.org/D19-1201/)
 * **PAML**: "Personalizing Dialogue Agents via Meta-Learning". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1542) [[code]](https://github.com/HLTCHKUST/PAML)
@@ -208,6 +212,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[PDF]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
 ### Knowledge-grounded Dialogue
+* **GLM-Dialog**: "GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.14401) [[code]](https://github.com/RUCKBReasoning/GLM-Dialog)
 * **MultiRefKGC**: "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.12459) [[code]](https://github.com/TingchenFu/MultiRefKGC) :star::star::star:
 * **CorefDiffs**: "CorefDiffs: Co-referential and Differential Knowledge Flow in Document Grounded Conversations". COLING(2022) [[PDF]](https://arxiv.org/abs/2210.02223) [[code]](https://github.com/cathyxl/coref-diffs)
 * **DTR**: "Stylized Knowledge-Grounded Dialogue Generation via Disentangled Template Rewriting". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.05610) [[code]](https://github.com/victorsungo/SKDG-DTR)
@@ -423,8 +428,37 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **PAG**: "Plan, Attend, Generate: Planning for Sequence-to-Sequence Models". NIPS(2017) [[PDF]](https://proceedings.neurips.cc/paper/2017/file/b030afbb3a8af8fb0759241c97466ee4-Paper.pdf)
 
 
+### Controllable Generation
+* **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
+* **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10938)
+* **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
+* **FAST**: "FAST: Improving Controllability for Text Generation with Feedback Aware Self-Training". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.03167)
+* **DisCup**: "DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.09551) [[code]](https://github.com/littlehacker26/discriminator-cooperative-unlikelihood-prompt-tuning)
+* **MultiControl**: "A Distributional Lens for Multi-Aspect Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.02889) [[code]](https://github.com/HappyGu0524/MultiControl)
+* **NADO**: "Controllable Text Generation with Neurally-Decomposed Oracle". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14219) [[code]](https://github.com/mtsomethree/constrdecoding)
+* **Mix-Match**: "Mix and Match: Learning-free Controllable Text Generation using Energy Language Models". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.31) [[code]](https://github.com/mireshghallah/mixmatch)
+* **ControlPrefix**: "Controllable Natural Language Generation with Contrastive Prefixes". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.229)
+* **MUCOCO**: "Controlled Text Generation as Continuous Optimization with Multiple Constraints". NeurIPS(2021) [[PDF]](https://proceedings.neurips.cc/paper/2021/file/79ec2a4246feb2126ecf43c4a4418002-Paper.pdf) [[code]](https://github.com/Sachin19/mucoco)
+* **DExperts**: "DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.522) [[code]](https://github.com/alisawuffles/DExperts)
+* **FUDGE**: "FUDGE: Controlled Text Generation With Future Discriminators". NAACL(2021) [[PDF]](https://arxiv.org/abs/2104.05218) [[code]](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
+* **GeDi**: "GeDi: Generative Discriminator Guided Sequence Generation". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.424/) [[code]](https://github.com/salesforce/GeDi)
+* **GDC**: "A Distributional Approach to Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.11635) [[code]](https://github.com/naver/gdc) :star::star::star:
+* **CoCon**: "CoCon: A Self-Supervised Approach for Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2006.03535) [[code]](https://github.com/alvinchangw/COCON_ICLR2021)
+* **PPLM**: "Plug and Play Language Models: A Simple Approach to Controlled Text Generation". ICLR(2020) [[PDF]](https://arxiv.org/abs/1912.02164) [[code]](https://github.com/uber-research/PPLM) :star::star::star:
+* **CTRL**: "CTRL: A Conditional Transformer Language Model for Controllable Generation". arXiv(2019) [[PDF]](https://arxiv.org/abs/1909.05858) [[code]](https://github.com/salesforce/ctrl)
+
+
+### Diffusion Models for Generation
+* **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412)
+* **SED**: "Self-conditioned Embedding Diffusion for Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.04236)
+* **reparam-discrete**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
+* **latent-diffusion**: "Latent Diffusion for Language Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09462) [[code]](https://github.com/justinlovelace/latent-diffusion-for-language)
+* **SeqDiffuSeq**: "SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10325) [[code]](https://github.com/Yuanhy1997/SeqDiffuSeq)
+* **DiffuSeq**: "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models". ICLR(2023) [[PDF]](https://arxiv.org/abs/2210.08933) [[code]](https://github.com/Shark-NLP/DiffuSeq)
+* **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
+
+
 ### Generation (Theories and Techniques)
-* **DiffuSeq**: "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.08933) [[code]](https://github.com/Shark-NLP/DiffuSeq)
 * **LaMemo**: "LaMemo: Language Modeling with Look-Ahead Memory". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.07341) [[code]](https://github.com/thu-coai/LaMemo)
 * **PTG**: "Learning to Transfer Prompts for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.01543) [[code]](https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation)
 * **EISL**: "Don't Take It Literally: An Edit-Invariant Sequence Loss for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2106.15078) [[code]](https://github.com/guangyliu/EISL)
@@ -446,34 +480,12 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **FastSeq**: "EL-Attention: Memory Efficient Lossless Attention for Generation". ICML(2021) [[PDF]](https://arxiv.org/abs/2105.04779) [[code]](https://github.com/microsoft/fastseq) :star::star::star:
 * **BERTSeq2Seq**: "Leveraging Pre-trained Checkpoints for Sequence Generation Tasks". TACL(2020) [[PDF]](https://arxiv.org/pdf/1907.12461.pdf) [[code-tf]](https://github.com/google-research/google-research/tree/master/bertseq2seq) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
 * **ERNIE-GEN**: "ERNIE-GEN: An Enhanced Multi-Flow Pre-training and Fine-tuning Framework for Natural Language Generation". IJCAI(2020) [[PDF]](https://arxiv.org/pdf/2001.11314.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE/tree/repro/ernie-gen) :star::star::star:
-* **Distill-BERT-Textgen**: "Distilling Knowledge Learned in BERT for Text Generation". ACL(2020) [[PDF]](https://arxiv.org/abs/1911.03829) [[code]](https://github.com/ChenRocks/Distill-BERT-Textgen)
 * **DITTO**: "Learning to Break the Loop: Analyzing and Mitigating Repetitions for Neural Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2206.02369) [[code]](https://github.com/Jxu-Thu/DITTO)
 * **Repetition-Problem**: "A Theoretical Analysis of the Repetition Problem in Text Generation". AAAI(2021) [[PDF]](https://arxiv.org/pdf/2012.14660.pdf) [[code]](https://github.com/fuzihaofzh/repetition-problem-nlg)
 * **ENCONTER**: "ENCONTER: Entity Constrained Progressive Sequence Generation via Insertion-based Transformer". EACL(2021) [[PDF]](https://arxiv.org/abs/2103.09548) [[code]](https://github.com/LARC-CMU-SMU/Enconter)
 * **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
 * **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
-
-
-### Controllable Generation
-* **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
-* **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10938)
-* **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
-* **FAST**: "FAST: Improving Controllability for Text Generation with Feedback Aware Self-Training". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.03167)
-* **DisCup**: "DisCup: Discriminator Cooperative Unlikelihood Prompt-tuning for Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.09551) [[code]](https://github.com/littlehacker26/discriminator-cooperative-unlikelihood-prompt-tuning)
-* **MultiControl**: "A Distributional Lens for Multi-Aspect Controllable Text Generation". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.02889) [[code]](https://github.com/HappyGu0524/MultiControl)
-* **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
-* **NADO**: "Controllable Text Generation with Neurally-Decomposed Oracle". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14219) [[code]](https://github.com/mtsomethree/constrdecoding)
-* **Mix-Match**: "Mix and Match: Learning-free Controllable Text Generation using Energy Language Models". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.31) [[code]](https://github.com/mireshghallah/mixmatch)
-* **ControlPrefix**: "Controllable Natural Language Generation with Contrastive Prefixes". ACL-Findings(2022) [[PDF]](https://aclanthology.org/2022.findings-acl.229)
-* **MUCOCO**: "Controlled Text Generation as Continuous Optimization with Multiple Constraints". NeurIPS(2021) [[PDF]](https://proceedings.neurips.cc/paper/2021/file/79ec2a4246feb2126ecf43c4a4418002-Paper.pdf) [[code]](https://github.com/Sachin19/mucoco)
-* **DExperts**: "DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.522) [[code]](https://github.com/alisawuffles/DExperts)
-* **FUDGE**: "FUDGE: Controlled Text Generation With Future Discriminators". NAACL(2021) [[PDF]](https://arxiv.org/abs/2104.05218) [[code]](https://github.com/yangkevin2/naacl-2021-fudge-controlled-generation)
-* **GeDi**: "GeDi: Generative Discriminator Guided Sequence Generation". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.424/) [[code]](https://github.com/salesforce/GeDi)
-* **GDC**: "A Distributional Approach to Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2012.11635) [[code]](https://github.com/naver/gdc) :star::star::star:
-* **CoCon**: "CoCon: A Self-Supervised Approach for Controlled Text Generation". ICLR(2021) [[PDF]](https://arxiv.org/abs/2006.03535) [[code]](https://github.com/alvinchangw/COCON_ICLR2021)
-* **PPLM**: "Plug and Play Language Models: A Simple Approach to Controlled Text Generation". ICLR(2020) [[PDF]](https://arxiv.org/abs/1912.02164) [[code]](https://github.com/uber-research/PPLM) :star::star::star:
-* **CTRL**: "CTRL: A Conditional Transformer Language Model for Controllable Generation". arXiv(2019) [[PDF]](https://arxiv.org/abs/1909.05858) [[code]](https://github.com/salesforce/ctrl)
 
 
 ### Decoding Algorithm
