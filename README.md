@@ -124,6 +124,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[PDF]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot) :star::star::star:
 
 #### Personality-aware Dialogue
+* **ChatGPT-MBTI**: "Can ChatGPT Assess Human Personalities? A General Evaluation Framework". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.01248) [[code]](https://github.com/Kali-Hac/ChatGPT-MBTI)
 * **Prompted Personality**: "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based Learning". IWSDS(2023) [[PDF]](https://arxiv.org/abs/2302.03848)
 * **CPED**: "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.14727) [[data]](https://github.com/scutcyr/CPED) :star::star::star:
 * **PELD**: "Automatically Select Emotion for Response via Personality-affected Emotion Transition". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2106.15846) [[data]](https://github.com/preke/PELD)
@@ -449,10 +450,10 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Diffusion Models for Generation
+* **discrete-diffusion**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
 * **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412)
 * **SED**: "Self-conditioned Embedding Diffusion for Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.04236)
-* **reparam-discrete**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
-* **latent-diffusion**: "Latent Diffusion for Language Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09462) [[code]](https://github.com/justinlovelace/latent-diffusion-for-language)
+* **LD4LG**: "Latent Diffusion for Language Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09462) [[code]](https://github.com/justinlovelace/latent-diffusion-for-language)
 * **SeqDiffuSeq**: "SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10325) [[code]](https://github.com/Yuanhy1997/SeqDiffuSeq)
 * **DiffuSeq**: "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models". ICLR(2023) [[PDF]](https://arxiv.org/abs/2210.08933) [[code]](https://github.com/Shark-NLP/DiffuSeq)
 * **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
