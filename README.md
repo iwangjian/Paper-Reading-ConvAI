@@ -451,12 +451,17 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ### Diffusion Models for Generation
 * **discrete-diffusion**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
-* **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412)
+* **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412) :star::star::star:
+* **GENIE**: "Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.11685) [[code]](https://github.com/microsoft/ProphetNet/tree/master/GENIE)
 * **SED**: "Self-conditioned Embedding Diffusion for Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.04236)
+* **SSD-LM**: "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.17432) [[code]](https://github.com/xhan77/ssd-lm)
 * **LD4LG**: "Latent Diffusion for Language Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09462) [[code]](https://github.com/justinlovelace/latent-diffusion-for-language)
+* **DiffusionBERT**: "DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.15029) [[code]](https://github.com/Hzfinfdu/Diffusion-BERT)
+* **DiffusER**: "DiffusER: Discrete Diffusion via Edit-based Reconstruction". arXiv(2022) [[PDF]](https://arxiv.org/abs/2210.16886) [[code]](https://github.com/machelreid/diffuser)
 * **SeqDiffuSeq**: "SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10325) [[code]](https://github.com/Yuanhy1997/SeqDiffuSeq)
 * **DiffuSeq**: "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models". ICLR(2023) [[PDF]](https://arxiv.org/abs/2210.08933) [[code]](https://github.com/Shark-NLP/DiffuSeq)
 * **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
+* **D3PM**: "Structured Denoising Diffusion Models in Discrete State-Spaces". NeurIPS(2021) [[PDF]](https://arxiv.org/abs/2107.03006) [[code]](https://github.com/google-research/google-research/tree/master/d3pm)
 
 
 ### Generation (Theories and Techniques)
