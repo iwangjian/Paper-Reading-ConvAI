@@ -114,6 +114,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ### Personalized Dialogue
 
 #### Character-based Dialogue
+* **Cornell-Rich**: "Personalised Language Modelling of Screen Characters Using Rich Metadata Annotations". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.16618) [[data]](https://github.com/st-vincent1/cornell_rich)
 * **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[PDF]](https://arxiv.org/abs/2212.10618)
 * **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.06869)
 * **DialStory**: "A Benchmark for Understanding and Generating Dialogue between Characters in Stories". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.08524)
@@ -283,6 +284,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### Task-oriented Dialogue
+* **P-ToD**: "Personalizing Task-oriented Dialog Systems via Zero-shot Generalizable Reward Function". CIKM(2022) [[PDF]](https://dl.acm.org/doi/abs/10.1145/3511808.3557417)
 * **Dialogic**: "Dialogic: Controllable Dialogue Simulation with In-Context Learning". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2210.04185) [[code]](https://github.com/Leezekun/dialogic) :star::star::star:
 * **KB-Adapter**: "Injecting Domain Knowledge in Language Models for Task-Oriented Dialogue Systems". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2212.08120) [[code]](https://github.com/amazon-science/domain-knowledge-injection)
 * **TacoBot**: "Bootstrapping a User-Centered Task-Oriented Dialogue System". Proceedings of Alexa Prize TaskBot(2021) [[PDF]](https://arxiv.org/abs/2207.05223) :star::star::star:
@@ -369,6 +371,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
+* **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.16634)
 * **GPTScore**: "GPTScore: Evaluate as You Desire". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.04166) [[code]](https://github.com/jinlanfu/GPTScore)
 * **LLMEval**: "Understanding the Effectiveness of Very Large Language Models on Dialog Evaluation". IWSDS(2023) [[PDF]](https://arxiv.org/abs/2301.12004)
 * **ChatEvalPlatform**: "Don't Forget Your ABC's: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09180) [[code]](https://github.com/emora-chat/ChatEvaluationPlatform)
