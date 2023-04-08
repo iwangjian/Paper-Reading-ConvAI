@@ -102,7 +102,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### LLMs for Dialogue
-* **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[code]](https://github.com/cascip/ChatAlpaca)
+* **UltraChat**: "Large-scale, Informative, and Diverse Multi-round Dialogue Data". Github(2023) [[data]](https://github.com/thunlp/UltraChat)
+* **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
 * **Baize**: "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.01196) [[code]](https://github.com/project-baize/baize-chatbot)
 * **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". Github(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
 * **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Github(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
