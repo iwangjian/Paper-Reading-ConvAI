@@ -106,6 +106,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
 * **Baize**: "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.01196) [[code]](https://github.com/project-baize/baize-chatbot)
 * **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". Github(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
+* **BELLE**: "BELLE: Be Everyone's Large Language model Engine". Github(2023) [[code]](https://github.com/LianjiaTech/BELLE)
 * **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Github(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
 * **ChatGLM-6B**: "An Open Bilingual Dialogue Language Model". Github(2023) [[code]](https://github.com/THUDM/ChatGLM-6B)
 * **ChatGPT**: "ChatGPT: Optimizing Language Models for Dialogue". OpenAI(2022) [[Blog]](https://openai.com/blog/chatgpt/) :star::star::star::star::star:
