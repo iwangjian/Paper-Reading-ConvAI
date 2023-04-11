@@ -106,9 +106,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
 * **Baize**: "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.01196) [[code]](https://github.com/project-baize/baize-chatbot)
 * **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". Github(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
-* **BELLE**: "BELLE: Be Everyone's Large Language model Engine". Github(2023) [[code]](https://github.com/LianjiaTech/BELLE)
-* **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Github(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
-* **ChatGLM-6B**: "An Open Bilingual Dialogue Language Model". Github(2023) [[code]](https://github.com/THUDM/ChatGLM-6B)
+* **Koala**: "Koala: A Dialogue Model for Academic Research". UC Berkeley(2023) [[Blog]](https://bair.berkeley.edu/blog/2023/04/03/koala/) [[code]](https://github.com/young-geng/EasyLM)
+* **BELLE**: "BELLE: Be Everyone's Large Language model Engine". LianjiaTech(2023) [[code]](https://github.com/LianjiaTech/BELLE)
+* **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Stanford(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
+* **ChatGLM-6B**: "An Open Bilingual Dialogue Language Model". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM-6B)
 * **ChatGPT**: "ChatGPT: Optimizing Language Models for Dialogue". OpenAI(2022) [[Blog]](https://openai.com/blog/chatgpt/) :star::star::star::star::star:
 * **Sparrow**: "Improving alignment of dialogue agents via targeted human judgements". arXiv(2022) [[PDF]](https://arxiv.org/abs/2209.14375) [[data]](https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow.html)
 * **BlenderBot3**: "BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.03188)
@@ -460,6 +461,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Diffusion Models for Generation
+* **Masked-Diffusion-LM**: "A Cheaper and Better Diffusion Language Model with Soft-Masked Noise". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.04746) [[code]](https://github.com/amazon-science/masked-diffusion-lm)
 * **discrete-diffusion**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
 * **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412) :star::star::star:
 * **GENIE**: "Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.11685) [[code]](https://github.com/microsoft/ProphetNet/tree/master/GENIE)
@@ -475,6 +477,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Generation (Theories and Techniques)
+* **RED**: "Decoder-Only or Encoder-Decoder? Interpreting Language Model as a Regularized Encoder-Decoder". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.04052) :star::star::star: 
 * **LaMemo**: "LaMemo: Language Modeling with Look-Ahead Memory". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.07341) [[code]](https://github.com/thu-coai/LaMemo)
 * **PTG**: "Learning to Transfer Prompts for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.01543) [[code]](https://github.com/RUCAIBox/Transfer-Prompts-for-Text-Generation)
 * **EISL**: "Don't Take It Literally: An Edit-Invariant Sequence Loss for Text Generation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2106.15078) [[code]](https://github.com/guangyliu/EISL)
