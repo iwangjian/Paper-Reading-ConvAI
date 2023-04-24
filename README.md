@@ -104,7 +104,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ### LLMs for Dialogue
 * **UltraChat**: "Large-scale, Informative, and Diverse Multi-round Dialogue Data". Github(2023) [[data]](https://github.com/thunlp/UltraChat)
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
-* **Phoenix/Chimera**: "LLM Zoo: democratizing ChatGPT". Github(2023) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
+* **Phoenix**: "Phoenix: Democratizing ChatGPT across Languages". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.10453) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
 * **Baize**: "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.01196) [[code]](https://github.com/project-baize/baize-chatbot)
 * **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". Github(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
 * **Koala**: "Koala: A Dialogue Model for Academic Research". UC Berkeley(2023) [[Blog]](https://bair.berkeley.edu/blog/2023/04/03/koala/) [[code]](https://github.com/young-geng/EasyLM)
@@ -124,6 +124,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ### Personalized Dialogue
 
 #### Character-based Dialogue
+* **DPCD**: "Hi Sheldon! Creating Deep Personalized Characters from TV Shows". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.11093) [[data]](https://github.com/Metaverse-AI-Lab-THU/Deep-Personalized-Character-Dataset-DPCD)
 * **Cornell-Rich**: "Personalised Language Modelling of Screen Characters Using Rich Metadata Annotations". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.16618) [[data]](https://github.com/st-vincent1/cornell_rich)
 * **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[PDF]](https://arxiv.org/abs/2212.10618)
 * **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[PDF]](https://arxiv.org/abs/2211.06869)
