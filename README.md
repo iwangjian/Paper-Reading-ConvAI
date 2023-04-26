@@ -444,6 +444,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Controllable Generation
+* **GeLaTo**: "Tractable Control for Autoregressive Language Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.07438)
 * **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
 * **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.10938)
 * **LatentOps**: "Composable Text Controls in Latent Space with ODEs". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.00638) [[code]](https://github.com/guangyliu/LatentOps)
@@ -464,6 +465,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Diffusion Models for Generation
+* **RenderDiffusion**: "RenderDiffusion: Text Generation as Image Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.12519)
 * **Masked-Diffusion-LM**: "A Cheaper and Better Diffusion Language Model with Soft-Masked Noise". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.04746) [[code]](https://github.com/amazon-science/masked-diffusion-lm)
 * **discrete-diffusion**: "A Reparameterized Discrete Diffusion Model for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.05737) [[code]](https://github.com/hkunlp/reparam-discrete-diffusion)
 * **Difformer**: "Difformer: Empowering Diffusion Models on the Embedding Space for Text Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2212.09412) :star::star::star:
