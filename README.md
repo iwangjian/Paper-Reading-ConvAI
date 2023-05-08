@@ -11,7 +11,7 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Target-oriented Dialogue](#target-oriented-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
-  - [Emotion-aware Dialogue](#emotion-aware-dialogue)
+  - [Emotional Dialogue](#emotional-dialogue)
   - [Task-oriented Dialogue](#task-oriented-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
@@ -180,6 +180,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
 * **TGCP**: "Target-Guided Open-Domain Conversation Planning". COLING(2022) [[PDF]](https://arxiv.org/abs/2209.09746) [[code]](https://github.com/y-kishinami/TGCP)
 * **FOP**: "Long-term Control for Dialogue Generation: Methods and Evaluation". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.07352) [[code]](https://github.com/asappresearch/constrained-dialogue-generation)
+* **I-Pro**: "Interacting with Non-Cooperative User: A New Paradigm for Proactive Dialogue Policy". SIGIR(2022) [[PDF]](https://arxiv.org/abs/2204.07433)
 * **CODA**: "Target-Guided Dialogue Response Generation Using Commonsense and Data Augmentation". NAACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2205.09314) [[code]](https://github.com/prakharguptaz/target-guided-dialogue-coda)
 * **OTTers**: "OTTers: One-turn Topic Transitions for Open-Domain Dialogue". ACL(2021) [[PDF]](https://arxiv.org/abs/2105.13710) [[data]](https://github.com/karinseve/OTTers)
 * **CG-nAR**: "Thinking Clearly, Talking Fast: Concept-Guided Non-Autoregressive Generation for Open-Domain Dialogue Systems". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.04084) [[code]](https://github.com/RowitZou/CG-nAR) :star::star::star:
@@ -272,18 +273,28 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 
-### Emotion-aware Dialogue
+### Emotional Dialogue
+
+#### Emotional Support Dialogue
+* **AugESC**: "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2202.13047)
+* **TransESC**: "TransESC: Smoothing Emotional Support Conversation via Turn-Level State Transition". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2305.03296) [[code]](https://github.com/circle-hit/TransESC)
+* **PAL**: "PAL: Persona-Augmented Emotional Support Conversation Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09235)
 * **MultiESC**: "Improving Multi-turn Emotional Support Dialogue Generation with Lookahead Strategy Planning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.04242) [[code]](https://github.com/lwgkzl/MultiESC) :star::star::star::star:
-* **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.08845)
-* **PosEmoDial**: "Towards Multi-Turn Empathetic Dialogs with Positive Emotion Elicitation". arXiV(2022) [[PDF]](https://arxiv.org/abs/2204.10509)
 * **MISC**: "MISC: A MIxed Strategy-Aware Model Integrating COMET for Emotional Support Conversation". ACL(2022) [[PDF]](https://arxiv.org/abs/2203.13560) [[code]](https://github.com/morecry/MISC)
 * **C3KG**: "C3KG: A Chinese Commonsense Conversation Knowledge Graph". ACL-Findings(2022) [[PDF]](https://arxiv.org/abs/2204.02549) [[data]](https://github.com/XiaoMi/C3KG)
 * **GLHG**: "Control Globally, Understand Locally: A Global-to-Local Hierarchical Graph Network for Emotional Support Conversation". IJCAI(2022) [[PDF]](https://arxiv.org/abs/2204.12749)
+* **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[data]](https://github.com/thu-coai/Emotional-Support-Conversation) :star::star::star:
+
+
+
+#### Empathetic Dialogue
+* **EmpSOA**: "Don't Lose Yourself! Empathetic Response Generation via Explicit Self-Other Awareness". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2210.03884) [[code]](https://github.com/circle-hit/EmpSOA)
+* **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.08845)
+* **PosEmoDial**: "Towards Multi-Turn Empathetic Dialogs with Positive Emotion Elicitation". arXiV(2022) [[PDF]](https://arxiv.org/abs/2204.10509)
 * **CEM**: "CEM: Commonsense-aware Empathetic Response Generation". AAAI(2022) [[PDF]](https://arxiv.org/abs/2109.05739) [[code]](https://github.com/Sahandfer/CEM)
 * **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
 * **RecEC**: "Improving Empathetic Response Generation by Recognizing Emotion Cause in Conversations". EMNLP-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-emnlp.70) [[code]](https://github.com/A-Rain/EmpDialogue_RecEC)
 * **CoMAE**: "CoMAE: A Multi-factor Hierarchical Framework for Empathetic Response Generation". ACL-Findings(2021) [[PDF]](https://aclanthology.org/2021.findings-acl.72) [[code]](https://github.com/chujiezheng/CoMAE)
-* **ESConv**: "Towards Emotional Support Dialog Systems". ACL(2021) [[PDF]](https://arxiv.org/abs/2106.01144) [[data]](https://github.com/thu-coai/Emotional-Support-Conversation) :star::star::star:
 * **CARE**: "CARE: Commonsense-Aware Emotional Response Generation with Latent Concepts". AAAI(2021) [[PDF]](https://arxiv.org/abs/2012.08377) [[code]](https://github.com/zhongpeixiang/CARE)
 * **EmpDG**: "EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation". COLING(2020) [[PDF]](https://aclanthology.org/2020.coling-main.394) [[code]](https://github.com/qtli/EmpDG)
 * **MIME**: "MIME: MIMicking Emotions for Empathetic Response Generation". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2010.01454) [[code]](https://github.com/declare-lab/MIME)
