@@ -278,6 +278,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 ### Emotional Dialogue
 
 #### Emotional Support Dialogue
+* **KEMI**: "Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.10172) [[code]](https://github.com/dengyang17/KEMI)
+* **CSConv**: "A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.08200) [[code]](https://github.com/jiangjyjy/CSD)
 * **AugESC**: "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2202.13047)
 * **TransESC**: "TransESC: Smoothing Emotional Support Conversation via Turn-Level State Transition". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2305.03296) [[code]](https://github.com/circle-hit/TransESC)
 * **PAL**: "PAL: Persona-Augmented Emotional Support Conversation Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09235)
@@ -291,7 +293,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 #### Empathetic Dialogue
 * **EmpSOA**: "Don't Lose Yourself! Empathetic Response Generation via Explicit Self-Other Awareness". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2210.03884) [[code]](https://github.com/circle-hit/EmpSOA)
-* **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2208.08845)
+* **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". ACL(2023) [[PDF]](https://arxiv.org/abs/2208.08845) [[code]](https://github.com/jfzhouyoo/CASE)
 * **PosEmoDial**: "Towards Multi-Turn Empathetic Dialogs with Positive Emotion Elicitation". arXiV(2022) [[PDF]](https://arxiv.org/abs/2204.10509)
 * **CEM**: "CEM: Commonsense-aware Empathetic Response Generation". AAAI(2022) [[PDF]](https://arxiv.org/abs/2109.05739) [[code]](https://github.com/Sahandfer/CEM)
 * **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[PDF]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
@@ -396,6 +398,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
+* **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
 * **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.16634)
 * **GPTScore**: "GPTScore: Evaluate as You Desire". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.04166) [[code]](https://github.com/jinlanfu/GPTScore)
 * **LLMEval**: "Understanding the Effectiveness of Very Large Language Models on Dialog Evaluation". IWSDS(2023) [[PDF]](https://arxiv.org/abs/2301.12004)
