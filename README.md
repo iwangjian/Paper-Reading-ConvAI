@@ -1,11 +1,10 @@
 ﻿# Paper-Reading
-Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems** and **natural language generation**. This repo will keep updating 🤗 ...
+Paper reading list in natural language processing (NLP), with special emphasis on **dialogue systems** and **natural language generation**. This repo will keep updating ... 🤗
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
-- [Pre-trained Language Models](#pre-trained-language-models)
-- [Knowledge Representation Learning](#knowledge-representation-learning)
-- [Dialogue System](#dialogue-system)
-  - [Survey](#survey)
+- [Pre-trained (Large) Language Models](#pre-trained-large-language-models)
+- [Dialogue Systems](#dialogue-systems)
+  - [Survey on Dialogue](#survey-on-dialogue)
   - [LLMs for Dialogue](#llms-for-dialogue)
   - [Personalized Dialogue](#personalized-dialogue)
   - [Target-oriented Dialogue](#target-oriented-dialogue)
@@ -16,12 +15,12 @@ Paper reading list in natural language processing (NLP), with special emphasis o
   - [Open-domain Dialogue](#open-domain-dialogue)
   - [Dialogue Evaluation](#dialogue-evaluation)
 - [Natural Language Generation](#natural-language-generation)
-  - [Survey of NLG](#survey-of-nlg)
+  - [Survey on NLG](#survey-on-nlg)
   - [Text Planning](#text-planning)
   - [Controllable Generation](#controllable-generation)
   - [Diffusion Models for Generation](#diffusion-models-for-generation)
   - [Generation (Theories and Techniques)](#generation-theories-and-techniques)
-  - [Decoding Algorithm](#decoding-algorithm)
+  - [Decoding Algorithms](#decoding-algorithms)
 
 ***
 
@@ -48,7 +47,12 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[PDF]](https://arxiv.org/pdf/1609.04747.pdf) :star::star::star::star::star:
 
 
-## Pre-trained Language Models
+## Pre-trained (Large) Language Models
+
+* **GPT-4**: "GPT-4 Technical Report". OpenAI(2023) [[PDF]](https://arxiv.org/abs/2303.08774) :star::star::star::star:
+* **LLaMA**: "LLaMA: Open and Efficient Foundation Language Models". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.13971) [[code]](https://github.com/facebookresearch/llama) :star::star::star::star:
+* **OPT**: "OPT: Open Pre-trained Transformer Language Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.01068) [[code]](https://github.com/facebookresearch/metaseq)
+* **PaLM**: "PaLM: Scaling Language Modeling with Pathways". arXiv(2022) [[PDF]](https://arxiv.org/abs/2204.02311)
 * **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.07139)
 * **Survey of PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[PDF]](https://arxiv.org/pdf/2003.08271.pdf)
 * **GLM-130B**: "GLM-130B: An Open Bilingual Pre-trained Model". ICLR(2023) [[PDF]](https://arxiv.org/abs/2210.02414) [[code]](https://github.com/THUDM/GLM-130B) [[Blog]](http://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) :star::star::star:
@@ -65,45 +69,25 @@ Paper reading list in natural language processing (NLP), with special emphasis o
 * **UniLM**: "Unified Language Model Pre-training for
 Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/9464-unified-language-model-pre-training-for-natural-language-understanding-and-generation.pdf) [[code]](https://github.com/microsoft/unilm) :star::star::star:
 * **XLNet**: "XLNet: Generalized Autoregressive Pretraining for Language Understanding". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding.pdf) [[code]](https://github.com/zihangdai/xlnet)
-* **XLM**: "Cross-lingual Language Model Pretraining". NeurIPS(2019) [[PDF]](https://papers.nips.cc/paper/8928-cross-lingual-language-model-pretraining.pdf) [[code]](https://github.com/facebookresearch/XLM)
 * **GPT-2**: "Language Models are Unsupervised Multitask Learners". OpenAI(2019) [[PDF]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[code]](https://huggingface.co/gpt2)
 * **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[PDF]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert) :star::star::star::star::star:
 * **GPT**: "Improving Language Understanding by Generative Pre-Training". OpenAI(2018) [[PDF]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) :star::star::star::star::star:
 
 
-## Knowledge Representation Learning
-* **DRAGON**: "Deep Bidirectional Language-Knowledge Graph Pretraining". NeurIPS(2022) [[PDF]](https://arxiv.org/abs/2210.09338) [[code]](https://github.com/michiyasunaga/dragon)
-* **FKGE**: "Differentially Private Federated Knowledge Graphs Embedding". CIKM(2021) [[PDF]](https://arxiv.org/abs/2105.07615) [[code]](https://github.com/HKUST-KnowComp/FKGE)
-* **FILM**: "Adaptable and Interpretable Neural Memory Over Symbolic Knowledge". NAACL(2021) [[PDF]](https://aclanthology.org/2021.naacl-main.288)
-* **ERICA**: "ERICA: Improving Entity and Relation Understanding for Pre-trained Language Models via Contrastive Learning". ACL(2021) [[PDF]](https://arxiv.org/abs/2012.15022) [[code]](https://github.com/thunlp/ERICA) :star::star::star:
-* **K-Adapter**: "K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters". ACL-Findings(2021) [[PDF]](https://arxiv.org/abs/2002.01808) [[code]](https://github.com/microsoft/k-adapter)
-* **CoLAKE**: "CoLAKE: Contextualized Language and Knowledge Embedding". COLING(2020) [[PDF]](https://arxiv.org/abs/2010.00309) [[code]](https://github.com/txsun1997/CoLAKE)
-* **KEPLER**: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation". TACL(2020) [[PDF]](https://arxiv.org/pdf/1911.06136.pdf) [[code]](https://github.com/THU-KEG/KEPLER)
-* **LUKE**: "LUKE: Deep Contextualized Entity Representations with Entity-aware Self-attention". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.523) [[code]](https://github.com/studio-ousia/luke) :star::star::star:
-* **GLM**: "Exploiting Structured Knowledge in Text via Graph-Guided Representation Learning". EMNLP(2020) [[PDF]](https://www.aclweb.org/anthology/2020.emnlp-main.722) [[code]](https://github.com/taoshen58/glm-codes)
-* **GRF**: "Language Generation with Multi-Hop Reasoning on Commonsense Knowledge Graph". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2009.11692) [[code]](https://github.com/cdjhz/multigen)
-* **K-BERT**: "K-BERT: Enabling Language Representation with Knowledge Graph". AAAI(2020) [[PDF]](https://mx.aaai.org/ojs/index.php/AAAI/article/view/5681) [[code]](https://github.com/autoliuweijie/K-BERT) :star::star::star:
-* **LM-as-KG**: "Language Models are Open Knowledge Graphs". arXiv(2020) [[PDF]](https://arxiv.org/abs/2010.11967)
-* **LAMA**: "Language Models as Knowledge Bases?". EMNLP(2019) [[PDF]](https://arxiv.org/abs/1909.01066) [[code]](https://github.com/facebookresearch/LAMA) :star::star::star:
-* **COMET**: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction". ACL(2019) [[PDF]](https://arxiv.org/abs/1906.05317) [[code]](https://github.com/atcbosselut/comet-commonsense) :star::star::star:
-* **ATOMIC**: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning". AAAI(2019) [[PDF]](https://arxiv.org/abs/1811.00146) [[data]](https://huggingface.co/datasets/atomic)
-* **ERNIE(Tsinghua)**: "ERNIE: Enhanced Language Representation with Informative Entities". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1139.pdf) [[code]](https://github.com/thunlp/ERNIE)
-* **ERNIE(Baidu)**: "ERNIE: Enhanced Representation through Knowledge Integration". arXiv(2019) [[PDF]](https://arxiv.org/pdf/1904.09223.pdf) [[code]](https://github.com/PaddlePaddle/ERNIE)
+## Dialogue Systems
 
-
-## Dialogue System
-
-### Survey
-* **Survey of Proactive Dialogue**: "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects". IJCAI(2023) [[PDF]](https://arxiv.org/abs/2305.02750)
-* **Survey of Dialogue**: "Recent Advances towards Safe, Responsible, and Moral Dialogue Systems: A Survey". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.09270) :star::star::star::star:
-* **Survey of Negotiation Dialogue**: "Let's Negotiate! A Survey of Negotiation Dialogue Systems". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09072)
-* **Survey of Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](https://arxiv.org/abs/2105.04387) :star::star::star::star:
-* **Survey of Open-domain Dialogue**: "Challenges in Building Intelligent Open-domain Dialog Systems". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3383123)
-* **Survey of Dialogue**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
-* **Survey of Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
+### Survey on Dialogue
+* **Proactive Dialogue**: "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects". IJCAI(2023) [[PDF]](https://arxiv.org/abs/2305.02750)
+* **Responsible Dialogue**: "Recent Advances towards Safe, Responsible, and Moral Dialogue Systems: A Survey". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.09270) :star::star::star::star:
+* **Negotiation Dialogue**: "Let's Negotiate! A Survey of Negotiation Dialogue Systems". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.09072)
+* **DL-based Dialogue**: "Recent Advances in Deep Learning Based Dialogue Systems: A Systematic Survey". arXiv(2021) [[PDF]](https://arxiv.org/abs/2105.04387) :star::star::star::star:
+* **Open-domain Dialogue**: "Challenges in Building Intelligent Open-domain Dialog Systems". TOIS(2020) [[PDF]](https://dl.acm.org/doi/10.1145/3383123)
+* **Dialogue Systems**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[PDF]](https://arxiv.org/pdf/1711.01731.pdf)
+* **Dialogue Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[PDF]](https://arxiv.org/pdf/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
 
 ### LLMs for Dialogue
+* **ChatGLM2-6B**: "ChatGLM2-6B: An Open Bilingual Chat LLM". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM2-6B)
 * **UltraChat**: "Large-scale, Informative, and Diverse Multi-round Dialogue Data". Github(2023) [[data]](https://github.com/thunlp/UltraChat)
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
 * **Phoenix**: "Phoenix: Democratizing ChatGPT across Languages". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.10453) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
@@ -439,7 +423,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 ## Natural Language Generation
 
-### Survey of NLG
+### Survey on NLG
 * **CTG**: "A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2201.05337)
 * **RTG**: "A Survey on Retrieval-Augmented Text Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.01110)
 * **Hallucination**: "Survey of Hallucination in Natural Language Generation". arXiv(2022) [[PDF]](https://arxiv.org/abs/2202.03629)
@@ -533,7 +517,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
 
 
-### Decoding Algorithm
+### Decoding Algorithms
 * **EAD**: "The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis and Algorithm for Robust Natural Language Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.06784) [[code]](https://github.com/kushalarora/transformers/blob/main/src/transformers/generation_utils.py#L1894)
 * **Contrastive Search**: "Contrastive Search Is What You Need For Neural Text Generation". TMLR(2023) [[PDF]](https://arxiv.org/abs/2210.14140) [[code]](https://github.com/yxuansu/Contrastive_Search_Is_What_You_Need) [[blog]](https://huggingface.co/blog/introducing-csearch) :star::star::star:
 * **Momentum Decoding**: "Momentum Decoding: Open-ended Text Generation As Graph Exploration". arXiv(2022) [[PDF]](https://arxiv.org/abs/2212.02175) [[code]](https://github.com/gmftbyGMFTBY/MomentumDecoding)
