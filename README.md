@@ -140,6 +140,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 #### Non-collaborative Dialogue (Persuasion and Negotiation)
 * **I-Pro**: "Interacting with Non-Cooperative User: A New Paradigm for Proactive Dialogue Policy". SIGIR(2022) [[PDF]](https://arxiv.org/abs/2204.07433)
+* **PAAD**: "Towards a Progression-Aware Autonomous Dialogue Agent". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.03692) [[code]](https://github.rpi.edu/LACAI/dialogue-progression)
 * **PersRFI**: "Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration". EMNLP-Findings(2021) [[PDF]](https://arxiv.org/abs/2012.15375) [[code]](https://github.com/wyshi/consistency)
 * **ResPer**: "RESPER: Computationally Modelling Resisting Strategies in Persuasive Conversations". EACL(2021) [[PDF]](https://arxiv.org/abs/2101.10545) [[code]](https://github.com/americast/resper)
 * **DialoGraph**: "DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues". ICLR(2021) [[PDF]](https://arxiv.org/abs/2106.00920) [[code]](https://github.com/rishabhjoshi/DialoGraph_ICLR21) :star::star::star:
@@ -210,6 +211,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 #### Persona-based Dialogue
 * **OPELA**: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.00350) [[data]](https://github.com/smilegate-ai/OPELA)
+* **CLV**: "Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.11482) [[code]](https://github.com/Toyhom/CLV)
+* **SimOAP**: "SimOAP: Improve Coherence and Consistency in Persona-based Dialogue Generation via Over-sampling and Post-evaluation". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.11130) [[code]](https://github.com/934865517zjk/SimOAP)
 * **LMEDR**: "Learning to Memorize Entailment and Discourse Relations for Persona-Consistent Dialogues". AAAI(2023) [[PDF]](https://arxiv.org/abs/2301.04871) [[code]](https://github.com/Chenrj233/LMEDR)
 * **Retrieval-to-Prediction**: "Improving Personality Consistency in Conversation by Persona Extending". CIKM(2022) [[PDF]](https://arxiv.org/abs/2208.10816) [[code]](https://github.com/CCIIPLab/Persona_Extend)
 * **Implicit-Persona**: "A Personalized Dialogue Generator with Implicit User Persona Detection". COLING(2022) [[PDF]](https://arxiv.org/abs/2204.07372)
