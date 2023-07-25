@@ -6,6 +6,9 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
 - [Dialogue Systems](#dialogue-systems)
   - [Survey on Dialogue](#survey-on-dialogue)
   - [LLMs for Dialogue](#llms-for-dialogue)
+  - [Multimodal Dialogue](#multimodal-dialogue)
+    - [Situated Dialogue](#situated-dialogue)
+    - [Visual Dialogue](#visual-dialogue)
   - [Proactive Dialogue](#proactive-dialogue)
     - [Target-oriented Dialogue](#target-oriented-dialogue)
     - [Non-collaborative Dialogue (Persuasion and Negotiation)](#non-collaborative-dialogue-persuasion-and-negotiation)
@@ -57,8 +60,9 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
 
 ## Pre-trained (Large) Language Models
 
+* **Llama 2**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[PDF]](https://arxiv.org/abs/2307.09288) [[model]](https://ai.meta.com/resources/models-and-libraries/llama/) [[code]](https://github.com/facebookresearch/llama)
 * **GPT-4**: "GPT-4 Technical Report". OpenAI(2023) [[PDF]](https://arxiv.org/abs/2303.08774) :star::star::star::star:
-* **LLaMA**: "LLaMA: Open and Efficient Foundation Language Models". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.13971) [[code]](https://github.com/facebookresearch/llama) :star::star::star::star:
+* **LLaMA**: "LLaMA: Open and Efficient Foundation Language Models". Meta(2023) [[PDF]](https://arxiv.org/abs/2302.13971) [[code]](https://github.com/facebookresearch/llama/tree/llama_v1) :star::star::star::star:
 * **OPT**: "OPT: Open Pre-trained Transformer Language Models". arXiv(2022) [[PDF]](https://arxiv.org/abs/2205.01068) [[code]](https://github.com/facebookresearch/metaseq)
 * **PaLM**: "PaLM: Scaling Language Modeling with Pathways". arXiv(2022) [[PDF]](https://arxiv.org/abs/2204.02311)
 * **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[PDF]](https://arxiv.org/abs/2106.07139)
@@ -98,6 +102,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 
 ### LLMs for Dialogue
+* **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[PDF]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
 * **ChatGLM2-6B**: "ChatGLM2-6B: An Open Bilingual Chat LLM". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM2-6B)
 * **UltraChat**: "Large-scale, Informative, and Diverse Multi-round Dialogue Data". Github(2023) [[data]](https://github.com/thunlp/UltraChat)
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
@@ -120,9 +125,55 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 👆 [Back to Top](#paper-reading)
 
 
+### Multimodal Dialogue
+
+#### Situated Dialogue
+* **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[PDF]](https://aclanthology.org/2023.acl-long.345/)
+* **MindDial**: "MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2306.15253)
+* **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[PDF]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
+* **SitCoM-DETR**: "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue". EACL-SRW(2023) [[PDF]](https://arxiv.org/abs/2302.14680) [[code]](https://github.com/holylovenia/multimodal-object-identification)
+* **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2022) [[PDF]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft)
+* **LIGHT-curriculum**: "Situated Dialogue Learning through Procedural Environment Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2110.03262)
+* **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)
+* **SIMMC**: "Situated and Interactive Multimodal Conversations". COLING(2020) [[PDF]](https://arxiv.org/abs/2006.01460) [[code]](https://github.com/facebookresearch/simmc)
+* **SHRD**: "Back to the Blocks World: Learning New Actions through Situated Human-Robot Dialogue". SIGDIAL(2014) [[PDF]](https://aclanthology.org/W14-4313/)
+
+
+#### Visual Dialogue
+* **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
+* **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
+* **ComSet**: "Multimodal Persona Based Generation of Comic Dialogs". ACL(2023) [[PDF]](https://aclanthology.org/2023.acl-long.791/) [[code]](https://github.com/dair-iitd/MPdialog)
+* **MPCHAT**: "MPCHAT: Towards Multimodal Persona-Grounded Conversation". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.17388) [[code]](https://github.com/ahnjaewoo/mpchat)
+* **PaCE**: "PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.14839) [[code]](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)
+* **MMDialog**: "MMDialog: A Large-scale Multi-turn Dialogue Dataset Towards Multi-modal Open-domain Conversation". ACL(2023) [[PDF]](https://arxiv.org/abs/2211.05719) [[data]](https://github.com/victorsungo/MMDialog) :star::star::star:
+* **MDS-S2**: "Dual Semantic Knowledge Composed Multimodal Dialog Systems". SIGIR(2023) [[PDF]](https://arxiv.org/abs/2305.09990)
+* **TikTalk**: "TikTalk: A Multi-Modal Dialogue Dataset for Real-World Chitchat". arXiv(2023) [[PDF]](https://arxiv.org/abs/2301.05880) [[code]](https://github.com/RUC-AIMind/TikTalk)
+* **CHAMPAGNE**: "CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.09713) [[code]](https://seungjuhan.me/champagne/)
+* **MMChat**: "MMChat: Multi-Modal Chat Dataset on Social Media". LREC(2022) [[PDF]](https://arxiv.org/abs/2108.07154) [[code]](https://github.com/silverriver/MMChat)
+* **CRVD**: "Collaborative Reasoning on Multi-Modal Semantic Graphs for Video-Grounded Dialogue Generation". EMNLP-Findings(2022) [[PDF]](https://arxiv.org/abs/2210.12460)
+* **M3ED**: "M3ED: Multi-modal Multi-scene Multi-label Emotional Dialogue Database". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.391) [[data]](https://github.com/AIM3-RUC/RUCM3ED)
+* **MDRG**: "Multimodal Dialogue Response Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2110.08515)
+* **UniTranSeR**: "UniTranSeR: A Unified Transformer Semantic Representation Framework for Multimodal Task-Oriented Dialog System". ACL(2022) [[PDF]](https://aclanthology.org/2022.acl-long.9)
+* **PhotoChat**: "PhotoChat: A Human-Human Dialogue Dataset With Photo Sharing Behavior For Joint Image-Text Modeling". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.479/) [[data]](https://github.com/google-research/google-research/tree/master/multimodalchat)
+* **Multi-Modal Dialogue**: "Constructing Multi-Modal Dialogue Dataset by Replacing Text with Semantically Relevant Images". ACL(2021) [[PDF]](http://arxiv.org/abs/2107.08685) [[code]](https://github.com/shh1574/multi-modal-dialogue-dataset)
+* **OpenViDial 2.0**: "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts". arXiv(2021) [[PDF]](https://arxiv.org/abs/2109.12761) [[data]](https://github.com/ShannonAI/OpenViDial)
+* **MMConv**: "MMConv: An Environment for Multimodal Conversational Search across Multiple Domains". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462970) [[data]](https://github.com/liziliao/MMConv)
+* **Image Chat**: "Image Chat: Engaging Grounded Conversations". ACL(2020) [[PDF]](https://arxiv.org/abs/1811.00945) [[data]](https://parl.ai/projects/image_chat/)
+* **MELD**: "MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations". ACL(2019) [[PDF]](https://aclanthology.org/P19-1050) [[data]](https://affective-meld.github.io/)
+* **CLEVR-Dialog**: "CLEVR-Dialog: A Diagnostic Dataset for Multi-Round Reasoning in Visual Dialog". NAACL(2019) [[PDF]](https://arxiv.org/abs/1903.03166) [[data]](https://github.com/satwikkottur/clevr-dialog)
+* **VisDial-RL**: "Improving Generative Visual Dialog by Answering Diverse Questions". EMNLP(2019) [[PDF]](https://arxiv.org/abs/1909.10470) [[code]](https://github.com/vmurahari3/visdial-diversity)
+* **MMD**: "Towards Building Large Scale Multimodal Domain-Aware Conversation Systems". AAAI(2018) [[PDF]](https://arxiv.org/abs/1704.00200) [[code]](https://amritasaha1812.github.io/MMD/)
+* **Talk the Walk**: "Talk the Walk: Navigating New York City through Grounded Dialogue". arXiv(2018) [[PDF]](https://arxiv.org/abs/1807.03367) [[code]](https://github.com/facebookresearch/talkthewalk)
+* **VisDial**: "Visual Dialog". CVPR(2017) [[PDF]](https://arxiv.org/abs/1611.08669) [[code]](https://github.com/batra-mlp-lab/visdial)
+
+
+👆 [Back to Top](#paper-reading)
+
+
 ### Proactive Dialogue
 
 #### Target-oriented Dialogue
+* **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[PDF]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
 * **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". arXiv(2023) [[PDF]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
 * **COLOR**: "Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue". ACL-Findings(2023) [[PDF]](https://arxiv.org/abs/2305.05290) [[code]](https://github.com/iwangjian/Color4Dial)  :star::star::star:
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[PDF]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
