@@ -191,9 +191,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 #### Non-collaborative Dialogue (Persuasion and Negotiation)
 * **I-Pro**: "Interacting with Non-Cooperative User: A New Paradigm for Proactive Dialogue Policy". SIGIR(2022) [[PDF]](https://arxiv.org/abs/2204.07433)
-* **PAAD**: "Towards a Progression-Aware Autonomous Dialogue Agent". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.03692) [[code]](https://github.rpi.edu/LACAI/dialogue-progression)
+* **PAAD**: "Towards a Progression-Aware Autonomous Dialogue Agent". NAACL(2022) [[PDF]](https://arxiv.org/abs/2205.03692) [[code]](https://github.rpi.edu/LACAI/dialogue-progression) :star::star::star:
 * **PersRFI**: "Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration". EMNLP-Findings(2021) [[PDF]](https://arxiv.org/abs/2012.15375) [[code]](https://github.com/wyshi/consistency)
 * **ResPer**: "RESPER: Computationally Modelling Resisting Strategies in Persuasive Conversations". EACL(2021) [[PDF]](https://arxiv.org/abs/2101.10545) [[code]](https://github.com/americast/resper)
+* **ARDM**: "Alternating Recurrent Dialog Model with Large-scale Pre-trained Language Models". EACL(2021) [[PDF]](https://aclanthology.org/2021.eacl-main.110) [[code]](https://github.com/qywu/ARDM)
 * **DialoGraph**: "DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues". ICLR(2021) [[PDF]](https://arxiv.org/abs/2106.00920) [[code]](https://github.com/rishabhjoshi/DialoGraph_ICLR21) :star::star::star:
 * **NegotiationToM**: "Improving Dialog Systems for Negotiation with Personality Modeling". ACL(2021) [[PDF]](https://arxiv.org/abs/2010.09954) [[code]](https://github.com/princeton-nlp/NegotiationToM)
 * **FeHED**: "Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History". ICLR(2020) [[PDF]](https://openreview.net/forum?id=ryxQuANKPB) [[code]](https://github.com/zhouyiheng11/augmenting-non-collabrative-dialog)
@@ -553,7 +554,8 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 * **ENCONTER**: "ENCONTER: Entity Constrained Progressive Sequence Generation via Insertion-based Transformer". EACL(2021) [[PDF]](https://arxiv.org/abs/2103.09548) [[code]](https://github.com/LARC-CMU-SMU/Enconter)
 * **POINTER**: "POINTER: Constrained Progressive Text Generation via Insertion-based Generative Pre-training". EMNLP(2020) [[PDF]](https://arxiv.org/abs/2005.00558) [[code]](https://github.com/dreasysnail/POINTER)
 * **Cascaded Generation**: "Cascaded Text Generation with Markov Transformers". NeurIPS(2020) [[PDF]](https://arxiv.org/pdf/2006.01112.pdf) [[code]](https://github.com/harvardnlp/cascaded-generation)
-* **Entmax**: "Sparse Sequence-to-Sequence Models". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1146) [[code]](https://github.com/deep-spin/entmax)
+* **SFOT**: "Improving Text Generation with Student-Forcing Optimal Transport". EMNLP(2020) [[PDF]](https://aclanthology.org/2020.emnlp-main.735)
+* **OT-Seq2Seq**: "Improving Sequence-to-Sequence Learning via Optimal Transport". ICLR(2019) [[PDF]](https://arxiv.org/abs/1901.06283) [[code]](https://github.com/LiqunChen0606/OT-Seq2Seq)
 
 👆 [Back to Top](#paper-reading)
 
