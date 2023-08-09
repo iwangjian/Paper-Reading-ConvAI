@@ -5,7 +5,7 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
 - [Pre-trained (Large) Language Models](#pre-trained-large-language-models)
 - [Dialogue Systems](#dialogue-systems)
   - [Survey on Dialogue](#survey-on-dialogue)
-  - [LLMs for Dialogue](#llms-for-dialogue)
+  - [LLMs for Conversation](#llms-for-conversation)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated Dialogue](#situated-dialogue)
     - [Visual Dialogue](#visual-dialogue)
@@ -101,17 +101,18 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 👆 [Back to Top](#paper-reading)
 
 
-### LLMs for Dialogue
+### LLMs for Conversation
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[PDF]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
 * **ChatGLM2-6B**: "ChatGLM2-6B: An Open Bilingual Chat LLM". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM2-6B)
-* **UltraChat**: "Large-scale, Informative, and Diverse Multi-round Dialogue Data". Github(2023) [[data]](https://github.com/thunlp/UltraChat)
+* **UltraChat**: "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations". arXiv(2023) [[PDF]](https://arxiv.org/abs/2305.14233) [[data]](https://github.com/thunlp/UltraChat)
 * **ChatAlpaca**: "ChatAlpaca: A Multi-Turn Dialogue Corpus based on Alpaca Instructions". Github(2023) [[data]](https://github.com/cascip/ChatAlpaca)
 * **Phoenix**: "Phoenix: Democratizing ChatGPT across Languages". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.10453) [[code]](https://github.com/FreedomIntelligence/LLMZoo)
+* **Dolly**: "Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM". Databricks(2023) [[code]](https://github.com/databrickslabs/dolly)
 * **Baize**: "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data". arXiv(2023) [[PDF]](https://arxiv.org/abs/2304.01196) [[code]](https://github.com/project-baize/baize-chatbot)
-* **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". Github(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
+* **Vicuna**: "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality". LMSYS Org(2023) [[Blog]](https://vicuna.lmsys.org/) [[code]](https://github.com/lm-sys/FastChat)
 * **Koala**: "Koala: A Dialogue Model for Academic Research". UC Berkeley(2023) [[Blog]](https://bair.berkeley.edu/blog/2023/04/03/koala/) [[code]](https://github.com/young-geng/EasyLM)
 * **BELLE**: "BELLE: Be Everyone's Large Language model Engine". LianjiaTech(2023) [[code]](https://github.com/LianjiaTech/BELLE)
-* **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Stanford(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca)
+* **Alpaca**: "Alpaca: A Strong, Replicable Instruction-Following Model". Stanford(2023) [[Blog]](https://crfm.stanford.edu/2023/03/13/alpaca.html) [[code]](https://github.com/tatsu-lab/stanford_alpaca) [[alpaca-lora]](https://github.com/tloen/alpaca-lora)
 * **ChatGLM-6B**: "An Open Bilingual Dialogue Language Model". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM-6B)
 * **Open-Assistant**: "Open Assistant: Conversational AI for everyone". Github(2023) [[project]](https://open-assistant.io/) [[code]](https://github.com/LAION-AI/Open-Assistant)
 * **ChatGPT**: "ChatGPT: Optimizing Language Models for Dialogue". OpenAI(2022) [[Blog]](https://openai.com/blog/chatgpt/) :star::star::star::star::star:
