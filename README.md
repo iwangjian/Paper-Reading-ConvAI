@@ -336,6 +336,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 
 ### Knowledge-grounded Dialogue
 * **GLM-Dialog**: "GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.14401) [[code]](https://github.com/RUCKBReasoning/GLM-Dialog)
+* **RHO**: "RHO (ρ): Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding". ACL(2023) [[PDF]](https://aclanthology.org/2023.findings-acl.275.pdf) [[code]](https://github.com/ziweiji/RHO) 
 * **MultiRefKGC**: "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning". EMNLP(2022) [[PDF]](https://arxiv.org/abs/2210.12459) [[code]](https://github.com/TingchenFu/MultiRefKGC) :star::star::star:
 * **CorefDiffs**: "CorefDiffs: Co-referential and Differential Knowledge Flow in Document Grounded Conversations". COLING(2022) [[PDF]](https://arxiv.org/abs/2210.02223) [[code]](https://github.com/cathyxl/coref-diffs)
 * **DTR**: "Stylized Knowledge-Grounded Dialogue Generation via Disentangled Template Rewriting". NAACL(2022) [[PDF]](https://arxiv.org/abs/2204.05610) [[code]](https://github.com/victorsungo/SKDG-DTR)
@@ -353,6 +354,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **SKT-KG**: "Augmenting Knowledge-grounded Conversations with Sequential Knowledge Transition". NAACL(2021) [[PDF]](https://www.aclweb.org/anthology/2021.naacl-main.446)
 * **MSKE**: "More is Better: Enhancing Open-Domain Dialogue Generation via Multi-Source Heterogeneous Knowledge". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.175) [[code]](https://github.com/pku-sixing/EMNLP2021-MSKE_Dialog)
 * **EARL**: "EARL: Informative Knowledge-Grounded Conversation Generation with Entity-Agnostic Representation Learning". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.184) [[code]](https://github.com/thu-coai/earl)
+* "Increasing Faithfulness in Knowledge-Grounded Dialogue with Controllable Features". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.58.pdf)
 * **SECE**: "Space Efficient Context Encoding for Non-Task-Oriented Dialogue Generation with Graph Attention Transformer". ACL(2021) [[PDF]](https://aclanthology.org/2021.acl-long.546) [[code]](https://github.com/fabiangal/space-efficient-context-encoding-acl21) :star::star::star:
 * **MIKe**: "Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations". SIGIR(2021) [[PDF]](https://dl.acm.org/doi/10.1145/3404835.3462824) [[code]](https://github.com/ChuanMeng/MIKe)
 * **GOKC**: "Learning to Copy Coherent Knowledge for Response Generation". AAAI(2021) [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/17486) [[code]](https://github.com/jq2276/Learning2Copy)
