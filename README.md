@@ -132,9 +132,10 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[PDF]](https://pa
 * **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[PDF]](https://aclanthology.org/2023.acl-long.345/)
 * **MindDial**: "MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation". arXiv(2023) [[PDF]](https://arxiv.org/abs/2306.15253)
 * **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[PDF]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
+* **SEAGULL**: "SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog". Alexa Prize SimBot Challenge(2023) [[PDF]](https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf)
 * **SitCoM-DETR**: "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue". EACL-SRW(2023) [[PDF]](https://arxiv.org/abs/2302.14680) [[code]](https://github.com/holylovenia/multimodal-object-identification)
-* **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2022) [[PDF]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft)
 * **LIGHT-curriculum**: "Situated Dialogue Learning through Procedural Environment Generation". ACL(2022) [[PDF]](https://arxiv.org/abs/2110.03262)
+* **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft)
 * **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[PDF]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)
 * **SIMMC**: "Situated and Interactive Multimodal Conversations". COLING(2020) [[PDF]](https://arxiv.org/abs/2006.01460) [[code]](https://github.com/facebookresearch/simmc)
 * **SHRD**: "Back to the Blocks World: Learning New Actions through Situated Human-Robot Dialogue". SIGDIAL(2014) [[PDF]](https://aclanthology.org/W14-4313/)
@@ -479,6 +480,7 @@ Dialogue Systems". ACL(2019) [[PDF]](https://www.aclweb.org/anthology/P19-1078) 
 
 
 ### Dialogue Evaluation
+* **ChatEval**: "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate". arXiv(2023) [[PDF]](https://arxiv.org/abs/2308.07201) [[code]](https://github.com/chanchimin/ChatEval)
 * **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[PDF]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
 * **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[PDF]](https://arxiv.org/abs/2303.16634)
 * **GPTScore**: "GPTScore: Evaluate as You Desire". arXiv(2023) [[PDF]](https://arxiv.org/abs/2302.04166) [[code]](https://github.com/jinlanfu/GPTScore)
