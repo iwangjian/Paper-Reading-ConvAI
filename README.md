@@ -253,10 +253,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[paper]](https://arxiv.org/abs/2212.10618)
 * **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[paper]](https://arxiv.org/abs/2211.06869)
 * **DialStory**: "A Benchmark for Understanding and Generating Dialogue between Characters in Stories". arXiv(2022) [[paper]](https://arxiv.org/abs/2209.08524)
-* **RSODD**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
+* **CareCall**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
 * **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[paper]](https://arxiv.org/abs/2204.10825) [[code]](https://github.com/hyperconnect/pseudo-dialog-prompting)
+* **RPA**: "Am I Me or You? State-of-the-Art Dialogue Models Cannot Maintain an Identity". NAACL-Findings(2022) [[paper]](https://aclanthology.org/2022.findings-naacl.182/)
 * **CharacterChat**: "CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot". ACM C&C(2021）[[paper]](https://arxiv.org/abs/2106.12314)
-* **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[paper]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot) :star::star::star:
+* **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[paper]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot)
+* **LIGHT**: "Learning to Speak and Act in a Fantasy Text Adventure Game". EMNLP(2019) [[paper]](https://aclanthology.org/D19-1062/) [[data]](https://parl.ai/projects/light/) :star::star::star:
 
 #### Personality-aware Dialogue
 * **ChatGPT-MBTI**: "Can ChatGPT Assess Human Personalities? A General Evaluation Framework". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01248) [[code]](https://github.com/Kali-Hac/ChatGPT-MBTI)
