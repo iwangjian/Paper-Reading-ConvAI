@@ -1,5 +1,5 @@
 ﻿# Paper-Reading
-Paper reading list in 💬 **dialogue systems** and 📝 **natural language generation**. This repo will keep updating ... 🤗
+Paper reading list in 💬 **dialogue systems** and 📝 **natural language generation**. This repository will keep updating ... 🤗
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Pre-trained (Large) Language Models](#pre-trained-large-language-models)
@@ -138,6 +138,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
 * **SEAGULL**: "SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog". Alexa Prize SimBot Challenge(2023) [[paper]](https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.paper)
 * **SitCoM-DETR**: "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue". EACL-SRW(2023) [[paper]](https://arxiv.org/abs/2302.14680) [[code]](https://github.com/holylovenia/multimodal-object-identification)
+* **SPRING**: "SPRING: Situated Conversation Agent Pretrained with Multimodal Questions from Incremental Layout Graph". AAAI(2023) [[paper]](https://arxiv.org/abs/2301.01949) [[code]](https://github.com/LYX0501/SPRING)
 * **LIGHT-curriculum**: "Situated Dialogue Learning through Procedural Environment Generation". ACL(2022) [[paper]](https://arxiv.org/abs/2110.03262)
 * **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft)
 * **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)
@@ -261,6 +262,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **LIGHT**: "Learning to Speak and Act in a Fantasy Text Adventure Game". EMNLP(2019) [[paper]](https://aclanthology.org/D19-1062/) [[data]](https://parl.ai/projects/light/) :star::star::star:
 
 #### Personality-aware Dialogue
+* **CharacterChat**: "CharacterChat: Learning towards Conversational AI with Personalized Social Support". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.10278) [[code]](https://github.com/morecry/characterchat)
 * **ChatGPT-MBTI**: "Can ChatGPT Assess Human Personalities? A General Evaluation Framework". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01248) [[code]](https://github.com/Kali-Hac/ChatGPT-MBTI)
 * **Prompted Personality**: "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based Learning". IWSDS(2023) [[paper]](https://arxiv.org/abs/2302.03848)
 * **CPED**: "CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI". arXiv(2022) [[paper]](https://arxiv.org/abs/2205.14727) [[data]](https://github.com/scutcyr/CPED) :star::star::star:
@@ -439,6 +441,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Open-domain Dialogue
+* **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
 * **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[paper]](https://aclanthology.org/2022.nlp4convai-1.13) :star::star::star:
 * **Multi-Session Chat**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
 * **Chirpy Cardinal**: "Neural Generation Meets Real People: Building a Social, Informative Open-Domain Dialogue Agent". SIGDIAL(2022) [[paper]](https://arxiv.org/abs/2207.12021) [[code]](https://github.com/stanfordnlp/chirpycardinal) [[project]](https://stanfordnlp.github.io/chirpycardinal/)
