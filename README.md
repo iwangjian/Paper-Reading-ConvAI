@@ -257,6 +257,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Personalized Dialogue
 
 #### Character-based Dialogue
+* **LLM-Werewolf**: "Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.04658)
+* **ChatHaruhi**: "ChatHaruhi: Reviving Anime Character in Reality via Large Language Model". arXiv(2023) [[report]](https://arxiv.org/abs/2308.09597) [[code]](https://github.com/LC1332/Chat-Haruhi-Suzumiya)
 * **DPCD**: "Hi Sheldon! Creating Deep Personalized Characters from TV Shows". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.11093) [[data]](https://github.com/Metaverse-AI-Lab-THU/Deep-Personalized-Character-Dataset-DPCD)
 * **Cornell-Rich**: "Personalised Language Modelling of Screen Characters Using Rich Metadata Annotations". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.16618) [[data]](https://github.com/st-vincent1/cornell_rich)
 * **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[paper]](https://arxiv.org/abs/2212.10618)
@@ -648,6 +650,8 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Decoding Algorithms
+* **Speculative Sampling**: "Accelerating Large Language Model Decoding with Speculative Sampling". arXiv(2023) [[paper]](http://arxiv.org/abs/2302.01318)
+* **Speculative Decoding**: "Fast Inference from Transformers via Speculative Decoding". ICML(2023) [[paper]](http://arxiv.org/abs/2211.17192) [[code]](https://github.com/OptimalScale/LMFlow/blob/main/scripts/speculative_decoding/README.md)
 * **EAD**: "The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis and Algorithm for Robust Natural Language Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.06784) [[code]](https://github.com/kushalarora/transformers/blob/main/src/transformers/generation_utils.py#L1894)
 * **Contrastive Search**: "Contrastive Search Is What You Need For Neural Text Generation". TMLR(2023) [[paper]](https://arxiv.org/abs/2210.14140) [[code]](https://github.com/yxuansu/Contrastive_Search_Is_What_You_Need) [[blog]](https://huggingface.co/blog/introducing-csearch) :star::star::star:
 * **Momentum Decoding**: "Momentum Decoding: Open-ended Text Generation As Graph Exploration". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.02175) [[code]](https://github.com/gmftbyGMFTBY/MomentumDecoding)
@@ -661,6 +665,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[paper]](https://aclanthology.org/2021.naacl-main.339) [[code]](https://github.com/GXimingLu/neurologic_decoding)
 * **DeLorean**: "Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning". EMNLP(2020) [[paper]](https://aclanthology.org/2020.emnlp-main.58) [[code]](https://github.com/qkaren/unsup_gen_for_cms_reasoning)
 * **Top-p (Nucleus) Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[paper]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen)
+* **BP Decoding**: "Blockwise Parallel Decoding for Deep Autoregressive Models". NIPS(2018) [[paper]](http://arxiv.org/abs/1811.03115)
 * **Disjunctive Constraints**: "Guided Generation of Cause and Effect". IJCAI(2020) [[paper]](https://arxiv.org/abs/2107.09846) [[code-huggingface]](https://huggingface.co/blog/constrained-beam-search)
 * **CGMH**: "CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling". AAAI(2019) [[paper]](https://arxiv.org/abs/1811.10996) [[code]](https://github.com/NingMiao/CGMH)
 * **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[paper]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
