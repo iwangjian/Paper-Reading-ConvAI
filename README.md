@@ -286,7 +286,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 #### Persona-based Dialogue
 * **OPELA**: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.00350) [[data]](https://github.com/smilegate-ai/OPELA)
-* **ORIG**: "Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization". Findings of ACL(2023) [[paper]](https://arxiv.org/abs/2305.12782) [[code]](https://github.com/ChanLiang/ORIG)
+* **ORIG**: "Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.12782) [[code]](https://github.com/ChanLiang/ORIG)
 * **CLV**: "Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona". ACL(2023) [[paper]](https://arxiv.org/abs/2305.11482) [[code]](https://github.com/Toyhom/CLV)
 * **SimOAP**: "SimOAP: Improve Coherence and Consistency in Persona-based Dialogue Generation via Over-sampling and Post-evaluation". ACL(2023) [[paper]](https://arxiv.org/abs/2305.11130) [[code]](https://github.com/934865517zjk/SimOAP)
 * **LMEDR**: "Learning to Memorize Entailment and Discourse Relations for Persona-Consistent Dialogues". AAAI(2023) [[paper]](https://arxiv.org/abs/2301.04871) [[code]](https://github.com/Chenrj233/LMEDR)
