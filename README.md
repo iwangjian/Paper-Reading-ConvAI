@@ -156,6 +156,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Visual Dialogue
+* **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
 * **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
 * **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
 * **ComSet**: "Multimodal Persona Based Generation of Comic Dialogs". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.791/) [[code]](https://github.com/dair-iitd/MPdialog)
@@ -189,8 +190,9 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Proactive Dialogue
 
 #### Target-oriented Dialogue
-* **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
+* **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
 * **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
+* **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
 * **COLOR**: "Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.05290) [[code]](https://github.com/iwangjian/Color4Dial)  :star::star::star:
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[paper]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
 * **TGCP**: "Target-Guided Open-Domain Conversation Planning". COLING(2022) [[paper]](https://arxiv.org/abs/2209.09746) [[code]](https://github.com/y-kishinami/TGCP)
@@ -262,7 +264,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **DPCD**: "Hi Sheldon! Creating Deep Personalized Characters from TV Shows". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.11093) [[data]](https://github.com/Metaverse-AI-Lab-THU/Deep-Personalized-Character-Dataset-DPCD)
 * **Cornell-Rich**: "Personalised Language Modelling of Screen Characters Using Rich Metadata Annotations". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.16618) [[data]](https://github.com/st-vincent1/cornell_rich)
 * **KNUDGE**: "Ontologically Faithful Generation of Non-Player Character Dialogues". arXic(2022) [[paper]](https://arxiv.org/abs/2212.10618)
-* **HPD**: "What would Harry say? Building Dialogue Agents for Characters in a Story". arXiv(2022) [[paper]](https://arxiv.org/abs/2211.06869)
+* **HPD**: "Large Language Models Meet Harry Potter: A Bilingual Dataset for Aligning Dialogue Agents with Characters". arXiv(2022) [[paper]](https://arxiv.org/abs/2211.06869) [[data]](https://nuochenpku.github.io/HPD.github.io/)
 * **DialStory**: "A Benchmark for Understanding and Generating Dialogue between Characters in Stories". arXiv(2022) [[paper]](https://arxiv.org/abs/2209.08524)
 * **CareCall**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
 * **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[paper]](https://arxiv.org/abs/2204.10825) [[code]](https://github.com/hyperconnect/pseudo-dialog-prompting)
