@@ -8,11 +8,10 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
   - [LLMs for Conversation](#llms-for-conversation)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
-    - [Visual Dialogue](#visual-dialogue)
+    - [Visually-grounded Dialogue](#visually-grounded-dialogue)
   - [Proactive Dialogue](#proactive-dialogue)
     - [Target-oriented Dialogue](#target-oriented-dialogue)
     - [Non-collaborative Dialogue (Persuasion and Negotiation)](#non-collaborative-dialogue-persuasion-and-negotiation)
-  - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Personalized Dialogue](#personalized-dialogue)
     - [Character-based Dialogue](#character-based-dialogue)
     - [Personality-aware Dialogue](#personality-aware-dialogue)
@@ -20,6 +19,7 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
   - [Emotional Dialogue](#emotional-dialogue)
     - [Emotional Support Dialogue](#emotional-support-dialogue)
     - [Empathetic Dialogue](#empathetic-dialogue)
+  - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
   - [Task-oriented Dialogue](#task-oriented-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
@@ -103,6 +103,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 ### LLMs for Conversation
+* **Parrot**: "Parrot: Enhancing Multi-Turn Chat Models by Learning to Ask Questions". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.07301)
 * **MemoChat**: "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.08239)
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
 * **ChatGLM2-6B**: "ChatGLM2-6B: An Open Bilingual Chat LLM". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM2-6B)
@@ -155,7 +156,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **SHRD**: "Back to the Blocks World: Learning New Actions through Situated Human-Robot Dialogue". SIGDIAL(2014) [[paper]](https://aclanthology.org/W14-4313/)
 
 
-#### Visual Dialogue
+#### Visually-grounded Dialogue
 * **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
 * **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
 * **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
@@ -208,6 +209,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Non-collaborative Dialogue (Persuasion and Negotiation)
+* **INA**: "INA: An Integrative Approach for Enhancing Negotiation Strategies with Reward-Based Dialogue System". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.18207) [[data]](https://github.com/zishan-ai/neg)
 * **I-Pro**: "Interacting with Non-Cooperative User: A New Paradigm for Proactive Dialogue Policy". SIGIR(2022) [[paper]](https://arxiv.org/abs/2204.07433)
 * **PAAD**: "Towards a Progression-Aware Autonomous Dialogue Agent". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.03692) [[code]](https://github.rpi.edu/LACAI/dialogue-progression) :star::star::star:
 * **PersRFI**: "Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration". EMNLP-Findings(2021) [[paper]](https://arxiv.org/abs/2012.15375) [[code]](https://github.com/wyshi/consistency)
@@ -220,38 +222,6 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **Negotiation-Coach**: "A Dynamic Strategy Coach for Effective Negotiation". SIGDIAL(2019) [[paper]](https://aclanthology.org/W19-5943/) [[code]](https://github.com/zhouyiheng11/Negotiation-Coach)
 * **PersuasionForGood**: "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good". ACL(2019) [[paper]](https://aclanthology.org/P19-1566) [[data]](https://gitlab.com/ucdavisnlp/persuasionforgood)
 * **CraigslistBargain**: "Decoupling Strategy and Generation in Negotiation Dialogues". EMNLP(2018) [[paper]](https://aclanthology.org/D18-1256/) [[data]](https://stanfordnlp.github.io/cocoa/)
-
-👆 [Back to Top](#paper-reading)
-
-
-### Recommendation Dialogue and CRS
-* **TCP-Dial**: "Follow Me: Conversation Planning for Target-driven Recommendation Dialogue Systems". arXiv(2022) [[paper]](https://arxiv.org/abs/2208.03516) [[code]](https://github.com/iwangjian/Plan4RecDial)
-* **KERS**: "KERS: A Knowledge-Enhanced Framework for Recommendation Dialog Systems with Multiple Subgoals". EMNLP-Findings(2021) [[paper]](https://aclanthology.org/2021.findings-emnlp.94) [[code]](https://github.com/z562/KERS)
-* **DuRecDial2.0**: "DuRecDial 2.0: A Bilingual Parallel Corpus for Conversational Recommendation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.08877) [[code]](https://github.com/liuzeming01/DuRecDial)
-* **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[paper]](https://arxiv.org/paper/2005.03954.paper) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star::star:
-* **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.365.paper) [[code]](https://github.com/RUCAIBox/TG-ReDial)
-* **INSPIRED**: "INSPIRED: Toward Sociable Recommendation Dialog Systems". EMNLP(2020) [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.654.paper) [[data]](https://github.com/sweetpeach/Inspired)
-* **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[paper]](https://www.aclweb.org/anthology/D19-1203.paper) [[code]](https://github.com/facebookresearch/ParlAI)
-* **CRS-Survey**: "A Survey on Conversational Recommender Systems". ACM Computing Surveys(2021) [[paper]](https://arxiv.org/abs/2004.00646)
-* **CRS-Survey**: "Advances and Challenges in Conversational Recommender Systems: A Survey
-". arXiv(2021) [[paper]](https://arxiv.org/abs/2101.09459)
-* **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[paper]](https://arxiv.org/paper/2101.00939.paper) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
-* **MESE**: "Improving Conversational Recommendation Systems' Quality with Context-Aware Item Meta Information". NAACL(2022) [[paper]](https://arxiv.org/abs/2112.08140) [[code]](https://github.com/by2299/MESE)
-* **C2-CRS**: "C2-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System". WSDM(2022) [[paper]](https://arxiv.org/abs/2201.02732) [[code]](https://github.com/RUCAIBox/WSDM2022-C2CRS)
-* **BotPlay**: "Self-Supervised Bot Play for Conversational Recommendation with Justifications". arXiv(2021) [[paper]](https://arxiv.org/abs/2112.05197)
-* **RID**: "Finetuning Large-Scale Pre-trained Language Models for Conversational Recommendation with Knowledge Graph". arXiv(2021) [[paper]](https://arxiv.org/abs/2110.07477) [[code]](https://github.com/Lingzhi-WANG/PLM-BasedCRS)
-* **CRFR**: "CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.355)
-* **NTRD**: "Learning Neural Templates for Recommender Dialogue System". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.12302) [[code]](https://github.com/jokieleung/NTRD)
-* **CR-Walker**: "CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2010.10333) [[code]](https://github.com/truthless11/CR-Walker) :star::star::star::star:
-* **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[paper]](https://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
-* **KECRS**: "KECRS: Towards Knowledge-Enriched Conversational Recommendation System". arXiv(2021) [[paper]](https://arxiv.org/abs/2105.08261)
-* **FPAN**: "Adapting User Preference to Online Feedback in Multi-round Conversational Recommendation". WSDM(2021) [[paper]](https://dl.acm.org/doi/10.1145/3437963.3441791) [[code]](https://github.com/xxkkrr/FPAN)
-* **UNICORN**: "Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning". SIGIR(2021) [[paper]](https://arxiv.org/abs/2105.09710) [[code]](https://github.com/dengyang17/unicorn)
-* **KGSF**: "Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion". KDD(2020) [[paper]](https://arxiv.org/paper/2007.04032.paper) [[code]](https://github.com/RUCAIBox/KGSF)
-* **CPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[paper]](https://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
-* **EAR**: "Estimation-Action-Reflection: Towards Deep Interaction Between Conversational and Recommender Systems". WSDM(2020) [[paper]](https://arxiv.org/abs/2002.09102) [[code]](https://ear-conv-rec.github.io/)
-* **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[paper]](https://www.aclweb.org/anthology/D19-1189.paper) [[code]](https://github.com/THUDM/KBRD)
-* **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[paper]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.paper) [[data]](https://github.com/ReDialData/website)
 
 👆 [Back to Top](#paper-reading)
 
@@ -357,8 +327,41 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 👆 [Back to Top](#paper-reading)
 
 
+### Recommendation Dialogue and CRS
+* **TCP-Dial**: "Follow Me: Conversation Planning for Target-driven Recommendation Dialogue Systems". arXiv(2022) [[paper]](https://arxiv.org/abs/2208.03516) [[code]](https://github.com/iwangjian/Plan4RecDial)
+* **KERS**: "KERS: A Knowledge-Enhanced Framework for Recommendation Dialog Systems with Multiple Subgoals". EMNLP-Findings(2021) [[paper]](https://aclanthology.org/2021.findings-emnlp.94) [[code]](https://github.com/z562/KERS)
+* **DuRecDial2.0**: "DuRecDial 2.0: A Bilingual Parallel Corpus for Conversational Recommendation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.08877) [[code]](https://github.com/liuzeming01/DuRecDial)
+* **DuRecDial**: "Towards Conversational Recommendation over Multi-Type Dialogs". ACL(2020) [[paper]](https://arxiv.org/paper/2005.03954.paper) [[code]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2020-DuRecDial) :star::star::star::star:
+* **TG-ReDial**: "Towards Topic-Guided Conversational Recommender System". COLING(2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.365.paper) [[code]](https://github.com/RUCAIBox/TG-ReDial)
+* **INSPIRED**: "INSPIRED: Toward Sociable Recommendation Dialog Systems". EMNLP(2020) [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.654.paper) [[data]](https://github.com/sweetpeach/Inspired)
+* **GoRecDial**: "Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue". EMNLP(2019) [[paper]](https://www.aclweb.org/anthology/D19-1203.paper) [[code]](https://github.com/facebookresearch/ParlAI)
+* **CRS-Survey**: "A Survey on Conversational Recommender Systems". ACM Computing Surveys(2021) [[paper]](https://arxiv.org/abs/2004.00646)
+* **CRS-Survey**: "Advances and Challenges in Conversational Recommender Systems: A Survey
+". arXiv(2021) [[paper]](https://arxiv.org/abs/2101.09459)
+* **CRSLab**: "CRSLab: An Open-Source Toolkit for Building Conversational Recommender System". arXiv(2021) [[paper]](https://arxiv.org/paper/2101.00939.paper) [[code]](https://github.com/RUCAIBox/CRSLab) :star::star::star:
+* **MESE**: "Improving Conversational Recommendation Systems' Quality with Context-Aware Item Meta Information". NAACL(2022) [[paper]](https://arxiv.org/abs/2112.08140) [[code]](https://github.com/by2299/MESE)
+* **C2-CRS**: "C2-CRS: Coarse-to-Fine Contrastive Learning for Conversational Recommender System". WSDM(2022) [[paper]](https://arxiv.org/abs/2201.02732) [[code]](https://github.com/RUCAIBox/WSDM2022-C2CRS)
+* **BotPlay**: "Self-Supervised Bot Play for Conversational Recommendation with Justifications". arXiv(2021) [[paper]](https://arxiv.org/abs/2112.05197)
+* **RID**: "Finetuning Large-Scale Pre-trained Language Models for Conversational Recommendation with Knowledge Graph". arXiv(2021) [[paper]](https://arxiv.org/abs/2110.07477) [[code]](https://github.com/Lingzhi-WANG/PLM-BasedCRS)
+* **CRFR**: "CRFR: Improving Conversational Recommender Systems via Flexible Fragments Reasoning on Knowledge Graphs". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.355)
+* **NTRD**: "Learning Neural Templates for Recommender Dialogue System". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.12302) [[code]](https://github.com/jokieleung/NTRD)
+* **CR-Walker**: "CR-Walker: Tree-Structured Graph Reasoning and Dialog Acts for Conversational Recommendation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2010.10333) [[code]](https://github.com/truthless11/CR-Walker) :star::star::star::star:
+* **RevCore**: "RevCore: Review-augmented Conversational Recommendation". ACL-Findings(2021) [[paper]](https://arxiv.org/abs/2106.00957) [[code]](https://github.com/JD-AI-Research-NLP/RevCore)
+* **KECRS**: "KECRS: Towards Knowledge-Enriched Conversational Recommendation System". arXiv(2021) [[paper]](https://arxiv.org/abs/2105.08261)
+* **FPAN**: "Adapting User Preference to Online Feedback in Multi-round Conversational Recommendation". WSDM(2021) [[paper]](https://dl.acm.org/doi/10.1145/3437963.3441791) [[code]](https://github.com/xxkkrr/FPAN)
+* **UNICORN**: "Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning". SIGIR(2021) [[paper]](https://arxiv.org/abs/2105.09710) [[code]](https://github.com/dengyang17/unicorn)
+* **KGSF**: "Improving Conversational Recommender Systems via Knowledge Graph based Semantic Fusion". KDD(2020) [[paper]](https://arxiv.org/paper/2007.04032.paper) [[code]](https://github.com/RUCAIBox/KGSF)
+* **CPR**: "Interactive Path Reasoning on Graph for Conversational Recommendation". KDD(2020) [[paper]](https://arxiv.org/abs/2007.00194) [[code]](https://cpr-conv-rec.github.io/)
+* **EAR**: "Estimation-Action-Reflection: Towards Deep Interaction Between Conversational and Recommender Systems". WSDM(2020) [[paper]](https://arxiv.org/abs/2002.09102) [[code]](https://ear-conv-rec.github.io/)
+* **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[paper]](https://www.aclweb.org/anthology/D19-1189.paper) [[code]](https://github.com/THUDM/KBRD)
+* **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[paper]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.paper) [[data]](https://github.com/ReDialData/website)
+
+👆 [Back to Top](#paper-reading)
+
+
 ### Knowledge-grounded Dialogue
 * **CONNER**: "Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07289) [[code]](https://github.com/ChanLiang/CONNER)
+* **K-DIAL**: "Improving Factual Consistency for Knowledge-Grounded Dialogue Systems via Knowledge Enhancement and Alignment". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.08372)
 * **GLM-Dialog**: "GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.14401) [[code]](https://github.com/RUCKBReasoning/GLM-Dialog)
 * **RHO**: "RHO (ρ): Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.275.paper) [[code]](https://github.com/ziweiji/RHO) 
 * **MultiRefKGC**: "There Is No Standard Answer: Knowledge-Grounded Dialogue Generation with Adversarial Activated Multi-Reference Learning". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12459) [[code]](https://github.com/TingchenFu/MultiRefKGC) :star::star::star:
