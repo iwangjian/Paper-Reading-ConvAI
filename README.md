@@ -106,6 +106,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **Parrot**: "Parrot: Enhancing Multi-Turn Chat Models by Learning to Ask Questions". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.07301)
 * **MemoChat**: "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.08239)
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
+* **ChatGLM3**: "ChatGLM3 Series: Open Bilingual Chat LLMs". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM3)
 * **ChatGLM2-6B**: "ChatGLM2-6B: An Open Bilingual Chat LLM". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM2-6B)
 * **MPC**: "Prompted LLMs as Chatbot Modules for Long Open-domain Conversation". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.277) [[code]](https://github.com/krafton-ai/MPC)
 * **MemoryBank-SiliconFriend**: "MemoryBank: Enhancing Large Language Models with Long-Term Memory". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.10250) [[code]](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)
@@ -134,21 +135,29 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]]()
 * **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.345/) :star::star::star::star:
+* **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
+* **SUGAR**: "A Textual Dataset for Situated Proactive Response Selection". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.214/) [[data]](https://github.com/notani/sugar-conversational-dataset)
 * **Chat-with-NeRF**: "Chat with NeRF: Grounding 3D Objects in Neural Radiance Field through Dialog". UMich(2023) [[project]](https://chat-with-nerf.github.io/) [[code]](https://github.com/sled-group/chat-with-nerf)
 * **MindDial**: "MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.15253)
 * **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
 * **SEAGULL**: "SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog". Alexa Prize SimBot Challenge(2023) [[paper]](https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.paper)
 * **SitCoM-DETR**: "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue". EACL-SRW(2023) [[paper]](https://arxiv.org/abs/2302.14680) [[code]](https://github.com/holylovenia/multimodal-object-identification)
+* **MLR**: "Improving Situated Conversational Agents with Step-by-Step Multi-modal Logic Reasoning". DSTC11(2023) [[paper]](https://aclanthology.org/2023.dstc-1.3/)
+* **SimpleMTOD**: "SimpleMTOD: A Simple Language Model for Multimodal Task-Oriented Dialogue with Symbolic Scene Representation". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.04907)
 * **SPRING**: "SPRING: Situated Conversation Agent Pretrained with Multimodal Questions from Incremental Layout Graph". AAAI(2023) [[paper]](https://arxiv.org/abs/2301.01949) [[code]](https://github.com/LYX0501/SPRING)
 * **DOROTHIE**: "DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents". EMNLP-Findings(2022) [[paper]](http://arxiv.org/abs/2210.12511) [[code]](https://github.com/sled-group/DOROTHIE) :star::star::star::star:
 * **LIGHT-curriculum**: "Situated Dialogue Learning through Procedural Environment Generation". ACL(2022) [[paper]](https://arxiv.org/abs/2110.03262)
 * **DANLI**: "DANLI: Deliberative Agent for Following Natural Language Instructions". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12485) [[code]](https://github.com/sled-group/danli)
 * **PRS**: "Learning to Mediate Disparities Towards Pragmatic Communication". ACL(2022) [[paper]](http://arxiv.org/abs/2203.13685) [[code]](https://github.com/sled-group/Pragmatic-Rational-Speaker)
+* **Joint-model**: "Learning to Embed Multi-Modal Contexts for Situated Conversational Agents". NAACL-Findings(2022) [[paper]](https://aclanthology.org/2022.findings-naacl.61) [[code]](https://github.com/KAIST-AILab/DSTC10-SIMMC)
 * **TEACh_FILM**: "Don't Copy the Teacher: Data and Model Challenges in Embodied Dialogue". EMNLP(2022) [[paper]](http://arxiv.org/abs/2210.04443) [[code]](https://github.com/soyeonm/TEACh_FILM)
-* **TEACh**: "TEACh: Task-driven Embodied Agents that Chat". AAAI(2022) [[paper]](http://arxiv.org/abs/2110.00534) [[data]](https://github.com/alexa/teach) :star::star::star::star:
+* **TEACh**: "TEACh: Task-driven Embodied Agents that Chat". AAAI(2022) [[paper]](http://arxiv.org/abs/2110.00534) [[data]](https://github.com/alexa/teach) 
 * **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft) :star::star::star::star:
-* **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)
+* **Multimodal-model**: "Multimodal Interactions Using Pretrained Unimodal Models for SIMMC 2.0". DSTC10(2022) [[paper]](https://arxiv.org/abs/2112.05328) [[code]](https://github.com/rungjoo/simmc2.0)
+* **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)  :star::star::star::star:
+* **MM-DST**: "Multi-Task Learning for Situated Multi-Domain End-to-End Dialogue Systems". arXiv(2021) [[paper]](https://arxiv.org/abs/2110.05221)
 * **SIMMC**: "Situated and Interactive Multimodal Conversations". COLING(2020) [[paper]](https://arxiv.org/abs/2006.01460) [[code]](https://github.com/facebookresearch/simmc)
 * **Minecraft-BAP**: "Learning to execute instructions in a Minecraft dialogue". ACL(2020) [[paper]](https://aclanthology.org/2020.acl-main.232) [[code]](https://github.com/prashant-jayan21/minecraft-bap-models)
 * **Minecraft Dialogue**: "Collaborative Dialogue in Minecraft". ACL(2019) [[paper]](https://aclanthology.org/P19-1537) [[code]](https://github.com/prashant-jayan21/minecraft-dialogue-models)
@@ -157,9 +166,9 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Visually-grounded Dialogue
+* **VDialogUE**: "VDialogUE: A Unified Evaluation Benchmark for Visually-grounded Dialogue". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.07387)
 * **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
 * **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
-* **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
 * **ComSet**: "Multimodal Persona Based Generation of Comic Dialogs". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.791/) [[code]](https://github.com/dair-iitd/MPdialog)
 * **MPCHAT**: "MPCHAT: Towards Multimodal Persona-Grounded Conversation". ACL(2023) [[paper]](https://arxiv.org/abs/2305.17388) [[code]](https://github.com/ahnjaewoo/mpchat)
 * **PaCE**: "PaCE: Unified Multi-modal Dialogue Pre-training with Progressive and Compositional Experts". ACL(2023) [[paper]](https://arxiv.org/abs/2305.14839) [[code]](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/pace)
@@ -177,6 +186,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **OpenViDial 2.0**: "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts". arXiv(2021) [[paper]](https://arxiv.org/abs/2109.12761) [[data]](https://github.com/ShannonAI/OpenViDial)
 * **MMConv**: "MMConv: An Environment for Multimodal Conversational Search across Multiple Domains". SIGIR(2021) [[paper]](https://dl.acm.org/doi/10.1145/3404835.3462970) [[data]](https://github.com/liziliao/MMConv)
 * **Image Chat**: "Image Chat: Engaging Grounded Conversations". ACL(2020) [[paper]](https://arxiv.org/abs/1811.00945) [[data]](https://parl.ai/projects/image_chat/)
+* **MTN**: "Multimodal Transformer Networks for End-to-End Video-Grounded Dialogue Systems". ACL(2019) [[paper]](https://arxiv.org/abs/1907.01166) [[code]](https://github.com/henryhungle/MTN) :star::star::star:
 * **MELD**: "MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations". ACL(2019) [[paper]](https://aclanthology.org/P19-1050) [[data]](https://affective-meld.github.io/)
 * **CLEVR-Dialog**: "CLEVR-Dialog: A Diagnostic Dataset for Multi-Round Reasoning in Visual Dialog". NAACL(2019) [[paper]](https://arxiv.org/abs/1903.03166) [[data]](https://github.com/satwikkottur/clevr-dialog)
 * **VisDial-RL**: "Improving Generative Visual Dialog by Answering Diverse Questions". EMNLP(2019) [[paper]](https://arxiv.org/abs/1909.10470) [[code]](https://github.com/vmurahari3/visdial-diversity)
