@@ -135,6 +135,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **Emb-Plan**: "Multimodal Embodied Plan Prediction Augmented with Synthetic Embodied Dialogue". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.374)
 * **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]]()
 * **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.345/) :star::star::star::star:
 * **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
@@ -166,6 +167,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Visually-grounded Dialogue
+* **VLAW-MDM**: "A Framework for Vision-Language Warm-up Tasks in Multimodal Dialogue Models". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.167/) [[code]](https://github.com/BeneciaLee/VLAW-MDM)
 * **VDialogUE**: "VDialogUE: A Unified Evaluation Benchmark for Visually-grounded Dialogue". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.07387)
 * **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
 * **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
@@ -202,7 +204,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 #### Target-oriented Dialogue
 * **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
-* **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
+* **RTCP**: "Reinforced Target-driven Conversational Promotion". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.775/) [[code]](https://github.com/huyquangdao/RTCP)
+* **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
 * **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
 * **COLOR**: "Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.05290) [[code]](https://github.com/iwangjian/Color4Dial)  :star::star::star:
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[paper]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
@@ -265,6 +268,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **VaRMI**: "Building Persona Consistent Dialogue Agents with Offline Reinforcement Learning". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.10735) [[code]](https://github.com/ryanshea10/personachat_offline_rl)
 * **OPELA**: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.00350) [[data]](https://github.com/smilegate-ai/OPELA)
 * **ORIG**: "Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.12782) [[code]](https://github.com/ChanLiang/ORIG)
 * **CLV**: "Enhancing Personalized Dialogue Generation with Contrastive Latent Variables: Combining Sparse and Dense Persona". ACL(2023) [[paper]](https://arxiv.org/abs/2305.11482) [[code]](https://github.com/Toyhom/CLV)
@@ -316,6 +320,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Empathetic Dialogue
+* **E-CORE**: "E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation" EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.653)
 * **EmpSOA**: "Don't Lose Yourself! Empathetic Response Generation via Explicit Self-Other Awareness". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2210.03884) [[code]](https://github.com/circle-hit/EmpSOA)
 * **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". ACL(2023) [[paper]](https://arxiv.org/abs/2208.08845) [[code]](https://github.com/jfzhouyoo/CASE)
 * **CARE**: "CARE: Causality Reasoning for Empathetic Responses by Conditional Graph Generation". EMNLP-Findings(2022) [[paper]](https://arxiv.org/abs/2211.00255) [[code]](https://github.com/wangjs9/CARE-master)
@@ -370,6 +375,8 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 ### Knowledge-grounded Dialogue
+* **DOCTOR**: "Dialogue Chain-of-Thought Distillation for Commonsense-aware Conversational Agents". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.09343) [[code]](https://github.com/kyle8581/DialogueCoT) [[demo]](https://dialoguecot.web.app/) :star::star::star::star:
+* **GATE**: "Well Begun is Half Done: Generator-agnostic Knowledge Pre-Selection for Knowledge-Grounded Dialogue". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07659) [[code]](https://github.com/qinlang14/GATE)
 * **CONNER**: "Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07289) [[code]](https://github.com/ChanLiang/CONNER)
 * **K-DIAL**: "Improving Factual Consistency for Knowledge-Grounded Dialogue Systems via Knowledge Enhancement and Alignment". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.08372)
 * **GLM-Dialog**: "GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.14401) [[code]](https://github.com/RUCKBReasoning/GLM-Dialog)
