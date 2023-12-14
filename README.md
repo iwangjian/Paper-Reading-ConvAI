@@ -674,8 +674,10 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Decoding Algorithms
+* **Lookahead Decoding**: "Breaking the Sequential Dependency of LLM Inference Using Lookahead Decoding". LMSYS Org(2023) [[Blog]](https://lmsys.org/blog/2023-11-21-lookahead-decoding/) [[code]](https://github.com/hao-ai-lab/LookaheadDecoding) :star::star::star:
 * **Speculative Sampling**: "Accelerating Large Language Model Decoding with Speculative Sampling". arXiv(2023) [[paper]](http://arxiv.org/abs/2302.01318)
 * **Speculative Decoding**: "Fast Inference from Transformers via Speculative Decoding". ICML(2023) [[paper]](http://arxiv.org/abs/2211.17192) [[code]](https://github.com/OptimalScale/LMFlow/blob/main/scripts/speculative_decoding/README.md)
+* **Parallel Decoding**: "Accelerating Transformer Inference for Translation via Parallel Decoding". ACL(2023) [[paper]](https://arxiv.org/abs/2305.10427) [[code]](https://github.com/teelinsan/parallel-decoding)
 * **EAD**: "The Stable Entropy Hypothesis and Entropy-Aware Decoding: An Analysis and Algorithm for Robust Natural Language Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.06784) [[code]](https://github.com/kushalarora/transformers/blob/main/src/transformers/generation_utils.py#L1894)
 * **Contrastive Search**: "Contrastive Search Is What You Need For Neural Text Generation". TMLR(2023) [[paper]](https://arxiv.org/abs/2210.14140) [[code]](https://github.com/yxuansu/Contrastive_Search_Is_What_You_Need) [[blog]](https://huggingface.co/blog/introducing-csearch) :star::star::star:
 * **Momentum Decoding**: "Momentum Decoding: Open-ended Text Generation As Graph Exploration". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.02175) [[code]](https://github.com/gmftbyGMFTBY/MomentumDecoding)
