@@ -525,6 +525,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Evaluation
+* **BBScore**: "BBScore: A Brownian Bridge Based Metric for Assessing Text Coherence". AAAI(2024) [[paper]](https://arxiv.org/abs/2312.16893)
 * **ChatEval**: "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.07201) [[code]](https://github.com/chanchimin/ChatEval)
 * **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[paper]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
 * **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.16634)
