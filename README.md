@@ -675,6 +675,8 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Decoding Algorithms
+* **Speculative Decoding**: "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.257/) [[code]](https://github.com/hemingkx/SpecDec) :star::star::star:
+* **Medusa**: "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads". Github(2023) [[Blog]](https://sites.google.com/view/medusa-llm) [ccode](https://github.com/FasterDecoding/Medusa)
 * **Lookahead Decoding**: "Breaking the Sequential Dependency of LLM Inference Using Lookahead Decoding". LMSYS Org(2023) [[Blog]](https://lmsys.org/blog/2023-11-21-lookahead-decoding/) [[code]](https://github.com/hao-ai-lab/LookaheadDecoding) :star::star::star:
 * **Speculative Sampling**: "Accelerating Large Language Model Decoding with Speculative Sampling". arXiv(2023) [[paper]](http://arxiv.org/abs/2302.01318)
 * **Speculative Decoding**: "Fast Inference from Transformers via Speculative Decoding". ICML(2023) [[paper]](http://arxiv.org/abs/2211.17192) [[code]](https://github.com/OptimalScale/LMFlow/blob/main/scripts/speculative_decoding/README.md)
@@ -691,7 +693,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **NeuroLogic A*esque**: "NeuroLogic A *esque Decoding: Constrained Text Generation with Lookahead Heuristics". NAACL(2022) [[paper]](https://arxiv.org/abs/2112.08726) [[code]](https://github.com/GXimingLu/a_star_neurologic)
 * **NeuroLogic**: "NeuroLogic Decoding: (Un)supervised Neural Text Generation with Predicate Logic Constraints". NAACL(2021) [[paper]](https://aclanthology.org/2021.naacl-main.339) [[code]](https://github.com/GXimingLu/neurologic_decoding)
 * **DeLorean**: "Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning". EMNLP(2020) [[paper]](https://aclanthology.org/2020.emnlp-main.58) [[code]](https://github.com/qkaren/unsup_gen_for_cms_reasoning)
-* **Top-p (Nucleus) Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[paper]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen)
+* **Top-p (Nucleus) Sampling**: "The Curious Case of Neural Text Degeneration". ICLR(2020) [[paper]](https://openreview.net/forum?id=rygGQyrFvH) [[code]](https://github.com/ari-holtzman/degen) :star::star::star:
 * **BP Decoding**: "Blockwise Parallel Decoding for Deep Autoregressive Models". NIPS(2018) [[paper]](http://arxiv.org/abs/1811.03115)
 * **Disjunctive Constraints**: "Guided Generation of Cause and Effect". IJCAI(2020) [[paper]](https://arxiv.org/abs/2107.09846) [[code-huggingface]](https://huggingface.co/blog/constrained-beam-search)
 * **CGMH**: "CGMH: Constrained Sentence Generation by Metropolis-Hastings Sampling". AAAI(2019) [[paper]](https://arxiv.org/abs/1811.10996) [[code]](https://github.com/NingMiao/CGMH)
