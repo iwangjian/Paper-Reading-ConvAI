@@ -676,7 +676,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 ### Decoding Algorithms
 * **Speculative Decoding**: "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.257/) [[code]](https://github.com/hemingkx/SpecDec) :star::star::star:
-* **Medusa**: "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads". Github(2023) [[Blog]](https://sites.google.com/view/medusa-llm) [ccode](https://github.com/FasterDecoding/Medusa)
+* **Medusa**: "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads". Github(2023) [[Blog]](https://sites.google.com/view/medusa-llm) [[code]](https://github.com/FasterDecoding/Medusa)
 * **Lookahead Decoding**: "Breaking the Sequential Dependency of LLM Inference Using Lookahead Decoding". LMSYS Org(2023) [[Blog]](https://lmsys.org/blog/2023-11-21-lookahead-decoding/) [[code]](https://github.com/hao-ai-lab/LookaheadDecoding) :star::star::star:
 * **Speculative Sampling**: "Accelerating Large Language Model Decoding with Speculative Sampling". arXiv(2023) [[paper]](http://arxiv.org/abs/2302.01318)
 * **Speculative Decoding**: "Fast Inference from Transformers via Speculative Decoding". ICML(2023) [[paper]](http://arxiv.org/abs/2211.17192) [[code]](https://github.com/OptimalScale/LMFlow/blob/main/scripts/speculative_decoding/README.md)
