@@ -23,6 +23,8 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
   - [Task-oriented Dialogue](#task-oriented-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
+    - [Long-term Dialogue](#long-term-dialogue)
+    - [Response Generation](#response-generation)
   - [Dialogue Evaluation](#dialogue-evaluation)
 - [Natural Language Generation](#natural-language-generation)
   - [Survey on NLG](#survey-on-nlg)
@@ -268,6 +270,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **DialogICL**: "Crafting a Good Prompt or Providing Exemplary Dialogues? A Study of In-Context Learning for Persona-based Dialogue Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.09954)
 * **VaRMI**: "Building Persona Consistent Dialogue Agents with Offline Reinforcement Learning". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.10735) [[code]](https://github.com/ryanshea10/personachat_offline_rl)
 * **OPELA**: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.00350) [[data]](https://github.com/smilegate-ai/OPELA)
 * **ORIG**: "Towards Robust Personalized Dialogue Generation via Order-Insensitive Representation Regularization". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.12782) [[code]](https://github.com/ChanLiang/ORIG)
@@ -475,9 +478,16 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Open-domain Dialogue
+
+#### Long-term Dialogue
+* **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
 * **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
-* **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[paper]](https://aclanthology.org/2022.nlp4convai-1.13) :star::star::star:
+* **RS**: "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.15022)
 * **Multi-Session Chat**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
+
+
+#### Response Generation
+* **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[paper]](https://aclanthology.org/2022.nlp4convai-1.13) :star::star::star:
 * **Chirpy Cardinal**: "Neural Generation Meets Real People: Building a Social, Informative Open-Domain Dialogue Agent". SIGDIAL(2022) [[paper]](https://arxiv.org/abs/2207.12021) [[code]](https://github.com/stanfordnlp/chirpycardinal) [[project]](https://stanfordnlp.github.io/chirpycardinal/)
 * **TIL**: "Towards Efficient Dialogue Pre-training with Transferable and Interpretable Latent Structure". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12461)
 * **ProphetChat**: "ProphetChat: Enhancing Dialogue Generation with Simulation of Future Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.68)
