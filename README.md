@@ -480,6 +480,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 ### Open-domain Dialogue
 
 #### Long-term Dialogue
+* **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
 * **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
 * **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
 * **RS**: "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.15022)
