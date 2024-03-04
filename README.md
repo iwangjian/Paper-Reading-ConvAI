@@ -481,10 +481,11 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 #### Long-term Dialogue
 * **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
+*  **Conversation Chronicles**: "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.13420) [[data]](https://github.com/conversation-chronicles/conversation-chronicles)
 * **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
 * **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
 * **RS**: "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.15022)
-* **Multi-Session Chat**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
+* **MSC**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
 
 
 #### Response Generation
