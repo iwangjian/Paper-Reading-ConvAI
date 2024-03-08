@@ -259,6 +259,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **LIGHT**: "Learning to Speak and Act in a Fantasy Text Adventure Game". EMNLP(2019) [[paper]](https://aclanthology.org/D19-1062/) [[data]](https://parl.ai/projects/light/) :star::star::star:
 
 #### Personality-aware Dialogue
+* **UBPL**: "Tailoring Personality Traits in Large Language Models via Unsupervisedly-Built Personalized Lexicons". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.16582)
 * **CharacterChat**: "CharacterChat: Learning towards Conversational AI with Personalized Social Support". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.10278) [[code]](https://github.com/morecry/characterchat)
 * **ChatGPT-MBTI**: "Can ChatGPT Assess Human Personalities? A General Evaluation Framework". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01248) [[code]](https://github.com/Kali-Hac/ChatGPT-MBTI)
 * **Prompted Personality**: "Controlling Personality Style in Dialogue with Zero-Shot Prompt-Based Learning". IWSDS(2023) [[paper]](https://arxiv.org/abs/2302.03848)
@@ -270,6 +271,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **IDL**: ""In Dialogues We Learn": Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.03102)
 * **DialogICL**: "Crafting a Good Prompt or Providing Exemplary Dialogues? A Study of In-Context Learning for Persona-based Dialogue Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.09954)
 * **VaRMI**: "Building Persona Consistent Dialogue Agents with Offline Reinforcement Learning". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.10735) [[code]](https://github.com/ryanshea10/personachat_offline_rl)
 * **OPELA**: "When Crowd Meets Persona: Creating a Large-Scale Open-Domain Persona Dialogue Corpus". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.00350) [[data]](https://github.com/smilegate-ai/OPELA)
