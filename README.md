@@ -224,6 +224,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Non-collaborative Dialogue (Persuasion and Negotiation)
+* **TRIP**: "Strength Lies in Differences! Towards Effective Non-collaborative Dialogues via Tailored Strategy Planning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.06769)
 * **INA**: "INA: An Integrative Approach for Enhancing Negotiation Strategies with Reward-Based Dialogue System". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.18207) [[data]](https://github.com/zishan-ai/neg)
 * **I-Pro**: "Interacting with Non-Cooperative User: A New Paradigm for Proactive Dialogue Policy". SIGIR(2022) [[paper]](https://arxiv.org/abs/2204.07433)
 * **PAAD**: "Towards a Progression-Aware Autonomous Dialogue Agent". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.03692) [[code]](https://github.rpi.edu/LACAI/dialogue-progression) :star::star::star:
