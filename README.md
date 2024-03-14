@@ -205,6 +205,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Proactive Dialogue
 
 #### Target-oriented Dialogue
+* **PAI**: "Towards Goal-oriented Intelligent Tutoring Systems in Online Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2312.10053)
 * **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
 * **RTCP**: "Reinforced Target-driven Conversational Promotion". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.775/) [[code]](https://github.com/huyquangdao/RTCP)
 * **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
