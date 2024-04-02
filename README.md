@@ -169,6 +169,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 
 #### Visually-grounded Dialogue
+* **DialogCC**: "DialogCC: An Automated Pipeline for Creating High-Quality Multi-Modal Dialogue Dataset". NAACL(2024) [[paper]](https://arxiv.org/abs/2212.04119) [[data]](https://dialogcc.github.io/)
 * **VLAW-MDM**: "A Framework for Vision-Language Warm-up Tasks in Multimodal Dialogue Models". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.167/) [[code]](https://github.com/BeneciaLee/VLAW-MDM)
 * **VDialogUE**: "VDialogUE: A Unified Evaluation Benchmark for Visually-grounded Dialogue". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.07387)
 * **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
@@ -541,6 +542,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Evaluation
+* **DialogBench**: "DialogBench: Evaluating LLMs as Human-like Dialogue Systems". NAACL(2024) [[paper]](https://arxiv.org/abs/2311.01677) [[code]](https://github.com/kwai/DialogBench)
 * **BBScore**: "BBScore: A Brownian Bridge Based Metric for Assessing Text Coherence". AAAI(2024) [[paper]](https://arxiv.org/abs/2312.16893)
 * **ChatEval**: "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.07201) [[code]](https://github.com/chanchimin/ChatEval)
 * **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[paper]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
