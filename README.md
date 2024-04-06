@@ -315,11 +315,12 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 ### Emotional Dialogue
 
 #### Emotional Support Dialogue
+* **DDRCU**: "Dynamic Demonstration Retrieval and Cognitive Understanding for Emotional Support Conversation". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.02505) [[code]](https://github.com/Bat-Reality/DDRCU)
 * **KEMI**: "Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations". ACL(2023) [[paper]](https://arxiv.org/abs/2305.10172) [[code]](https://github.com/dengyang17/KEMI) :star::star::star::star:
 * **CSConv**: "A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment". ACL(2023) [[paper]](https://arxiv.org/abs/2305.08200) [[code]](https://github.com/jiangjyjy/CSD)
 * **AugESC**: "AugESC: Dialogue Augmentation with Large Language Models for Emotional Support Conversation". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2202.13047)
 * **TransESC**: "TransESC: Smoothing Emotional Support Conversation via Turn-Level State Transition". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.03296) [[code]](https://github.com/circle-hit/TransESC)
-* **PAL**: "PAL: Persona-Augmented Emotional Support Conversation Generation". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.09235)
+* **PAL**: "PAL: Persona-Augmented Emotional Support Conversation Generation". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2212.09235) [[code]](https://github.com/chengjl19/PAL)
 * **MultiESC**: "Improving Multi-turn Emotional Support Dialogue Generation with Lookahead Strategy Planning". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.04242) [[code]](https://github.com/lwgkzl/MultiESC) :star::star::star::star:
 * **MISC**: "MISC: A MIxed Strategy-Aware Model Integrating COMET for Emotional Support Conversation". ACL(2022) [[paper]](https://arxiv.org/abs/2203.13560) [[code]](https://github.com/morecry/MISC)
 * **C3KG**: "C3KG: A Chinese Commonsense Conversation Knowledge Graph". ACL-Findings(2022) [[paper]](https://arxiv.org/abs/2204.02549) [[data]](https://github.com/XiaoMi/C3KG)
