@@ -1,4 +1,4 @@
-﻿# Paper-Reading
+﻿# Paper-Reading-ConvAI
 Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems** and 📝 **natural language generation**. This repository is constantly updating 🤗 ...
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
@@ -57,7 +57,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **Multi-task Learning**: "An Overview of Multi-Task Learning in Deep Neural Networks". arXiv(2017) [[paper]](https://arxiv.org/paper/1706.05098.pdf)
 * **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[paper]](https://arxiv.org/paper/1609.04747.pdf) :star::star::star::star::star:
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ## Dialogue Systems
@@ -71,7 +71,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **Dialogue Systems**: "A Survey on Dialogue Systems: Recent Advances and New Frontiers". SIGKDD Explorations(2017) [[paper]](https://arxiv.org/paper/1711.01731.pdf)
 * **Dialogue Corpora**: "A Survey of Available Corpora For Building Data-Driven Dialogue Systems". arXiv(2017) [[paper]](https://arxiv.org/paper/1512.05742.pdf) [[data]](https://breakend.github.io/DialogDatasets/)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Conversational LLMs
@@ -101,7 +101,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **Anthropic Assistant-v2**: "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback". arXiv(2022) [[paper]](https://arxiv.org/abs/2204.05862)
 * **Anthropic Assistant**: "A General Language Assistant as a Laboratory for Alignment". arXiv(2021) [[paper]](https://arxiv.org/abs/2112.00861)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Multimodal Dialogue
@@ -170,7 +170,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **VisDial**: "Visual Dialog". CVPR(2017) [[paper]](https://arxiv.org/abs/1611.08669) [[code]](https://github.com/batra-mlp-lab/visdial)
 
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Proactive Dialogue
@@ -211,7 +211,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PersuasionForGood**: "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good". ACL(2019) [[paper]](https://aclanthology.org/P19-1566) [[data]](https://gitlab.com/ucdavisnlp/persuasionforgood)
 * **CraigslistBargain**: "Decoupling Strategy and Generation in Negotiation Dialogues". EMNLP(2018) [[paper]](https://aclanthology.org/D18-1256/) [[data]](https://stanfordnlp.github.io/cocoa/)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Personalized Dialogue
@@ -279,7 +279,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PersonaChat**: "Personalizing Dialogue Agents: I have a dog, do you have pets too?" ACL(2018) [[paper]](https://aclanthology.org/P18-1205) [[data]](https://github.com/facebookresearch/ParlAI/tree/main/projects/personachat) :star::star::star:
 * **PCCM**: "Assigning Personality/Profile to a Chatting Machine for Coherent Conversation Generation". IJCAI(2018) [[paper]](https://www.ijcai.org/proceedings/2018/0595.pdf)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Emotional Dialogue
@@ -319,7 +319,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **MojiTalk**: "MojiTalk: Generating Emotional Responses at Scale". ACL(2018) [[paper]](https://aclanthology.org/P18-1104)
 * **ECM**: "Emotional Chatting Machine: Emotional Conversation Generation with Internal and External Memory". AAAI(2018) [[paper]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16455/15753) [[code]](https://github.com/tuxchow/ecm)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Recommendation Dialogue and CRS
@@ -351,7 +351,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **KBRD**: "Towards Knowledge-Based Recommender Dialog System". EMNLP(2019) [[paper]](https://www.aclweb.org/anthology/D19-1189.pdf) [[code]](https://github.com/THUDM/KBRD)
 * **ReDial**: "Towards Deep Conversational Recommendations". NeurIPS(2018) [[paper]](https://papers.nips.cc/paper/8180-towards-deep-conversational-recommendations.pdf) [[data]](https://github.com/ReDialData/website)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Knowledge-grounded Dialogue
@@ -406,7 +406,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **MTask**: "A Knowledge-Grounded Neural Conversation Model". AAAI(2018)  [[paper]](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16710/16057)
 * **GenDS**: "Flexible End-to-End Dialogue System for Knowledge Grounded Conversation". arXiv(2017) [[paper]](https://arxiv.org/paper/1709.04264.pdf)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Task-oriented Dialogue
@@ -451,7 +451,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **AliMe**: "AliMe Chat: A Sequence to Sequence and Rerank based Chatbot Engine". ACL(2017) [[paper]](https://aclweb.org/anthology/P17-2079)
 * **KVR Net**: "Key-Value Retrieval Networks for Task-Oriented Dialogue". SIGDIAL(2017) [[paper]](https://www.aclweb.org/anthology/W17-5506) [[data]](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Open-domain Dialogue
@@ -510,7 +510,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **RL-Dialogue**: "Deep Reinforcement Learning for Dialogue Generation". EMNLP(2016) [[paper]](https://www.aclweb.org/anthology/D16-1127)
 * **MMI**: "A Diversity-Promoting Objective Function for Neural Conversation Models". NAACL(2016)  [[paper]](https://www.aclweb.org/anthology/N16-1014) [[code]](https://github.com/jiweil/Neural-Dialogue-Generation)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Dialogue Evaluation
@@ -543,7 +543,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **ADVMT**: "One `Ruler` for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[paper]](https://www.ijcai.org/proceedings/2018/0616.pdf)
 
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Dialogue Misc.
@@ -560,7 +560,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **MoralDial**: "MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Constructing Moral Discussions". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10720)
 * **DECODE**: "I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling". ACL(2021) [[paper]](https://aclanthology.org/2021.acl-long.134) [[code]](https://parl.ai/projects/contradiction/)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 
@@ -572,7 +572,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **Hallucination**: "Survey of Hallucination in Natural Language Generation". arXiv(2022) [[paper]](https://arxiv.org/abs/2202.03629)
 * **Evaluation**: "A Survey of Evaluation Metrics Used for NLG Systems". arXiv(2020) [[paper]](https://arxiv.org/abs/2008.12009)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### NLG Theories and Techniques
@@ -606,7 +606,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **SFOT**: "Improving Text Generation with Student-Forcing Optimal Transport". EMNLP(2020) [[paper]](https://aclanthology.org/2020.emnlp-main.735)
 * **OT-Seq2Seq**: "Improving Sequence-to-Sequence Learning via Optimal Transport". ICLR(2019) [[paper]](https://arxiv.org/abs/1901.06283) [[code]](https://github.com/LiqunChen0606/OT-Seq2Seq)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 
@@ -626,7 +626,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **Diffusion-LM**: "Diffusion-LM Improves Controllable Text Generation". NeurIPS(2022) [[paper]](https://arxiv.org/abs/2205.14217) [[code]](https://github.com/XiangLi1999/Diffusion-LM) :star::star::star:
 * **D3PM**: "Structured Denoising Diffusion Models in Discrete State-Spaces". NeurIPS(2021) [[paper]](https://arxiv.org/abs/2107.03006) [[code]](https://github.com/google-research/google-research/tree/master/d3pm)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Controllable Generation
@@ -649,7 +649,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **PPLM**: "Plug and Play Language Models: A Simple Approach to Controlled Text Generation". ICLR(2020) [[paper]](https://arxiv.org/abs/1912.02164) [[code]](https://github.com/uber-research/PPLM) :star::star::star:
 * **CTRL**: "CTRL: A Conditional Transformer Language Model for Controllable Generation". arXiv(2019) [[paper]](https://arxiv.org/abs/1909.05858) [[code]](https://github.com/salesforce/ctrl)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Text Planning
@@ -669,7 +669,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **TwinNet**: "Twin Networks: Matching the Future for Sequence Generation". ICLR(2018) [[paper]](https://arxiv.org/abs/1708.06742) [[code]](https://github.com/dmitriy-serdyuk/twin-net)
 * **PAG**: "Plan, Attend, Generate: Planning for Sequence-to-Sequence Models". NIPS(2017) [[paper]](https://proceedings.neurips.cc/paper/2017/file/b030afbb3a8af8fb0759241c97466ee4-Paper.pdf)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Decoding Algorithms
@@ -699,7 +699,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **DBA**: "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation". NAACL(2018) [[paper]](https://aclanthology.org/N18-1119) [[code-official]](https://github.com/awslabs/sockeye) [[code-fairseq]](https://github.com/facebookresearch/fairseq/blob/main/examples/constrained_decoding/README.md)
 * **GBS**: "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search". ACL(2017) [[paper]](https://aclanthology.org/P17-1141) [[code]](https://github.com/chrishokamp/constrained_decoding)
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
 
 ### NLG Evaluation
 * **Survey**: "Leveraging Large Language Models for NLG Evaluation: A Survey". arXiv(2024) [[paper]](https://arxiv.org/abs/2401.07103)
@@ -714,4 +714,4 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
 
 
-👆 [Back to Top](#paper-reading)
+👆 [Back to Top](#paper-reading-convai)
