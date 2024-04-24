@@ -1,11 +1,10 @@
 ﻿# Paper-Reading
-Paper reading list in 💬 **dialogue systems** and 📝 **natural language generation**. This repository will keep updating ... 🤗
+Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems** and 📝 **natural language generation**. This repository is constantly updating 🤗 ...
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
-- [Pre-trained (Large) Language Models](#pre-trained-large-language-models)
 - [Dialogue Systems](#dialogue-systems)
   - [Survey on Dialogue](#survey-on-dialogue)
-  - [LLMs for Conversation](#llms-for-conversation)
+  - [Conversational LLMs](#conversational-llms)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
     - [Visually-grounded Dialogue](#visually-grounded-dialogue)
@@ -26,6 +25,7 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
     - [Long-term Dialogue](#long-term-dialogue)
     - [Response Generation](#response-generation)
   - [Dialogue Evaluation](#dialogue-evaluation)
+  - [Dialogue Misc.](#dialogue-misc)
 - [Natural Language Generation](#natural-language-generation)
   - [Survey on NLG](#survey-on-nlg)
   - [NLG Theories and Techniques](#nlg-theories-and-techniques)
@@ -33,6 +33,7 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
   - [Controllable Generation](#controllable-generation)
   - [Text Planning](#text-planning)
   - [Decoding Algorithms](#decoding-algorithms)
+  - [NLG Evaluation](#nlg-evaluation)
 
 ***
 
@@ -41,8 +42,6 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
 * **Data Augmentation**: "A Survey of Data Augmentation Approaches for NLP". ACL-Findings(2021) [[paper]](https://arxiv.org/abs/2105.03075)
 * **Prompting**: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing". arXiv(2021) [[paper]](https://arxiv.org/abs/2107.13586)  :star::star::star::star::star:
 * **NLP World Scope**: "Experience Grounds Language". EMNLP(2020) [[paper]](https://aclanthology.org/2020.emnlp-main.703/)  :star::star::star::star::star:
-* **Graphormer**: "Do Transformers Really Perform Bad for Graph Representation?". NeurIPS(2021) [[paper]](https://arxiv.org/abs/2106.05234) [[code]](https://github.com/Microsoft/Graphormer)
-* **GAT**: "Graph Attention Networks". ICLR(2018) [[paper]](https://arxiv.org/paper/1710.10903.pdf) [[code-tf]](https://github.com/PetarV-/GAT) [[code-py]](https://github.com/Diego999/pyGAT)
 * **Transformer-XL**: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1285) [[code]](https://github.com/kimiyoung/transformer-xl)
 * **Transformer**: "Attention is All you Need". NeurIPS(2017) [[paper]](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [[code-official]](https://github.com/tensorflow/tensor2tensor) [[code-tf]](https://github.com/Kyubyong/transformer) [[code-py]](https://github.com/jadore801120/attention-is-all-you-need-pytorch) :star::star::star::star::star:
 * **VAE**: "An Introduction to Variational Autoencoders". arXiv(2019) [[paper]](https://arxiv.org/paper/1906.02691.pdf)
@@ -54,38 +53,9 @@ Paper reading list in 💬 **dialogue systems** and 📝 **natural language gene
 * **Copy Mechanism**: "Incorporating Copying Mechanism in Sequence-to-Sequence Learning". ACL(2016) [[paper]](https://www.aclweb.org/anthology/P16-1154)
 * **ELMo**: "Deep contextualized word representations". NAACL(2018) [[paper]](https://www.aclweb.org/anthology/N18-1202) [[code]](https://github.com/allenai/bilm-tf)
 * **Glove**: "GloVe: Global Vectors for Word Representation". EMNLP(2014) [[paper]](https://www.aclweb.org/anthology/D14-1162.pdf) [[code]](https://github.com/stanfordnlp/GloVe)
-* **word2vec**: "word2vec Parameter Learning Explained". arXiv(2016) [[paper]](https://arxiv.org/paper/1411.2738.pdf) :star::star::star::star::star:
+* **Word2Vec Tutorial**: "word2vec Parameter Learning Explained". arXiv(2016) [[paper]](https://arxiv.org/paper/1411.2738.pdf) :star::star::star::star::star:
 * **Multi-task Learning**: "An Overview of Multi-Task Learning in Deep Neural Networks". arXiv(2017) [[paper]](https://arxiv.org/paper/1706.05098.pdf)
 * **Gradient Descent**: "An Overview of Gradient Descent Optimization Algorithms". arXiv(2016) [[paper]](https://arxiv.org/paper/1609.04747.pdf) :star::star::star::star::star:
-
-👆 [Back to Top](#paper-reading)
-
-
-## Pre-trained (Large) Language Models
-
-* **Llama 2**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[model]](https://ai.meta.com/resources/models-and-libraries/llama/) [[code]](https://github.com/facebookresearch/llama)
-* **GPT-4**: "GPT-4 Technical Report". OpenAI(2023) [[paper]](https://arxiv.org/abs/2303.08774) :star::star::star::star:
-* **LLaMA**: "LLaMA: Open and Efficient Foundation Language Models". Meta(2023) [[paper]](https://arxiv.org/abs/2302.13971) [[code]](https://github.com/facebookresearch/llama/tree/llama_v1) :star::star::star::star:
-* **OPT**: "OPT: Open Pre-trained Transformer Language Models". arXiv(2022) [[paper]](https://arxiv.org/abs/2205.01068) [[code]](https://github.com/facebookresearch/metaseq)
-* **PaLM**: "PaLM: Scaling Language Modeling with Pathways". arXiv(2022) [[paper]](https://arxiv.org/abs/2204.02311)
-* **Survey of PLMs**: "Pre-Trained Models: Past, Present and Future". arXiv(2021) [[paper]](https://arxiv.org/abs/2106.07139)
-* **Survey of PLMs**: "Pre-trained Models for Natural Language Processing: A Survey". arXiv(2020) [[paper]](https://arxiv.org/paper/2003.08271.pdf)
-* **GLM-130B**: "GLM-130B: An Open Bilingual Pre-trained Model". ICLR(2023) [[paper]](https://arxiv.org/abs/2210.02414) [[code]](https://github.com/THUDM/GLM-130B) [[Blog]](http://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) :star::star::star:
-* **GLM**: "GLM: General Language Model Pretraining with Autoregressive Blank Infilling". ACL(2022) [[paper]](https://arxiv.org/abs/2103.10360) [[code]](https://github.com/THUDM/GLM)
-* **GPT-3**: "Language Models are Few-Shot Learners". NeurIPS(2020) [[paper]](https://arxiv.org/abs/2005.14165) :star::star::star::star:
-* **BART**: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.703.pdf) [[code]](https://github.com/huggingface/transformers) :star::star::star:
-* **T5**: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". JMLR(2020) [[paper]](https://arxiv.org/abs/1910.10683) [[code-tf]](https://github.com/google-research/text-to-text-transfer-transformer) [[code-py]](https://github.com/huggingface/transformers) :star::star::star:
-* **ALBERT**: "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations". ICLR(2020) [[paper]](https://openreview.net/paper?id=H1eA7AEtvS)
-* **TinyBERT**: "TinyBERT: Distilling BERT for Natural Language Understanding". arXiv(2019) [[paper]](https://arxiv.org/paper/1909.10351.pdf) [[code]](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT)
-* **Chinese BERT**: "Pre-Training with Whole Word Masking for Chinese BERT". arXiv(2019) [[paper]](https://arxiv.org/paper/1906.08101.pdf) [[code]](https://github.com/ymcui/Chinese-BERT-wwm)
-* **SpanBERT**: "SpanBERT: Improving Pre-training by Representing and Predicting Spans". TACL(2020) [[paper]](https://arxiv.org/paper/1907.10529.pdf) [[code]](https://github.com/facebookresearch/SpanBERT)
-* **RoBERTa**: "RoBERTa: A Robustly Optimized BERT Pretraining Approach". arXiv(2019) [[paper]](https://arxiv.org/paper/1907.11692.pdf) [[code]](https://github.com/pytorch/fairseq)
-* **UniLM**: "Unified Language Model Pre-training for
-Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://papers.nips.cc/paper/9464-unified-language-model-pre-training-for-natural-language-understanding-and-generation.pdf) [[code]](https://github.com/microsoft/unilm) :star::star::star:
-* **XLNet**: "XLNet: Generalized Autoregressive Pretraining for Language Understanding". NeurIPS(2019) [[paper]](https://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding.pdf) [[code]](https://github.com/zihangdai/xlnet)
-* **GPT-2**: "Language Models are Unsupervised Multitask Learners". OpenAI(2019) [[paper]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [[code]](https://huggingface.co/gpt2)
-* **BERT**: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding". NAACL(2019) [[paper]](https://www.aclweb.org/anthology/N19-1423) [[code]](https://github.com/google-research/bert) :star::star::star::star::star:
-* **GPT**: "Improving Language Understanding by Generative Pre-Training". OpenAI(2018) [[paper]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) :star::star::star::star::star:
 
 👆 [Back to Top](#paper-reading)
 
@@ -104,7 +74,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 👆 [Back to Top](#paper-reading)
 
 
-### LLMs for Conversation
+### Conversational LLMs
 * **Parrot**: "Parrot: Enhancing Multi-Turn Chat Models by Learning to Ask Questions". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.07301)
 * **MemoChat**: "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.08239)
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
@@ -138,13 +108,13 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 
 #### Situated and Embodied Dialogue
 * **Emb-Plan**: "Multimodal Embodied Plan Prediction Augmented with Synthetic Embodied Dialogue". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.374)
-* **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]]()
+* **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]](https://github.com/sled-group/Watch-Talk-and-Guide)
 * **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.345/) :star::star::star::star:
 * **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
 * **SUGAR**: "A Textual Dataset for Situated Proactive Response Selection". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.214/) [[data]](https://github.com/notani/sugar-conversational-dataset)
-* **Chat-with-NeRF**: "Chat with NeRF: Grounding 3D Objects in Neural Radiance Field through Dialog". UMich(2023) [[project]](https://chat-with-nerf.github.io/) [[code]](https://github.com/sled-group/chat-with-nerf)
 * **MindDial**: "MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.15253)
 * **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
+* **Alexa Arena**: "Alexa Arena: A User-Centric Interactive Platform for Embodied AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01586) [[code]](https://github.com/amazon-science/alexa-arena)
 * **SEAGULL**: "SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog". Alexa Prize SimBot Challenge(2023) [[paper]](https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf)
 * **SitCoM-DETR**: "Which One Are You Referring To? Multimodal Object Identification in Situated Dialogue". EACL-SRW(2023) [[paper]](https://arxiv.org/abs/2302.14680) [[code]](https://github.com/holylovenia/multimodal-object-identification)
 * **MLR**: "Improving Situated Conversational Agents with Step-by-Step Multi-modal Logic Reasoning". DSTC11(2023) [[paper]](https://aclanthology.org/2023.dstc-1.3/)
@@ -157,7 +127,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **Joint-model**: "Learning to Embed Multi-Modal Contexts for Situated Conversational Agents". NAACL-Findings(2022) [[paper]](https://aclanthology.org/2022.findings-naacl.61) [[code]](https://github.com/KAIST-AILab/DSTC10-SIMMC)
 * **TEACh_FILM**: "Don't Copy the Teacher: Data and Model Challenges in Embodied Dialogue". EMNLP(2022) [[paper]](http://arxiv.org/abs/2210.04443) [[code]](https://github.com/soyeonm/TEACh_FILM)
 * **TEACh**: "TEACh: Task-driven Embodied Agents that Chat". AAAI(2022) [[paper]](http://arxiv.org/abs/2110.00534) [[data]](https://github.com/alexa/teach) 
-* **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft) :star::star::star::star:
+* **MindCraft**: "MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks". EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.85/) [[code]](https://github.com/sled-group/MindCraft) :star::star::star:
 * **Multimodal-model**: "Multimodal Interactions Using Pretrained Unimodal Models for SIMMC 2.0". DSTC10(2022) [[paper]](https://arxiv.org/abs/2112.05328) [[code]](https://github.com/rungjoo/simmc2.0)
 * **SIMMC 2.0**: "SIMMC 2.0: A Task-oriented Dialog Dataset for Immersive Multimodal Conversations" EMNLP(2021) [[paper]](https://aclanthology.org/2021.emnlp-main.401/) [[code]](https://github.com/facebookresearch/simmc2)  :star::star::star::star:
 * **MM-DST**: "Multi-Task Learning for Situated Multi-Domain End-to-End Dialogue Systems". arXiv(2021) [[paper]](https://arxiv.org/abs/2110.05221)
@@ -333,6 +303,7 @@ Natural Language Understanding and Generation". NeurIPS(2019) [[paper]](https://
 * **EmpSOA**: "Don't Lose Yourself! Empathetic Response Generation via Explicit Self-Other Awareness". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2210.03884) [[code]](https://github.com/circle-hit/EmpSOA)
 * **CASE**: "CASE: Aligning Coarse-to-Fine Cognition and Affection for Empathetic Response Generation". ACL(2023) [[paper]](https://arxiv.org/abs/2208.08845) [[code]](https://github.com/jfzhouyoo/CASE)
 * **CARE**: "CARE: Causality Reasoning for Empathetic Responses by Conditional Graph Generation". EMNLP-Findings(2022) [[paper]](https://arxiv.org/abs/2211.00255) [[code]](https://github.com/wangjs9/CARE-master)
+* **EmpGPT-3**: "Does GPT-3 Generate Empathetic Dialogues? A Novel In-Context Example Selection Method and Automatic Evaluation Metric for Empathetic Dialogue Generation". COLING(2022) [[paper]](https://aclanthology.org/2022.coling-1.56/) [[code]](https://github.com/passing2961/EmpGPT-3)
 * **PosEmoDial**: "Towards Multi-Turn Empathetic Dialogs with Positive Emotion Elicitation". arXiV(2022) [[paper]](https://arxiv.org/abs/2204.10509)
 * **CEM**: "CEM: Commonsense-aware Empathetic Response Generation". AAAI(2022) [[paper]](https://arxiv.org/abs/2109.05739) [[code]](https://github.com/Sahandfer/CEM)
 * **GEE**: "Perspective-taking and Pragmatics for Generating Empathetic Responses Focused on Emotion Causes". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.08828) [[code]](https://github.com/skywalker023/focused-empathy)
@@ -544,23 +515,15 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 ### Dialogue Evaluation
 * **DialogBench**: "DialogBench: Evaluating LLMs as Human-like Dialogue Systems". NAACL(2024) [[paper]](https://arxiv.org/abs/2311.01677) [[code]](https://github.com/kwai/DialogBench)
-* **BBScore**: "BBScore: A Brownian Bridge Based Metric for Assessing Text Coherence". AAAI(2024) [[paper]](https://arxiv.org/abs/2312.16893)
 * **ChatEval**: "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.07201) [[code]](https://github.com/chanchimin/ChatEval)
 * **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[paper]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
-* **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.16634)
-* **GPTScore**: "GPTScore: Evaluate as You Desire". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.04166) [[code]](https://github.com/jinlanfu/GPTScore)
 * **LLMEval**: "Understanding the Effectiveness of Very Large Language Models on Dialog Evaluation". IWSDS(2023) [[paper]](https://arxiv.org/abs/2301.12004)
 * **ChatEvalPlatform**: "Don't Forget Your ABC's: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.09180) [[code]](https://github.com/emora-chat/ChatEvaluationPlatform)
-* **MoralDial**: "MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Constructing Moral Discussions". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10720)
 * **MDD-Eval**: "MDD-Eval: Self-Training on Augmented Data for Multi-Domain Dialogue Evaluation". AAAI(2022) [[paper]](https://arxiv.org/abs/2112.07194) [[code]](https://github.com/e0397123/MDD-Eval)
 * **Self-Eval**: "SelF-Eval: Self-supervised Fine-grained Dialogue Evaluation". COLING(2022) [[paper]](https://aclanthology.org/2022.coling-1.39/) [[code]](https://github.com/royny/self-eval)
 * **FineD-Eval**: "FineD-Eval: Fine-grained Automatic Dialogue-Level Evaluation". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.13832) [[code]](https://github.com/e0397123/FineD-Eval)
 * **FlowEval**: "FlowEval: A Consensus-Based Dialogue Evaluation Framework Using Segment Act Flows". EMNLP(2022) [[paper]](https://arxiv.org/abs/2202.06633)
 * **IM2**: "IM^2: an Interpretable and Multi-category Integrated Metric Framework for Automatic Dialogue Evaluation". EMNLP(2022) [[paper]](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.762/) [[code]](https://github.com/Jnunlplab/IM2)
-* **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[paper]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe)
-* **EAD**: "Rethinking and Refining the Distinct Metric". ACL(2022) [[paper]](https://arxiv.org/abs/2202.13587) [[code]](https://github.com/lsy641/Expectation-Adjusted-Distinct)
-* **DiscoScore**: "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence". arXiv(2022) [[paper]](https://arxiv.org/abs/2201.11176) [[code]](https://github.com/AIPHES/DiscoScore)
-* **CTC-Score**: "Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.06379) [[code]](https://github.com/tanyuqian/ctc-gen-eval)
 * **Q^2**: "$Q^{2}$: Evaluating Factual Consistency in Knowledge-Grounded Dialogues via Question Generation and Question Answering". EMNLP(2021) [[paper]](https://arxiv.org/abs/2104.08202) [[code]](https://github.com/orhonovich/q-squared)
 * **QuantiDCE**: "Towards Quantifiable Dialogue Coherence Evaluation". ACL(2021) [[paper]](https://arxiv.org/abs/2106.00507) [[code]](https://github.com/James-Yip/QuantiDCE)
 * **DynaEval**: "DynaEval: Unifying Turn and Dialogue Level Evaluation". ACL(2021) [[paper]](https://aclanthology.org/2021.acl-long.441) [[code]](https://github.com/e0397123/DynaEval)
@@ -572,7 +535,6 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **Coherence**: "Dialogue Coherence Assessment Without Explicit Dialogue Act Labels". ACL(2020) [[paper]](https://aclanthology.org/2020.acl-main.133) [[code]](https://github.com/UKPLab/acl2020-dialogue-coherence-assessment)
 * **MAUDE**: "Learning an Unreferenced Metric for Online Dialogue Evaluation". ACL(2020) [[paper]](https://arxiv.org/abs/2005.00583) [[code]](https://github.com/facebookresearch/online_dialog_eval)
 * **GRADE**: "GRADE: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.emnlp-main.742) [[code]](https://github.com/li3cmz/GRADE)
-* **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
 * **uBLEU**: "uBLEU: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-srw.27) [[code]](https://github.com/YumaTsuta/upsilon_bleu)
 * **USR**: "USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.64) [[code]](https://github.com/Shikib/usr)
 * **ACUTE-EVAL**: "ACUTE-EVAL: Improved Dialogue Evaluation with Optimized Questions and Multi-turn Comparisons". NIPS ConvAI Workshop(2019) [[paper]](https://arxiv.org/abs/1909.03087) [[code]](https://github.com/facebookresearch/ParlAI/tree/main/parlai/crowdsourcing/tasks/acute_eval) :star::star::star:
@@ -580,6 +542,23 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **ChatEval**: "ChatEval: A Tool for Chatbot Evaluation". NAACL(2019) [[paper]](https://aclanthology.org/N19-4011) [[project]](https://chateval.org/)
 * **ADVMT**: "One `Ruler` for All Languages: Multi-Lingual Dialogue Evaluation with Adversarial Multi-Task Learning". IJCAI(2018) [[paper]](https://www.ijcai.org/proceedings/2018/0616.pdf)
 
+
+👆 [Back to Top](#paper-reading)
+
+
+### Dialogue Misc.
+* **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
+* **DialogStudio**: "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.10172) [[code]](https://github.com/salesforce/DialogStudio)
+* **MPC**: "Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.13835) [[code]](https://github.com/facebookresearch/LIGHT/tree/main/light/modeling/tasks/multilight)
+* **SODA**: "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization". EMNLP(2023) [[paper]](https://arxiv.org/abs/2212.10465) [[code]](https://github.com/skywalker023/sodaverse)  :star::star::star:
+* **speaker-adaptation**: "Speaking the Language of Your Listener: Audience-Aware Adaptation via Plug-and-Play Theory of Mind". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.19933) [[code]](https://github.com/nicofirst1/speaker-adaptation)
+* **SocialDial**: "SocialDial: A Benchmark for Socially-Aware Dialogue Systems". SIGIR(2023) [[paper]](https://arxiv.org/abs/2304.12026) [[data]](https://github.com/zhanhl316/SocialDial)
+* **BotsTalk**: "BotsTalk: Machine-sourced Framework for Automatic Curation of Large-scale Multi-skill Dialogue Datasets". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12687) [[code]](https://github.com/convei-lab/BotsTalk)
+* **Dialogic**: "Dialogic: Controllable Dialogue Simulation with In-Context Learning". EMNLP-Findings(2022) [[paper]](https://arxiv.org/abs/2210.04185) [[code]](https://github.com/Leezekun/dialogic)
+* **ProsocialDialog**: "ProsocialDialog: A Prosocial Backbone for Conversational Agents". EMNLP(2022) [[paper]](https://arxiv.org/abs/2205.12688) [[code]](https://github.com/skywalker023/prosocial-dialog)
+* **MIC**: "The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems". ACL(2022) [[paper]](https://arxiv.org/abs/2204.03021) [[code]](https://github.com/SALT-NLP/mic)
+* **MoralDial**: "MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Constructing Moral Discussions". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10720)
+* **DECODE**: "I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling". ACL(2021) [[paper]](https://aclanthology.org/2021.acl-long.134) [[code]](https://parl.ai/projects/contradiction/)
 
 👆 [Back to Top](#paper-reading)
 
@@ -719,5 +698,20 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **DBS**: "Directed Beam Search: Plug-and-Play Lexically Constrained Language Generation". arXiv(2020) [[paper]](https://arxiv.org/abs/2012.15416) [[code]](https://github.com/dapascual/DirectedBeamSearch)
 * **DBA**: "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation". NAACL(2018) [[paper]](https://aclanthology.org/N18-1119) [[code-official]](https://github.com/awslabs/sockeye) [[code-fairseq]](https://github.com/facebookresearch/fairseq/blob/main/examples/constrained_decoding/README.md)
 * **GBS**: "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search". ACL(2017) [[paper]](https://aclanthology.org/P17-1141) [[code]](https://github.com/chrishokamp/constrained_decoding)
+
+👆 [Back to Top](#paper-reading)
+
+### NLG Evaluation
+* **Survey**: "Leveraging Large Language Models for NLG Evaluation: A Survey". arXiv(2024) [[paper]](https://arxiv.org/abs/2401.07103)
+* **BBScore**: "BBScore: A Brownian Bridge Based Metric for Assessing Text Coherence". AAAI(2024) [[paper]](https://arxiv.org/abs/2312.16893)
+* **GPTEval**: "GPTEval: NLG Evaluation using GPT-4 with Better Human Alignment". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.16634)
+* **GPTScore**: "GPTScore: Evaluate as You Desire". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.04166) [[code]](https://github.com/jinlanfu/GPTScore)
+* **RoMe**: "RoMe: A Robust Metric for Evaluating Natural Language Generation". ACL(2022) [[paper]](https://arxiv.org/abs/2203.09183) [[code]](https://github.com/rashad101/RoMe)
+* **EAD**: "Rethinking and Refining the Distinct Metric". ACL(2022) [[paper]](https://arxiv.org/abs/2202.13587) [[code]](https://github.com/lsy641/Expectation-Adjusted-Distinct)
+* **MID**: "Mutual Information Divergence: A Unified Metric for Multimodal Generative Models". NeurIPS(2022) [[paper]](https://arxiv.org/abs/2205.13445)
+* **DiscoScore**: "DiscoScore: Evaluating Text Generation with BERT and Discourse Coherence". arXiv(2022) [[paper]](https://arxiv.org/abs/2201.11176) [[code]](https://github.com/AIPHES/DiscoScore)
+* **CTC-Score**: "Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation". EMNLP(2021) [[paper]](https://arxiv.org/abs/2109.06379) [[code]](https://github.com/tanyuqian/ctc-gen-eval)
+* **BLEURT**: "BLEURT: Learning Robust Metrics for Text Generation". ACL(2020) [[paper]](https://www.aclweb.org/anthology/2020.acl-main.704) [[code]](https://github.com/google-research/bleurt)
+
 
 👆 [Back to Top](#paper-reading)
