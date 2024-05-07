@@ -113,6 +113,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **SURE**: "Multimodal Recommendation Dialog with Subjective Preference: A New Challenge and Benchmark". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18212) [[data]](https://github.com/LYX0501/SURE)
 * **SUGAR**: "A Textual Dataset for Situated Proactive Response Selection". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.214/) [[data]](https://github.com/notani/sugar-conversational-dataset)
 * **MindDial**: "MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.15253)
+* **HoloAssist**: "HoloAssist: an Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World". ICCV(2023) [[paper]](https://arxiv.org/abs/2309.17024) [[data]](https://holoassist.github.io/) :star::star::star::star:
 * **Collab**: "Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.11271) [[code]](https://github.com/sled-group/collab-plan-acquisition)
 * **Alexa Arena**: "Alexa Arena: A User-Centric Interactive Platform for Embodied AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01586) [[code]](https://github.com/amazon-science/alexa-arena)
 * **SEAGULL**: "SEAGULL: An Embodied Agent for Instruction Following through Situated Dialog". Alexa Prize SimBot Challenge(2023) [[paper]](https://assets.amazon.science/17/c5/a684745e4d6d94742d85a31e5362/simbot-challenge-technical-report-seagull-1.pdf)
@@ -120,7 +121,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **MLR**: "Improving Situated Conversational Agents with Step-by-Step Multi-modal Logic Reasoning". DSTC11(2023) [[paper]](https://aclanthology.org/2023.dstc-1.3/)
 * **SimpleMTOD**: "SimpleMTOD: A Simple Language Model for Multimodal Task-Oriented Dialogue with Symbolic Scene Representation". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.04907)
 * **SPRING**: "SPRING: Situated Conversation Agent Pretrained with Multimodal Questions from Incremental Layout Graph". AAAI(2023) [[paper]](https://arxiv.org/abs/2301.01949) [[code]](https://github.com/LYX0501/SPRING)
-* **DOROTHIE**: "DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents". EMNLP-Findings(2022) [[paper]](http://arxiv.org/abs/2210.12511) [[code]](https://github.com/sled-group/DOROTHIE) :star::star::star::star:
+* **DOROTHIE**: "DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents". EMNLP-Findings(2022) [[paper]](http://arxiv.org/abs/2210.12511) [[code]](https://github.com/sled-group/DOROTHIE) :star::star::star:
 * **LIGHT-curriculum**: "Situated Dialogue Learning through Procedural Environment Generation". ACL(2022) [[paper]](https://arxiv.org/abs/2110.03262)
 * **DANLI**: "DANLI: Deliberative Agent for Following Natural Language Instructions". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12485) [[code]](https://github.com/sled-group/danli)
 * **PRS**: "Learning to Mediate Disparities Towards Pragmatic Communication". ACL(2022) [[paper]](http://arxiv.org/abs/2203.13685) [[code]](https://github.com/sled-group/Pragmatic-Rational-Speaker)
@@ -630,6 +631,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Controllable Generation
+* **ConGenBench**: "Controllable Text Generation in the Instruction-Tuning Era". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.01490) [[code]](https://github.com/DhananjayAshok/ConGenBench)
 * **GeLaTo**: "Tractable Control for Autoregressive Language Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.07438)
 * **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
 * **CriticControl**: "Critic-Guided Decoding for Controlled Text Generation". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10938)
