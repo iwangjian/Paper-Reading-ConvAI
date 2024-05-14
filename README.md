@@ -134,6 +134,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **MM-DST**: "Multi-Task Learning for Situated Multi-Domain End-to-End Dialogue Systems". arXiv(2021) [[paper]](https://arxiv.org/abs/2110.05221)
 * **SIMMC**: "Situated and Interactive Multimodal Conversations". COLING(2020) [[paper]](https://arxiv.org/abs/2006.01460) [[code]](https://github.com/facebookresearch/simmc)
 * **Minecraft-BAP**: "Learning to execute instructions in a Minecraft dialogue". ACL(2020) [[paper]](https://aclanthology.org/2020.acl-main.232) [[code]](https://github.com/prashant-jayan21/minecraft-bap-models)
+* **CerealBar**: "Executing Instructions in Situated Collaborative Interactions". EMNLP(2019) [[paper]](https://aclanthology.org/D19-1218/) [[code]](https://github.com/lil-lab/cerealbar)
 * **Minecraft Dialogue**: "Collaborative Dialogue in Minecraft". ACL(2019) [[paper]](https://aclanthology.org/P19-1537) [[code]](https://github.com/prashant-jayan21/minecraft-dialogue-models)
 * **CLG**: "Collaborative Language Grounding Toward Situated Human‐Robot Dialogue". AI Magazine(2016) [[paper]](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2684) :star::star::star::star:
 * **SHRD**: "Back to the Blocks World: Learning New Actions through Situated Human-Robot Dialogue". SIGDIAL(2014) [[paper]](https://aclanthology.org/W14-4313/)
@@ -548,6 +549,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Misc.
+* **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
 * **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
 * **DialogStudio**: "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.10172) [[code]](https://github.com/salesforce/DialogStudio)
 * **MPC**: "Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.13835) [[code]](https://github.com/facebookresearch/LIGHT/tree/main/light/modeling/tasks/multilight)
