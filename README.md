@@ -63,6 +63,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ## Dialogue Systems
 
 ### Survey on Dialogue
+* **Data Generation**: "A Survey on Recent Advances in Conversational Data Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.13003)
 * **Proactive Dialogue**: "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.02750)
 * **Responsible Dialogue**: "Recent Advances towards Safe, Responsible, and Moral Dialogue Systems: A Survey". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.09270)
 * **Negotiation Dialogue**: "Let's Negotiate! A Survey of Negotiation Dialogue Systems". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.09072)
@@ -107,6 +108,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **SLL**: "Large Language Model based Situational Dialogues for Second Language Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.20005)
 * **Emb-Plan**: "Multimodal Embodied Plan Prediction Augmented with Synthetic Embodied Dialogue". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.374)
 * **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]](https://github.com/sled-group/Watch-Talk-and-Guide)
 * **SIMMC-VR**: "SIMMC-VR: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive VR Streams". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-long.345/) :star::star::star::star:
@@ -141,6 +143,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 #### Visually-grounded Dialogue
+* **TIGER**: "TIGER: A Unified Generative Model Framework for Multimodal Dialogue Response Generation". COLING(2024). [[paper]](https://aclanthology.org/2024.lrec-main.1403) [[code]](https://github.com/friedrichor/TIGER)
 * **DialogCC**: "DialogCC: An Automated Pipeline for Creating High-Quality Multi-Modal Dialogue Dataset". NAACL(2024) [[paper]](https://arxiv.org/abs/2212.04119) [[data]](https://dialogcc.github.io/)
 * **VLAW-MDM**: "A Framework for Vision-Language Warm-up Tasks in Multimodal Dialogue Models". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.167/) [[code]](https://github.com/BeneciaLee/VLAW-MDM)
 * **VDialogUE**: "VDialogUE: A Unified Evaluation Benchmark for Visually-grounded Dialogue". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.07387)
