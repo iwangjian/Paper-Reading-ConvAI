@@ -9,6 +9,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
     - [Visually-grounded Dialogue](#visually-grounded-dialogue)
   - [Proactive Dialogue](#proactive-dialogue)
+    - [Misc. of Proactive Dialogue](#misc-of-proactive-dialogue)
     - [Target-oriented Dialogue](#target-oriented-dialogue)
     - [Non-collaborative Dialogue (Persuasion and Negotiation)](#non-collaborative-dialogue-persuasion-and-negotiation)
   - [Personalized Dialogue](#personalized-dialogue)
@@ -180,11 +181,17 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 ### Proactive Dialogue
 
+#### Misc. of Proactive Dialogue
+* **DPDP**: "Planning Like Human: A Dual-process Framework for Dialogue Planning". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05374) [[code]](https://github.com/cs-holder/DPDP)
+* **PCA**: "Towards Human-centered Proactive Conversational Agents". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.12670)
+* **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
+* **Tutorial**: "Goal Awareness for Conversational AI: Proactivity, Non-collaborativity, and Beyond". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-tutorials.1)
+
+
 #### Target-oriented Dialogue
 * **PAI**: "Towards Goal-oriented Intelligent Tutoring Systems in Online Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2312.10053)
 * **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
 * **RTCP**: "Reinforced Target-driven Conversational Promotion". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.775/) [[code]](https://github.com/huyquangdao/RTCP)
-* **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
 * **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
 * **COLOR**: "Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2305.05290) [[code]](https://github.com/iwangjian/Color4Dial)  :star::star::star:
 * **TopKG**: "TopKG: Target-oriented Dialog via Global Planning on Knowledge Graph". COLING(2022) [[paper]](https://aclanthology.org/2022.coling-1.62) [[code]](https://github.com/yyyyyyzt/topkgchat)
@@ -462,6 +469,9 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 ### Open-domain Dialogue
 
 #### Long-term Dialogue
+* **LD-Agent**: "Hello Again! LLM-powered Personalized Agent for Long-term Dialogue". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05925) [[code]](https://github.com/leolee99/LD-Agent)
+* **CPD**: "Position Debiasing Fine-Tuning for Causal Perception in Long-Term Dialogue". IJCAI(2024) [[paper]](https://arxiv.org/abs/2406.02002)
+* **TemporalMemory**: "Toward Conversational Agents with Context and Time Sensitive Long-term Memory". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00057) [[data]](https://github.com/Zyphra/TemporalMemoryDataset)
 * **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
 *  **Conversation Chronicles**: "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.13420) [[data]](https://github.com/conversation-chronicles/conversation-chronicles)
 * **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
@@ -552,6 +562,8 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Misc.
+* **ACT**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
+* **ReviewMT**: "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05688) [[code]](https://github.com/chengtan9907/ReviewMT)
 * **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
 * **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
 * **DialogStudio**: "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.10172) [[code]](https://github.com/salesforce/DialogStudio)
