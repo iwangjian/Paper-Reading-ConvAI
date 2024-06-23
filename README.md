@@ -256,6 +256,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **ComperDial**: "ComperDial: Commonsense Persona-grounded Dialogue Dataset and Benchmark". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.11228)
 * **IDL**: ""In Dialogues We Learn": Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.03102)
 * **DialogICL**: "Crafting a Good Prompt or Providing Exemplary Dialogues? A Study of In-Context Learning for Persona-based Dialogue Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.09954)
 * **VaRMI**: "Building Persona Consistent Dialogue Agents with Offline Reinforcement Learning". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.10735) [[code]](https://github.com/ryanshea10/personachat_offline_rl)
@@ -297,6 +298,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Emotional Dialogue
 
 #### Emotional Support Dialogue
+* **ESCoT**: "ESCoT: Towards Interpretable Emotional Support Dialogue Systems". ACL(2024) [[paper]](https://arxiv.org/abs/2406.10960) [[code]](https://github.com/TeigenZhang/ESCoT)
 * **DDRCU**: "Dynamic Demonstration Retrieval and Cognitive Understanding for Emotional Support Conversation". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.02505) [[code]](https://github.com/Bat-Reality/DDRCU)
 * **KEMI**: "Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations". ACL(2023) [[paper]](https://arxiv.org/abs/2305.10172) [[code]](https://github.com/dengyang17/KEMI) :star::star::star::star:
 * **CSConv**: "A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment". ACL(2023) [[paper]](https://arxiv.org/abs/2305.08200) [[code]](https://github.com/jiangjyjy/CSD)
@@ -469,6 +471,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 ### Open-domain Dialogue
 
 #### Long-term Dialogue
+* **THEANINE**: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.10996)
 * **LD-Agent**: "Hello Again! LLM-powered Personalized Agent for Long-term Dialogue". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05925) [[code]](https://github.com/leolee99/LD-Agent)
 * **CPD**: "Position Debiasing Fine-Tuning for Causal Perception in Long-Term Dialogue". IJCAI(2024) [[paper]](https://arxiv.org/abs/2406.02002)
 * **TemporalMemory**: "Toward Conversational Agents with Context and Time Sensitive Long-term Memory". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00057) [[data]](https://github.com/Zyphra/TemporalMemoryDataset)
