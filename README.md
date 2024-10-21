@@ -574,6 +574,10 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Misc.
+* **Signed-dialogue**: "Generating Signed Language Instructions in Large-Scale Dialogue Systems". NAACL(2024) [[paper]](https://aclanthology.org/2024.naacl-industry.13/) [[data]](https://github.com/Merterm/signed-dialogue)
+* **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2024) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
+* **MathDial**: "MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.372) [[data]](https://github.com/eth-nlped/mathdial)
+* **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)
 * **ACT**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
 * **ReviewMT**: "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05688) [[code]](https://github.com/chengtan9907/ReviewMT)
 * **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
