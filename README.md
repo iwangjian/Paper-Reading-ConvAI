@@ -1,13 +1,14 @@
 ﻿# Paper-Reading-ConvAI
-Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems** and 📝 **natural language generation**. This repository is constantly updating 🤗 ...
+Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems (agents)** and 📝 **natural language generation**. This repository is constantly updating 🤗 ...
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
-- [Dialogue Systems](#dialogue-systems)
+- [Dialogue Systems (Agents)](#dialogue-systems-agents)
   - [Survey on Dialogue](#survey-on-dialogue)
   - [Conversational LLMs](#conversational-llms)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
     - [Visually-grounded Dialogue](#visually-grounded-dialogue)
+    - [Spoken Dialogue](#spoken-dialogue)
   - [Proactive Dialogue](#proactive-dialogue)
     - [Misc. of Proactive Dialogue](#misc-of-proactive-dialogue)
     - [Target-oriented Dialogue](#target-oriented-dialogue)
@@ -61,7 +62,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
-## Dialogue Systems
+## Dialogue Systems (Agents)
 
 ### Survey on Dialogue
 * **Data Generation**: "A Survey on Recent Advances in Conversational Data Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.13003)
@@ -145,9 +146,9 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 #### Visually-grounded Dialogue
 * **TIGER**: "TIGER: A Unified Generative Model Framework for Multimodal Dialogue Response Generation". COLING(2024). [[paper]](https://aclanthology.org/2024.lrec-main.1403) [[code]](https://github.com/friedrichor/TIGER)
+* **BI-MDRG**: "BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation". ECCV(2024) [[paper]](https://arxiv.org/abs/2408.05926)  [[code]](https://github.com/hee-suk-yoon/BI-MDRG)
 * **DialogCC**: "DialogCC: An Automated Pipeline for Creating High-Quality Multi-Modal Dialogue Dataset". NAACL(2024) [[paper]](https://arxiv.org/abs/2212.04119) [[data]](https://dialogcc.github.io/)
 * **VLAW-MDM**: "A Framework for Vision-Language Warm-up Tasks in Multimodal Dialogue Models". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.167/) [[code]](https://github.com/BeneciaLee/VLAW-MDM)
-* **ZRIGF**: "ZRIGF: An Innovative Multimodal Framework for Zero-Resource Image-Grounded Dialogue Generation". ACM MM(2023) [[paper]](https://arxiv.org/abs/2308.00400) [[code]](https://github.com/zhangbo-nlp/ZRIGF)
 * **VDialogUE**: "VDialogUE: A Unified Evaluation Benchmark for Visually-grounded Dialogue". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.07387)
 * **TextBind**: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild". arXiv(2023) [[paper]](https://arxiv.org/abs/2309.08637) [[data]](https://github.com/SihengLi99/TextBind)
 * **VSTAR**: "VSTAR: A Video-grounded Dialogue Dataset for Situated Semantic Understanding with Scene and Topic Transitions". ACL(2023) [[paper]](https://arxiv.org/abs/2305.18756) [[data]](https://vstar-benchmark.github.io/)
@@ -166,19 +167,21 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PhotoChat**: "PhotoChat: A Human-Human Dialogue Dataset With Photo Sharing Behavior For Joint Image-Text Modeling". ACL(2021) [[paper]](https://aclanthology.org/2021.acl-long.479/) [[data]](https://github.com/google-research/google-research/tree/master/multimodalchat)
 * **Multi-Modal Dialogue**: "Constructing Multi-Modal Dialogue Dataset by Replacing Text with Semantically Relevant Images". ACL(2021) [[paper]](http://arxiv.org/abs/2107.08685) [[code]](https://github.com/shh1574/multi-modal-dialogue-dataset)
 * **OpenViDial 2.0**: "OpenViDial 2.0: A Larger-Scale, Open-Domain Dialogue Generation Dataset with Visual Contexts". arXiv(2021) [[paper]](https://arxiv.org/abs/2109.12761) [[data]](https://github.com/ShannonAI/OpenViDial)
-* **TREASURE**: "Multimodal Dialog System: Relational Graph-based Context-aware Question Understanding". ACM MM(2021) [[paper]](https://dl.acm.org/doi/10.1145/3474085.3475234) [[code]](https://acmmmtreasure.wixsite.com/treasure)
 * **MMConv**: "MMConv: An Environment for Multimodal Conversational Search across Multiple Domains". SIGIR(2021) [[paper]](https://dl.acm.org/doi/10.1145/3404835.3462970) [[data]](https://github.com/liziliao/MMConv)
 * **Image Chat**: "Image Chat: Engaging Grounded Conversations". ACL(2020) [[paper]](https://arxiv.org/abs/1811.00945) [[data]](https://parl.ai/projects/image_chat/)
 * **MTN**: "Multimodal Transformer Networks for End-to-End Video-Grounded Dialogue Systems". ACL(2019) [[paper]](https://arxiv.org/abs/1907.01166) [[code]](https://github.com/henryhungle/MTN) :star::star::star:
 * **MELD**: "MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations". ACL(2019) [[paper]](https://aclanthology.org/P19-1050) [[data]](https://affective-meld.github.io/)
 * **CLEVR-Dialog**: "CLEVR-Dialog: A Diagnostic Dataset for Multi-Round Reasoning in Visual Dialog". NAACL(2019) [[paper]](https://arxiv.org/abs/1903.03166) [[data]](https://github.com/satwikkottur/clevr-dialog)
 * **VisDial-RL**: "Improving Generative Visual Dialog by Answering Diverse Questions". EMNLP(2019) [[paper]](https://arxiv.org/abs/1909.10470) [[code]](https://github.com/vmurahari3/visdial-diversity)
-* **MAGIC**: "Multimodal Dialog System: Generating Responses via Adaptive Decoders". ACM MM(2019) [[paper]](https://dl.acm.org/doi/10.1145/3343031.3350923) [[code]](https://acmmultimedia.wixsite.com/magic)
-* **KMD**: "Knowledge-aware Multimodal Dialogue Systems". ACM MM(2018) [[paper]](https://dl.acm.org/doi/10.1145/3240508.3240605)
-* **MMD**: "Towards Building Large Scale Multimodal Domain-Aware Conversation Systems". AAAI(2018) [[paper]](https://arxiv.org/abs/1704.00200) [[data]](https://amritasaha1812.github.io/MMD/)
+* **MMD**: "Towards Building Large Scale Multimodal Domain-Aware Conversation Systems". AAAI(2018) [[paper]](https://arxiv.org/abs/1704.00200) [[code]](https://amritasaha1812.github.io/MMD/)
 * **Talk the Walk**: "Talk the Walk: Navigating New York City through Grounded Dialogue". arXiv(2018) [[paper]](https://arxiv.org/abs/1807.03367) [[code]](https://github.com/facebookresearch/talkthewalk)
-* **IGC**: "Image-Grounded Conversations: Multimodal Context for Natural Question and Response Generation". IJCNLP(2017) [[paper]](https://aclanthology.org/I17-1047) [[data]](https://www.microsoft.com/en-us/download/details.aspx?id=55324&751be11f-ede8)
-* **VisDial**: "Visual Dialog". CVPR(2017) [[paper]](https://arxiv.org/abs/1611.08669) [[data]](https://github.com/batra-mlp-lab/visdial)
+* **VisDial**: "Visual Dialog". CVPR(2017) [[paper]](https://arxiv.org/abs/1611.08669) [[code]](https://github.com/batra-mlp-lab/visdial)
+
+
+#### Spoken Dialogue
+* **SyncLLM**: "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents". EMNLP(2024) [[paper]](https://arxiv.org/abs/2409.15594) [[project]](https://syncllm.cs.washington.edu/)
+* **MultiDialog**: "Let's Go Real Talk: Spoken Dialogue Model for Face-to-Face Conversation". ACL(2024) [[paper]](https://arxiv.org/abs/2406.07867)  [[data]](https://multidialog.github.io/)
+* **OpenOmni**: "OpenOmni: A Collaborative Open Source Tool for Building Future-Ready Multimodal Conversational Agents". arxiv(2024) [[paper]](https://arxiv.org/abs/2408.03047) [[code]](https://github.com/AI4WA/OpenOmniFramework)
 
 
 👆 [Back to Top](#paper-reading-convai)
@@ -187,7 +190,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Proactive Dialogue
 
 #### Misc. of Proactive Dialogue
-* **DPDP**: "Planning Like Human: A Dual-process Framework for Dialogue Planning". ACL(2024) [[paper]](https://arxiv.org/abs/2406.05374) [[code]](https://github.com/cs-holder/DPDP)
+* **DPDP**: "Planning Like Human: A Dual-process Framework for Dialogue Planning". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05374) [[code]](https://github.com/cs-holder/DPDP)
 * **PCA**: "Towards Human-centered Proactive Conversational Agents". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.12670)
 * **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
 * **Tutorial**: "Goal Awareness for Conversational AI: Proactivity, Non-collaborativity, and Beyond". ACL(2023) [[paper]](https://aclanthology.org/2023.acl-tutorials.1)
@@ -303,9 +306,8 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Emotional Dialogue
 
 #### Emotional Support Dialogue
-* **Preference Bias**: "Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation". ACL(2024) [[paper]](https://arxiv.org/abs/2402.13211)
 * **ESCoT**: "ESCoT: Towards Interpretable Emotional Support Dialogue Systems". ACL(2024) [[paper]](https://arxiv.org/abs/2406.10960) [[code]](https://github.com/TeigenZhang/ESCoT)
-* **Muffin**: "Muffin: Mitigating Unhelpfulness in Emotional Support Conversations with Multifaceted AI Feedback". ACL-Findings(2024) [[paper]](https://arxiv.org/abs/2401.05928) [[code]](https://github.com/wangjs9/Muffin)
+* **Muffin**: "Muffin: Mitigating Unhelpfulness in Emotional Support Conversations with Multifaceted AI Feedback". ACL Findings(2024) [[paper]](https://arxiv.org/abs/2401.05928) [[code]](https://github.com/wangjs9/Muffin)
 * **DDRCU**: "Dynamic Demonstration Retrieval and Cognitive Understanding for Emotional Support Conversation". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.02505) [[code]](https://github.com/Bat-Reality/DDRCU)
 * **KEMI**: "Knowledge-enhanced Mixed-initiative Dialogue System for Emotional Support Conversations". ACL(2023) [[paper]](https://arxiv.org/abs/2305.10172) [[code]](https://github.com/dengyang17/KEMI) :star::star::star::star:
 * **CSConv**: "A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment". ACL(2023) [[paper]](https://arxiv.org/abs/2305.08200) [[code]](https://github.com/jiangjyjy/CSD)
@@ -320,7 +322,6 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 #### Empathetic Dialogue
-* **STICKERCONV**: "STICKERCONV: Generating Multimodal Empathetic Responses from Scratch". ACL(2024) [[paper]](http://arxiv.org/abs/2402.01679) [[data]](https://github.com/ZhangYiqun018/StickerConv)
 * **PerceptiveAgent**: "Talk With Human-like Agents: Empathetic Dialogue Through Perceptible Acoustic Reception and Reaction". ACL(2024) [[paper]](https://arxiv.org/abs/2406.12707) [[code]](https://github.com/Haoqiu-Yan/PerceptiveAgent)
 * **E-CORE**: "E-CORE: Emotion Correlation Enhanced Empathetic Dialogue Generation" EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.653)
 * **EmpSOA**: "Don't Lose Yourself! Empathetic Response Generation via Explicit Self-Other Awareness". ACL-Findings(2023) [[paper]](https://arxiv.org/abs/2210.03884) [[code]](https://github.com/circle-hit/EmpSOA)
@@ -480,11 +481,12 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 ### Open-domain Dialogue
 
 #### Long-term Dialogue
+* **DialSim**: "DialSim: A Real-Time Simulator for Evaluating Long-Term Dialogue Understanding of Conversational Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.13144) [[code]](https://github.com/jiho283/Simulator)
 * **THEANINE**: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.10996)
 * **LD-Agent**: "Hello Again! LLM-powered Personalized Agent for Long-term Dialogue". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05925) [[code]](https://github.com/leolee99/LD-Agent)
 * **CPD**: "Position Debiasing Fine-Tuning for Causal Perception in Long-Term Dialogue". IJCAI(2024) [[paper]](https://arxiv.org/abs/2406.02002)
 * **TemporalMemory**: "Toward Conversational Agents with Context and Time Sensitive Long-term Memory". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00057) [[data]](https://github.com/Zyphra/TemporalMemoryDataset)
-* **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". ACL(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
+* **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
 *  **Conversation Chronicles**: "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.13420) [[data]](https://github.com/conversation-chronicles/conversation-chronicles)
 * **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
 * **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
@@ -574,10 +576,6 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Misc.
-* **Signed-dialogue**: "Generating Signed Language Instructions in Large-Scale Dialogue Systems". NAACL(2024) [[paper]](https://aclanthology.org/2024.naacl-industry.13/) [[data]](https://github.com/Merterm/signed-dialogue)
-* **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2024) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
-* **MathDial**: "MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.372) [[data]](https://github.com/eth-nlped/mathdial)
-* **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)
 * **ACT**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
 * **ReviewMT**: "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05688) [[code]](https://github.com/chengtan9907/ReviewMT)
 * **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
