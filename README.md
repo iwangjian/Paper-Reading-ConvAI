@@ -1,10 +1,11 @@
 ﻿# Paper-Reading-ConvAI
-Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems (agents)** and 📝 **natural language generation**. This repository is constantly updating 🤗 ...
+Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems (agents)** and 📝 **natural language generation**. Contributions are welcome!
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Dialogue Systems (Agents)](#dialogue-systems-agents)
   - [Survey on Dialogue](#survey-on-dialogue)
   - [Conversational LLMs](#conversational-llms)
+  - [LLM-based Dialogue Agents](#llm-based-dialogue-agents)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
     - [Visually-grounded Dialogue](#visually-grounded-dialogue)
@@ -103,6 +104,15 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **GODEL**: "GODEL: Large-Scale Pre-Training for Goal-Directed Dialog". arXiv(2022) [[paper]](https://arxiv.org/abs/2206.11309) [[code]](https://github.com/Microsoft/GODEL)
 * **Anthropic Assistant-v2**: "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback". arXiv(2022) [[paper]](https://arxiv.org/abs/2204.05862)
 * **Anthropic Assistant**: "A General Language Assistant as a Laboratory for Alignment". arXiv(2021) [[paper]](https://arxiv.org/abs/2112.00861)
+
+👆 [Back to Top](#paper-reading-convai)
+
+
+### LLM-based Dialogue Agents
+* **TRAVER**: "Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors". arXiv(2025) [[paper]](https://arxiv.org/abs/2502.13311)  [[code]](https://github.com/iwangjian/Coding-Tutor) :star::star::star:
+* **PCA**: "Controllable Conversations: Planning-Based Dialogue Agent with Large Language Models". arXiv(2024) [[paper]](https://arxiv.org/abs/2407.03884)
+* **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)  :star::star::star: 
+* **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
 
 👆 [Back to Top](#paper-reading-convai)
 
@@ -264,6 +274,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **MTPChat**: "MTPChat: A Multimodal Time-Aware Persona Dataset for Conversational Agents". NAACL-Findings(2025) [[paper]](https://arxiv.org/abs/2502.05887)
 * **ComperDial**: "ComperDial: Commonsense Persona-grounded Dialogue Dataset and Benchmark". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.11228)
 * **IDL**: ""In Dialogues We Learn": Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.03102)
 * **DialogICL**: "Crafting a Good Prompt or Providing Exemplary Dialogues? A Study of In-Context Learning for Persona-based Dialogue Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.09954)
@@ -579,7 +590,6 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 * **ACT**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
 * **ReviewMT**: "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05688) [[code]](https://github.com/chengtan9907/ReviewMT)
 * **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
-* **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
 * **DialogStudio**: "DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI". arXiv(2023) [[paper]](https://arxiv.org/abs/2307.10172) [[code]](https://github.com/salesforce/DialogStudio)
 * **MPC**: "Multi-Party Chat: Conversational Agents in Group Settings with Humans and Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.13835) [[code]](https://github.com/facebookresearch/LIGHT/tree/main/light/modeling/tasks/multilight)
 * **SODA**: "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization". EMNLP(2023) [[paper]](https://arxiv.org/abs/2212.10465) [[code]](https://github.com/skywalker023/sodaverse)  :star::star::star:
