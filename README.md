@@ -226,7 +226,6 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 #### Target-oriented Dialogue
-* **PAI**: "Towards Goal-oriented Intelligent Tutoring Systems in Online Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2312.10053)
 * **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
 * **RTCP**: "Reinforced Target-driven Conversational Promotion". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.775/) [[code]](https://github.com/huyquangdao/RTCP)
 * **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
@@ -376,6 +375,16 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
+### Tutoring Dialogue
+* **Tutorbot-DPO**: "Training LLM-based Tutors to Improve Student Learning Outcomes in Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.06424) [[code]](https://github.com/umass-ml4ed/tutorbot-dpo)
+* **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
+* **TreeInstruct**: "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging". EMNLP-Findings(2024) [[paper]](https://aclanthology.org/2024.findings-emnlp.553/) [[code]](https://github.com/agarwalishika/TreeInstruct)
+* **PAI**: "Towards Goal-oriented Intelligent Tutoring Systems in Online Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2312.10053)
+* **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)
+* **MathDial**: "MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.372) [[data]](https://github.com/eth-nlped/mathdial)
+* **Dialog Tutoring**: "Opportunities and Challenges in Neural Dialog Tutoring". EACL(2023) [[paper]](https://aclanthology.org/2023.eacl-main.173/)
+
+👆 [Back to Top](#paper-reading-convai)
 
 
 ### Recommendation Dialogue and CRS
