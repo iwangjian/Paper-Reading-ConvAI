@@ -6,6 +6,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
   - [Survey on Dialogue](#survey-on-dialogue)
   - [Conversational LLMs](#conversational-llms)
   - [LLM-based Dialogue Agents](#llm-based-dialogue-agents)
+  - [Long-term Dialogue](#long-term-dialogue)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
     - [Visually-grounded Dialogue](#visually-grounded-dialogue)
@@ -21,12 +22,11 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
   - [Emotional Dialogue](#emotional-dialogue)
     - [Emotional Support Dialogue](#emotional-support-dialogue)
     - [Empathetic Dialogue](#empathetic-dialogue)
+  - [Tutoring Dialogue](#tutoring-dialogue)
   - [Recommendation Dialogue and CRS](#recommendation-dialogue-and-crs)
   - [Knowledge-grounded Dialogue](#knowledge-grounded-dialogue)
   - [Task-oriented Dialogue](#task-oriented-dialogue)
   - [Open-domain Dialogue](#open-domain-dialogue)
-    - [Long-term Dialogue](#long-term-dialogue)
-    - [Response Generation](#response-generation)
   - [Dialogue Evaluation](#dialogue-evaluation)
   - [Dialogue Misc.](#dialogue-misc)
 - [Natural Language Generation](#natural-language-generation)
@@ -117,6 +117,24 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
+### Long-term Dialogue
+* **ImplexConv**: "Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.07018)
+* **LongMemEval**: "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory". ICLR(2025) [[paper]](https://arxiv.org/abs/2410.10813) [[code]](https://github.com/xiaowu0162/LongMemEval) :star::star::star:
+* **DialSim**: "DialSim: A Real-Time Simulator for Evaluating Long-Term Dialogue Understanding of Conversational Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.13144) [[code]](https://github.com/jiho283/Simulator)
+* **THEANINE**: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.10996)
+* **LD-Agent**: "Hello Again! LLM-powered Personalized Agent for Long-term Dialogue". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05925) [[code]](https://github.com/leolee99/LD-Agent)
+* **CPD**: "Position Debiasing Fine-Tuning for Causal Perception in Long-Term Dialogue". IJCAI(2024) [[paper]](https://arxiv.org/abs/2406.02002)
+* **TemporalMemory**: "Toward Conversational Agents with Context and Time Sensitive Long-term Memory". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00057) [[data]](https://github.com/Zyphra/TemporalMemoryDataset)
+* **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
+*  **Conversation Chronicles**: "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.13420) [[data]](https://github.com/conversation-chronicles/conversation-chronicles)
+* **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
+* **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
+* **RS**: "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.15022)
+* **MSC**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
+
+👆 [Back to Top](#paper-reading-convai)
+
+
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
@@ -155,7 +173,8 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 #### Visually-grounded Dialogue
-* **TIGER**: "TIGER: A Unified Generative Model Framework for Multimodal Dialogue Response Generation". COLING(2024). [[paper]](https://aclanthology.org/2024.lrec-main.1403) [[code]](https://github.com/friedrichor/TIGER)
+* **DiagNote**: "Taking Notes Brings Focus? Towards Multi-Turn Multimodal Dialogue Learning". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.07002)
+* **TIGER**: "TIGER: A Unified Generative Model Framework for Multimodal Dialogue Response Generation". COLING(2024) [[paper]](https://aclanthology.org/2024.lrec-main.1403) [[code]](https://github.com/friedrichor/TIGER)
 * **BI-MDRG**: "BI-MDRG: Bridging Image History in Multimodal Dialogue Response Generation". ECCV(2024) [[paper]](https://arxiv.org/abs/2408.05926)  [[code]](https://github.com/hee-suk-yoon/BI-MDRG)
 * **DialogCC**: "DialogCC: An Automated Pipeline for Creating High-Quality Multi-Modal Dialogue Dataset". NAACL(2024) [[paper]](https://arxiv.org/abs/2212.04119) [[data]](https://dialogcc.github.io/)
 * **VLAW-MDM**: "A Framework for Vision-Language Warm-up Tasks in Multimodal Dialogue Models". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.167/) [[code]](https://github.com/BeneciaLee/VLAW-MDM)
@@ -357,6 +376,8 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
+
+
 ### Recommendation Dialogue and CRS
 * **TCP-Dial**: "Follow Me: Conversation Planning for Target-driven Recommendation Dialogue Systems". arXiv(2022) [[paper]](https://arxiv.org/abs/2208.03516) [[code]](https://github.com/iwangjian/Plan4RecDial)
 * **KERS**: "KERS: A Knowledge-Enhanced Framework for Recommendation Dialog Systems with Multiple Subgoals". EMNLP-Findings(2021) [[paper]](https://aclanthology.org/2021.findings-emnlp.94) [[code]](https://github.com/z562/KERS)
@@ -490,22 +511,6 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Open-domain Dialogue
-
-#### Long-term Dialogue
-* **DialSim**: "DialSim: A Real-Time Simulator for Evaluating Long-Term Dialogue Understanding of Conversational Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.13144) [[code]](https://github.com/jiho283/Simulator)
-* **THEANINE**: "THEANINE: Revisiting Memory Management in Long-term Conversations with Timeline-augmented Response Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.10996)
-* **LD-Agent**: "Hello Again! LLM-powered Personalized Agent for Long-term Dialogue". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05925) [[code]](https://github.com/leolee99/LD-Agent)
-* **CPD**: "Position Debiasing Fine-Tuning for Causal Perception in Long-Term Dialogue". IJCAI(2024) [[paper]](https://arxiv.org/abs/2406.02002)
-* **TemporalMemory**: "Toward Conversational Agents with Context and Time Sensitive Long-term Memory". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00057) [[data]](https://github.com/Zyphra/TemporalMemoryDataset)
-* **LoCoMo**: "Evaluating Very Long-Term Conversational Memory of LLM Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.17753) [[data]](https://snap-research.github.io/locomo/) :star::star::star:
-*  **Conversation Chronicles**: "Conversation Chronicles: Towards Diverse Temporal and Relational Dynamics in Multi-Session Conversations". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.13420) [[data]](https://github.com/conversation-chronicles/conversation-chronicles)
-* **GapChat**: "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2310.15415) [[data]](https://github.com/QZx7/MindTheTime)
-* **UniMC**: "UniMC: A Unified Framework for Long-Term Memory Conversation via Relevance Representation Learning". arXiv(2023) [[paper]](https://arxiv.org/abs/2306.10543)
-* **RS**: "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.15022)
-* **MSC**: "Beyond Goldfish Memory: Long-Term Open-Domain Conversation". ACL(2022) [[paper]](https://aclanthology.org/2022.acl-long.356) [[data]](https://parl.ai/projects/msc/) :star::star::star:
-
-
-#### Response Generation
 * **Overview**: "Open-domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next". ACL-NLP4ConvAI(2022) [[paper]](https://aclanthology.org/2022.nlp4convai-1.13) :star::star::star:
 * **Chirpy Cardinal**: "Neural Generation Meets Real People: Building a Social, Informative Open-Domain Dialogue Agent". SIGDIAL(2022) [[paper]](https://arxiv.org/abs/2207.12021) [[code]](https://github.com/stanfordnlp/chirpycardinal) [[project]](https://stanfordnlp.github.io/chirpycardinal/)
 * **TIL**: "Towards Efficient Dialogue Pre-training with Transferable and Interpretable Latent Structure". EMNLP(2022) [[paper]](https://arxiv.org/abs/2210.12461)
