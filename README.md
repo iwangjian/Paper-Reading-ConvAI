@@ -4,7 +4,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Dialogue Systems (Agents)](#dialogue-systems-agents)
   - [Survey on Dialogue](#survey-on-dialogue)
-  - [Conversational LLMs](#conversational-llms)
+  - [Conversational LLMs and Benchmarks](#conversational-llms-and-benchmarks)
   - [LLM-based Dialogue Agents](#llm-based-dialogue-agents)
   - [Long-term Dialogue](#long-term-dialogue)
   - [Multimodal Dialogue](#multimodal-dialogue)
@@ -79,8 +79,12 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
-### Conversational LLMs
-* **Parrot**: "Parrot: Enhancing Multi-Turn Chat Models by Learning to Ask Questions". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.07301)
+### Conversational LLMs and Benchmarks
+* **ConvBench**: "ConvBench: A Multi-Turn Conversation Evaluation Benchmark with Hierarchical Ablation Capability for Large Vision-Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2403.20194) [[data]](https://github.com/shirlyliu64/ConvBench)
+* **MultiChallenge**: "MultiChallenge: A Realistic Multi-Turn Conversation Evaluation Benchmark Challenging to Frontier LLMs". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.17399) [[data]](https://github.com/ekwinox117/multi-challenge)
+* **Parrot**: "Parrot: Enhancing Multi-Turn Instruction Following for Large Language Models". ACL(2024) [[paper]](https://arxiv.org/abs/2310.07301)
+* **MT-Bench-101**: "MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues". ACL(2024) [[paper]](https://arxiv.org/abs/2402.14762) [[data]](https://github.com/mtbench101/mt-bench-101)
+* **MT-Bench**: "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena". NeurIP(2023)  [[paper]](https://arxiv.org/abs/2306.05685) [[data]](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) :star::star::star::star:
 * **MemoChat**: "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.08239)
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
 * **ChatGLM3**: "ChatGLM3 Series: Open Bilingual Chat LLMs". Tsinghua(2023) [[code]](https://github.com/THUDM/ChatGLM3)
