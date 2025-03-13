@@ -66,6 +66,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ## Dialogue Systems (Agents)
 
 ### Survey on Dialogue
+* **LLM-based Dialogue**: "A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems". ACM Computing Surveys(2024) [[paper]](https://arxiv.org/abs/2402.18013)
 * **Data Generation**: "A Survey on Recent Advances in Conversational Data Generation". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.13003)
 * **Proactive Dialogue**: "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects". IJCAI(2023) [[paper]](https://arxiv.org/abs/2305.02750)
 * **Responsible Dialogue**: "Recent Advances towards Safe, Responsible, and Moral Dialogue Systems: A Survey". arXiv(2023) [[paper]](https://arxiv.org/abs/2302.09270)
