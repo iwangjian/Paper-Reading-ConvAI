@@ -118,6 +118,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 ### Long-term Dialogue
+* **RMM**: "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.08026)
 * **ImplexConv**: "Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.07018)
 * **LongMemEval**: "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory". ICLR(2025) [[paper]](https://arxiv.org/abs/2410.10813) [[code]](https://github.com/xiaowu0162/LongMemEval) :star::star::star:
 * **DialSim**: "DialSim: A Real-Time Simulator for Evaluating Long-Term Dialogue Understanding of Conversational Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.13144) [[code]](https://github.com/jiho283/Simulator)
@@ -138,6 +139,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **TRACE**: "TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues". NAACL(2025) [[paper]](https://arxiv.org/abs/2503.09511) [[code]](https://github.com/csu-signal/TRACE)
 * **SLL**: "Large Language Model based Situational Dialogues for Second Language Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.20005)
 * **Emb-Plan**: "Multimodal Embodied Plan Prediction Augmented with Synthetic Embodied Dialogue". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.374)
 * **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]](https://github.com/sled-group/Watch-Talk-and-Guide)
