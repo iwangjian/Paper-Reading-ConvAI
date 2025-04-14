@@ -80,10 +80,12 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 ### Conversational LLMs and Benchmarks
+* **Playpen**: "Playpen: An Environment for Exploring Learning Through Conversational Interaction". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.08590) [[data]](https://github.com/lm-playpen/playpen)
 * **ConvBench**: "ConvBench: A Multi-Turn Conversation Evaluation Benchmark with Hierarchical Ablation Capability for Large Vision-Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2403.20194) [[data]](https://github.com/shirlyliu64/ConvBench)
 * **MultiChallenge**: "MultiChallenge: A Realistic Multi-Turn Conversation Evaluation Benchmark Challenging to Frontier LLMs". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.17399) [[data]](https://github.com/ekwinox117/multi-challenge)
 * **Parrot**: "Parrot: Enhancing Multi-Turn Instruction Following for Large Language Models". ACL(2024) [[paper]](https://arxiv.org/abs/2310.07301)
 * **MT-Bench-101**: "MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues". ACL(2024) [[paper]](https://arxiv.org/abs/2402.14762) [[data]](https://github.com/mtbench101/mt-bench-101)
+* **Clembench**: "Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents". EMNLP(2023) [[paper]](https://arxiv.org/abs/2305.13455) [[data]](https://github.com/clembench)
 * **MT-Bench**: "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena". NeurIP(2023)  [[paper]](https://arxiv.org/abs/2306.05685) [[data]](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) :star::star::star::star:
 * **MemoChat**: "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.08239)
 * **Llama 2-Chat**: "Llama 2: Open Foundation and Fine-Tuned Chat Models". Meta(2023) [[paper]](https://arxiv.org/abs/2307.09288) [[code]](https://github.com/facebookresearch/llama)
