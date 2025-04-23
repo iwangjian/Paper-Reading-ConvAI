@@ -301,6 +301,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **PersonageNLG**: "Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators". SIGDIAL(2018) [[paper]](https://arxiv.org/abs/1805.08352) [[data]](https://nlds.soe.ucsc.edu/stylistic-variation-nlg)
 
 #### Persona-based Dialogue
+* **PersonaMem**: "Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale". arXiv (2025) [[paper]](https://arxiv.org/abs/2504.14225) [[data]](https://github.com/bowen-upenn/PersonaMem)
 * **MTPChat**: "MTPChat: A Multimodal Time-Aware Persona Dataset for Conversational Agents". NAACL-Findings(2025) [[paper]](https://arxiv.org/abs/2502.05887)
 * **ComperDial**: "ComperDial: Commonsense Persona-grounded Dialogue Dataset and Benchmark". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.11228)
 * **IDL**: ""In Dialogues We Learn": Towards Personalized Dialogue Without Pre-defined Profiles through In-Dialogue Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.03102)
@@ -385,6 +386,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 ### Tutoring Dialogue
+* **EducationQ**: "EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework". arXiv (2025) [[paper]](https://arxiv.org/abs/2504.14928)
 * **Tutorbot-DPO**: "Training LLM-based Tutors to Improve Student Learning Outcomes in Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.06424) [[code]](https://github.com/umass-ml4ed/tutorbot-dpo)
 * **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
 * **TreeInstruct**: "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging". EMNLP-Findings(2024) [[paper]](https://aclanthology.org/2024.findings-emnlp.553/) [[code]](https://github.com/agarwalishika/TreeInstruct)
