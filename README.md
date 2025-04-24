@@ -235,6 +235,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 #### Target-oriented Dialogue
+* **DiffTOD**: "Planning with Diffusion Models for Target-Oriented Dialogue Systems". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.16858)
 * **TopDial**: "Target-oriented Proactive Dialogue Systems with Personalization: Problem Formulation and Dataset Curation". EMNLP(2023) [[paper]](https://arxiv.org/abs/2310.07397) [[code]](https://github.com/iwangjian/TopDial)
 * **RTCP**: "Reinforced Target-driven Conversational Promotion". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.775/) [[code]](https://github.com/huyquangdao/RTCP)
 * **MTGP**: "MTGP: Multi-turn Target-oriented Dialogue Guided by Generative Global Path with Flexible Turns". ACL-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-acl.18/) [[code]](https://github.com/sxnohnarla/MTGP)
