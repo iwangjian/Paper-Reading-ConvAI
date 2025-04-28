@@ -285,11 +285,12 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 * **CareCall**: "Building a Role Specified Open-Domain Dialogue System Leveraging Large-Scale Language Models". NAACL(2022) [[paper]](https://arxiv.org/abs/2205.00176) [[data]](https://github.com/naver-ai/carecall-corpus)
 * **PDP**: "Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances". NAACL(2022) [[paper]](https://arxiv.org/abs/2204.10825) [[code]](https://github.com/hyperconnect/pseudo-dialog-prompting)
 * **RPA**: "Am I Me or You? State-of-the-Art Dialogue Models Cannot Maintain an Identity". NAACL-Findings(2022) [[paper]](https://aclanthology.org/2022.findings-naacl.182/)
-* **CharacterChat**: "CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot". ACM C&C(2021）[[paper]](https://arxiv.org/abs/2106.12314)
+* **CharacterChat**: "CharacterChat: Supporting the Creation of Fictional Characters through Conversation and Progressive Manifestation with a Chatbot". ACM C&C(2021) [[paper]](https://arxiv.org/abs/2106.12314)
 * **ALOHA**: "ALOHA: Artificial Learning of Human Attributes for Dialogue Agents". AAAI(2020) [[paper]](https://arxiv.org/abs/1910.08293) [[code]](https://github.com/newpro/aloha-chatbot)
 * **LIGHT**: "Learning to Speak and Act in a Fantasy Text Adventure Game". EMNLP(2019) [[paper]](https://aclanthology.org/D19-1062/) [[data]](https://parl.ai/projects/light/) :star::star::star:
 
 #### Personality-aware Dialogue
+* **MBTI-User**: "Exploring Personality-Aware Interactions in Salesperson Dialogue Agents". IWSDS(2025) [[paper]](https://arxiv.org/abs/2504.18058) [[code]](https://github.com/MiuLab/MBTI-User)
 * **UBPL**: "Tailoring Personality Traits in Large Language Models via Unsupervisedly-Built Personalized Lexicons". arXiv(2023) [[paper]](https://arxiv.org/abs/2310.16582)
 * **CharacterChat**: "CharacterChat: Learning towards Conversational AI with Personalized Social Support". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.10278) [[code]](https://github.com/morecry/characterchat)
 * **ChatGPT-MBTI**: "Can ChatGPT Assess Human Personalities? A General Evaluation Framework". arXiv(2023) [[paper]](https://arxiv.org/abs/2303.01248) [[code]](https://github.com/Kali-Hac/ChatGPT-MBTI)
@@ -613,6 +614,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Misc.
+* **Crisp**: "Crisp: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.17238)  [[code]](https://github.com/thu-coai/Crisp)
 * **ACT**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
 * **ReviewMT**: "Peer Review as A Multi-Turn and Long-Context Dialogue with Role-Based Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05688) [[code]](https://github.com/chengtan9907/ReviewMT)
 * **WildChat**: "WildChat: 1M ChatGPT Interaction Logs in the Wild". ICLR(2024) [[paper]](https://arxiv.org/abs/2405.01470) [[data]](https://wildchat.allen.ai/)
@@ -698,6 +700,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Controllable Generation
+* **TRACE**: "TRACE Back from the Future: A Probabilistic Reasoning Approach to Controllable Language Generation". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.18535)
 * **ConGenBench**: "Controllable Text Generation in the Instruction-Tuning Era". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.01490) [[code]](https://github.com/DhananjayAshok/ConGenBench)
 * **GeLaTo**: "Tractable Control for Autoregressive Language Generation". arXiv(2023) [[paper]](https://arxiv.org/abs/2304.07438)
 * **Cognac**: "Controllable Text Generation with Language Constraints". arXiv(2022) [[paper]](https://arxiv.org/abs/2212.10466) [[code]](https://github.com/princeton-nlp/Cognac)
