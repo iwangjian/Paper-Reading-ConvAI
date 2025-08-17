@@ -145,6 +145,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **ProAssist**: "Proactive Assistant Dialogue Generation from Streaming Egocentric Videos". arXiv(2025) [[paper]](https://arxiv.org/abs/2506.05904) [[code]](https://github.com/pro-assist/ProAssist)
 * **TRACE**: "TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues". NAACL(2025) [[paper]](https://arxiv.org/abs/2503.09511) [[code]](https://github.com/csu-signal/TRACE)
 * **SCREEN**: "SCREEN: A Benchmark for Situated Conversational Recommendation". ACM MM(2024) [[paper]](https://dl.acm.org/doi/10.1145/3664647.3681651) [[data]](https://github.com/DongdingLin/SCREEN)
 * **SLL**: "Large Language Model based Situational Dialogues for Second Language Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.20005)
