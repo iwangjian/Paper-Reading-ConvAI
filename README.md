@@ -116,7 +116,6 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 ### LLM-based Dialogue Agents
-* **TRAVER**: "Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors". arXiv(2025) [[paper]](https://arxiv.org/abs/2502.13311)  [[code]](https://github.com/iwangjian/Coding-Tutor) :star::star::star:
 * **PCA**: "Controllable Conversations: Planning-Based Dialogue Agent with Large Language Models". arXiv(2024) [[paper]](https://arxiv.org/abs/2407.03884)
 * **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)  :star::star::star: 
 * **DialOp**: "Decision-Oriented Dialogue for Human-AI Collaboration". arXiv(2023) [[paper]](https://arxiv.org/abs/2305.20076) [[code]](https://github.com/jlin816/dialop)  :star::star::star:
@@ -147,6 +146,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 #### Situated and Embodied Dialogue
 * **TRACE**: "TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues". NAACL(2025) [[paper]](https://arxiv.org/abs/2503.09511) [[code]](https://github.com/csu-signal/TRACE)
+* **SCREEN**: "SCREEN: A Benchmark for Situated Conversational Recommendation". ACM MM(2024) [[paper]](https://dl.acm.org/doi/10.1145/3664647.3681651) [[data]](https://github.com/DongdingLin/SCREEN)
 * **SLL**: "Large Language Model based Situational Dialogues for Second Language Learning". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.20005)
 * **Emb-Plan**: "Multimodal Embodied Plan Prediction Augmented with Synthetic Embodied Dialogue". EMNLP(2023) [[paper]](https://aclanthology.org/2023.emnlp-main.374)
 * **WTaG**: "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2311.00738) [[code]](https://github.com/sled-group/Watch-Talk-and-Guide)
@@ -388,9 +388,11 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 
 
 ### Tutoring Dialogue
-* **EducationQ**: "EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework". arXiv (2025) [[paper]](https://arxiv.org/abs/2504.14928)
+* **TRAVER**: "Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors". ACL-Findings(2025) [[paper]](https://arxiv.org/abs/2502.13311)  [[code]](https://github.com/iwangjian/Coding-Tutor)
+* **EducationQ**: "EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework". ACL (2025) [[paper]](https://arxiv.org/abs/2504.14928) [[code]](https://github.com/SunriserFuture/EducationQ)
 * **Tutorbot-DPO**: "Training LLM-based Tutors to Improve Student Learning Outcomes in Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.06424) [[code]](https://github.com/umass-ml4ed/tutorbot-dpo)
 * **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
+* **BF-TC**: "Personality-aware Student Simulation for Conversational Intelligent Tutoring Systems. EMNLP(2024) [[paper]](https://aclanthology.org/2024.emnlp-main.37/)
 * **TreeInstruct**: "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging". EMNLP-Findings(2024) [[paper]](https://aclanthology.org/2024.findings-emnlp.553/) [[code]](https://github.com/agarwalishika/TreeInstruct)
 * **PAI**: "Towards Goal-oriented Intelligent Tutoring Systems in Online Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2312.10053)
 * **EduChat**: "EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.02773) [[code]](https://github.com/ECNU-ICALK/EduChat)
@@ -581,6 +583,7 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Dialogue Evaluation
+* **TD-EVAL**: "TD-EVAL: Revisiting Task-Oriented Dialogue Evaluation by Combining Turn-Level Precision with Dialogue-Level Comparisons". arXIv(2025) [[paper]](https://arxiv.org/abs/2504.19982)
 * **DialogBench**: "DialogBench: Evaluating LLMs as Human-like Dialogue Systems". NAACL(2024) [[paper]](https://arxiv.org/abs/2311.01677) [[code]](https://github.com/kwai/DialogBench)
 * **ChatEval**: "ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate". arXiv(2023) [[paper]](https://arxiv.org/abs/2308.07201) [[code]](https://github.com/chanchimin/ChatEval)
 * **ACCENT**: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems". ACL(2023) [[paper]](https://arxiv.org/abs/2305.07797) [[code]](https://github.com/PlusLabNLP/ACCENT)
@@ -745,7 +748,9 @@ Dialogue Systems". ACL(2019) [[paper]](https://www.aclweb.org/anthology/P19-1078
 
 
 ### Decoding Algorithms
-* **Speculative Decoding**: "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.257/) [[code]](https://github.com/hemingkx/SpecDec) :star::star::star:
+* **Parallel Text Generation**: "A Survey on Parallel Text Generation: From Parallel Decoding to Diffusion Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2508.08712)
+* **Speculative Decoding Survey**: "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding". ACL-Findings(2024) [[paper]](https://aclanthology.org/2024.findings-acl.456/) [[code]](https://github.com/hemingkx/SpeculativeDecodingPapers)  :star::star::star:
+* **Speculative Decoding**: "Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation". EMNLP-Findings(2023) [[paper]](https://aclanthology.org/2023.findings-emnlp.257/) [[code]](https://github.com/hemingkx/SpecDec)
 * **Medusa**: "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads". Github(2023) [[Blog]](https://sites.google.com/view/medusa-llm) [[code]](https://github.com/FasterDecoding/Medusa)
 * **Lookahead Decoding**: "Breaking the Sequential Dependency of LLM Inference Using Lookahead Decoding". LMSYS Org(2023) [[Blog]](https://lmsys.org/blog/2023-11-21-lookahead-decoding/) [[code]](https://github.com/hao-ai-lab/LookaheadDecoding) :star::star::star:
 * **Speculative Sampling**: "Accelerating Large Language Model Decoding with Speculative Sampling". arXiv(2023) [[paper]](http://arxiv.org/abs/2302.01318)
