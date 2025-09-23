@@ -229,6 +229,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Proactive Dialogue
 
 #### Misc. of Proactive Dialogue
+* **PRINCIPLES**: "PRINCIPLES: Synthetic Strategy Memory for Proactive Dialogue Agents". EMNLP-Findings(2025) [[paper]](https://arxiv.org/abs/2509.17459) [[code]](https://github.com/kimnamssya/Principles)
 * **DPDP**: "Planning Like Human: A Dual-process Framework for Dialogue Planning". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.05374) [[code]](https://github.com/cs-holder/DPDP)
 * **PCA**: "Towards Human-centered Proactive Conversational Agents". SIGIR(2024) [[paper]](https://arxiv.org/abs/2404.12670)
 * **ProCoT**: "Prompting and Evaluating Large Language Models for Proactive Dialogues: Clarification, Target-guided, and Non-collaboration". EMNLP-Findings(2023) [[paper]](https://arxiv.org/abs/2305.13626) [[code]](https://github.com/dengyang17/LLM-Proactive)
