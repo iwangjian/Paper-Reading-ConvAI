@@ -1,11 +1,12 @@
-﻿# Paper-Reading-ConvAI
-Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue systems (agents)** and 📝 **natural language generation**. Contributions are welcome!
+# Paper-Reading-ConvAI
+Paper reading list in Conversational AI, mainly including 💬 **dialogue systems (agents)** and 📝 **natural language generation**. Contributions are welcome!
 
 - [Deep Learning in NLP](#deep-learning-in-nlp)
 - [Dialogue Systems (Agents)](#dialogue-systems-agents)
   - [Survey on Dialogue](#survey-on-dialogue)
   - [Conversational LLMs and Benchmarks](#conversational-llms-and-benchmarks)
   - [LLM-based Dialogue Agents](#llm-based-dialogue-agents)
+  - [Multi-turn Interaction](#multi-turn-interaction)
   - [Long-term Dialogue](#long-term-dialogue)
   - [Multimodal Dialogue](#multimodal-dialogue)
     - [Situated and Embodied Dialogue](#situated-and-embodied-dialogue)
@@ -123,6 +124,48 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 👆 [Back to Top](#paper-reading-convai)
 
 
+### Multi-turn Interaction
+* **TurnWise**: "TurnWise: The Gap between Single- and Multi-turn Language Model Capabilities". arXiv(2026) [[paper]](https://arxiv.org/abs/2603.16759)
+* **Survey-MT**: "A Survey on Multi-Turn Interaction Capabilities of Large Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.09959)
+* **Survey-MT**: "Beyond Single-Turn: A Survey on Multi-Turn Interactions with Large Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.04717) [[data]](https://github.com/yubol-cmu/Awesome-Multi-Turn-LLMs)
+* **APIGen-MT**: "APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.03601)
+* **SCOPE**: "Broaden your SCOPE! Efficient Multi-turn Conversation Planning for LLMs using Semantic Space". ICLR(2025) [[paper]](https://arxiv.org/abs/2503.11586) [[code]](https://github.com/chenzhiliang94/convo-plan-SCOPE)
+* **Entangled-Instructions**: "Can Language Models Follow Multiple Turns of Entangled Instructions?". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.13222)
+* **ClarifyMT-Bench**: "ClarifyMT-Bench: Benchmarking and Improving Multi-Turn Clarification for Conversational Large Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2512.21120)
+* **PersonaSim-RL**: "Consistently Simulating Human Personas with Multi-Turn Reinforcement Learning". arXiv(2025) [[paper]](https://arxiv.org/abs/2511.00222)
+* **ConvBench**: "ConvBench: A Multi-Turn Conversation Evaluation Benchmark with Hierarchical Ablation Capability for Large Vision-Language Models". NeurIPS(2024) [[paper]](https://arxiv.org/abs/2403.20194) [[data]](https://github.com/shirlyliu64/ConvBench)
+* **Curiosity-Dial**: "Enhancing Personalized Multi-Turn Dialogue with Curiosity Reward". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.03206)
+* **AR-Bench**: "From Passive to Active Reasoning: Can Large Language Models Ask the Right Questions under Incomplete Information?". arXiv(2025) [[paper]](https://arxiv.org/abs/2506.08295) [[data]](https://github.com/tmlr-group/AR-Bench)
+* **In-Place Feedback**: "In-Place Feedback: A New Paradigm for Guiding LLMs in Multi-Turn Reasoning". arXiv(2025) [[paper]](https://arxiv.org/abs/2510.00777)
+* **InftyThink**: "InftyThink: Breaking the Length Limits of Long-Context Reasoning in Large Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.06692)
+* **Learn-by-interact**: "Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.10893)
+* **LLMs-Get-Lost**: "LLMs Get Lost In Multi-Turn Conversation". arXiv(2025) [[paper]](https://arxiv.org/abs/2505.06120)
+* **MultiChallenge**: "MultiChallenge: A Realistic Multi-Turn Conversation Evaluation Benchmark Challenging to Frontier LLMs". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.17399)
+* **PARL-MT**: "PARL-MT: Learning to Call Functions in Multi-Turn Conversation with Progress Awareness". arXiv(2025) [[paper]](https://arxiv.org/abs/2509.23206)
+* **Playpen**: "Playpen: An Environment for Exploring Learning Through Conversational Interaction". arXiv(2025) [[paper]](https://arxiv.org/abs/2504.08590)
+* **Proactive-T2I-MT**: "Proactive Agents for Multi-Turn Text-to-Image Generation Under Uncertainty". arXiv(2025) [[paper]](https://arxiv.org/abs/2412.06771) [[code]](https://github.com/google-deepmind/proactive_t2i_agents)
+* **QuestBench**: "QuestBench: Can LLMs ask the right question to acquire information in reasoning tasks?". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.22674)
+* **SDPO**: "SDPO: Segment-Level Direct Preference Optimization for Social Agents". arXiv(2025) [[paper]](https://arxiv.org/abs/2501.01821) [[code]](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/SDPO)
+* **Self-DC**: "Self-DC: When to Reason and When to Act? Self Divide-and-Conquer for Compositional Unknown Questions". arXiv(2025) [[paper]](https://arxiv.org/abs/2402.13514)
+* **Self-Taught-LCU**: "Self-Taught Agentic Long Context Understanding". arXiv(2025) [[paper]](https://arxiv.org/abs/2502.15920)
+* **SimulatorArena**: "SimulatorArena: Are User Simulators Reliable Proxies for Multi-Turn Evaluation of AI Assistants?". EMNLP(2025) [[paper]](https://arxiv.org/abs/2510.05444)
+* **RL-User-Conv**: "The Era of Real-World Human Interaction: RL from User Conversations". arXiv(2025) [[paper]](https://arxiv.org/abs/2509.25137)
+* **Long-Horizon-Illusion**: "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs". arXiv(2025) [[paper]](https://arxiv.org/abs/2509.09677)
+* **Think on your Feet**: "Think on your Feet: Adaptive Thinking via Reinforcement Learning for Social Agents". arXiv(2025) [[paper]](https://arxiv.org/abs/2505.02156)
+* **CollabEmb-Bench**: "Benchmark Real-time Adaptation and Communication Capabilities of Embodied Agent in Collaborative Scenarios". arXiv(2024) [[paper]](https://arxiv.org/abs/2412.00435)
+* **DMPO**: "Direct Multi-Turn Preference Optimization for Language Agents". EMNLP(2024) [[paper]](https://aclanthology.org/2024.emnlp-main.138/)
+* **Learning to Clarify**: "Learning to Clarify: Multi-turn Conversations with Action-Based Contrastive Self-Training". arXiv(2024) [[paper]](https://arxiv.org/abs/2406.00222)
+* **MathChat**: "MathChat: Benchmarking Mathematical Reasoning and Instruction Following in Multi-Turn Interactions". arXiv(2024) [[paper]](https://arxiv.org/abs/2405.19444)
+* **MINT**: "MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback". ICLR(2024) [[paper]](https://arxiv.org/abs/2309.10691)
+* **MMMT-IF**: "MMMT-IF: A Challenging Multimodal Multi-Turn Instruction Following Benchmark". arXiv(2024) [[paper]](https://arxiv.org/abs/2409.18216)
+* **MT-Bench-101**: "MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues". ACL(2024) [[paper]](https://aclanthology.org/2024.acl-long.401/) [[data]](https://github.com/mtbench101/mt-bench-101)
+* **MT-Mind2Web**: "On the Multi-turn Instruction Following for Conversational Web Agents". arXiv(2024) [[paper]](https://arxiv.org/abs/2402.15057)
+* **STaR-GATE**: "STaR-GATE: Teaching Language Models to Ask Clarifying Questions". arXiv(2024) [[paper]](https://arxiv.org/abs/2403.19154)
+
+
+👆 [Back to Top](#paper-reading-convai)
+
+
 ### Long-term Dialogue
 * **RMM**: "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.08026)
 * **ImplexConv**: "Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.07018)
@@ -145,6 +188,7 @@ Paper reading list in Conversational AI, mainly encompassing 💬 **dialogue sys
 ### Multimodal Dialogue
 
 #### Situated and Embodied Dialogue
+* **VAssist-Sim**: "Bootstrapping Visual Assistant Modeling with Situated Interaction Simulation". COLM(2025) [[paper]](https://openreview.net/forum?id=S4nTXotasR) :star::star::star::star:
 * **ProAssist**: "Proactive Assistant Dialogue Generation from Streaming Egocentric Videos". arXiv(2025) [[paper]](https://arxiv.org/abs/2506.05904) [[code]](https://github.com/pro-assist/ProAssist)
 * **TRACE**: "TRACE: Real-Time Multimodal Common Ground Tracking in Situated Collaborative Dialogues". NAACL(2025) [[paper]](https://arxiv.org/abs/2503.09511) [[code]](https://github.com/csu-signal/TRACE)
 * **SCREEN**: "SCREEN: A Benchmark for Situated Conversational Recommendation". ACM MM(2024) [[paper]](https://dl.acm.org/doi/10.1145/3664647.3681651) [[data]](https://github.com/DongdingLin/SCREEN)
