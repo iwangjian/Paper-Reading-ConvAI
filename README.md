@@ -434,8 +434,13 @@ Paper reading list in Conversational AI, mainly including 💬 **dialogue system
 
 
 ### Tutoring Dialogue
+* **DeepTutor**: "DeepTutor: Towards Agentic Personalized Tutoring". arXiv(2026) [[paper]](https://arxiv.org/abs/2604.26962)
+* **DAKT**: "Interpretable Difficulty-Aware Knowledge Tracing in Tutor-Student Dialogues". arXiv(2026) [[paper]](https://arxiv.org/abs/2605.01097)
+* **KMP-Dialogue**: "From Solver to Tutor: Evaluating the Pedagogical Intelligence of LLMs with KMP-Bench". AAAI(2026) [[paper]](https://arxiv.org/abs/2603.02775)
+* **PIIvot**: "PIIvot: A Lightweight NLP Anonymization Framework for Question-Anchored Tutoring Dialogues". EMNLP(2025) [[paper]](https://aclanthology.org/2025.emnlp-main.1397/) [[code]](https://github.com/Eedi/PIIvot)
+* **TutorBench**: "TutorBench: A Benchmark To Assess Tutoring Capabilities Of Large Language Models". arXiv(2025) [[paper]](https://arxiv.org/abs/2510.02663) [[data]](https://huggingface.co/datasets/tutorbench/tutorbench)
 * **TRAVER**: "Training Turn-by-Turn Verifiers for Dialogue Tutoring Agents: The Curious Case of LLMs as Your Coding Tutors". ACL-Findings(2025) [[paper]](https://arxiv.org/abs/2502.13311)  [[code]](https://github.com/iwangjian/Coding-Tutor)
-* **EducationQ**: "EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework". ACL (2025) [[paper]](https://arxiv.org/abs/2504.14928) [[code]](https://github.com/SunriserFuture/EducationQ)
+* **EducationQ**: "EducationQ: Evaluating LLMs' Teaching Capabilities Through Multi-Agent Dialogue Framework". ACL(2025) [[paper]](https://arxiv.org/abs/2504.14928) [[code]](https://github.com/SunriserFuture/EducationQ)
 * **Tutorbot-DPO**: "Training LLM-based Tutors to Improve Student Learning Outcomes in Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2503.06424) [[code]](https://github.com/umass-ml4ed/tutorbot-dpo)
 * **Dialogue-KT**: "Exploring Knowledge Tracing in Tutor-Student Dialogues". arXiv(2025) [[paper]](https://arxiv.org/abs/2409.16490) [[code]](https://github.com/umass-ml4ed/dialogue-kt)
 * **BF-TC**: "Personality-aware Student Simulation for Conversational Intelligent Tutoring Systems. EMNLP(2024) [[paper]](https://aclanthology.org/2024.emnlp-main.37/)
